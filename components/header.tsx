@@ -9,6 +9,30 @@ import { Logo } from "./icons/logo";
 import classNames from "classnames";
 
 export const Header = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    // Attach the event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Detach the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // The empty dependency array ensures that the effect runs only once on mount
+  const scrollThreshold = 200;
+  // Determine the color class based on the scroll position
+  const colorClass =
+    scrollPosition > scrollThreshold
+      ? "bg-white text-[#530095]"
+      : "bg-[#530095]  text-white";
+  const logoVisible =
+    scrollPosition > scrollThreshold ? "opacity-100" : "opacity-0";
+
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
 
   useEffect(() => {
@@ -29,10 +53,20 @@ export const Header = () => {
   }, [setHamburgerMenuIsOpen]);
 
   return (
-    <header className="border-transparent-white fixed left-0 top-0 z-10 w-full border-b text-white backdrop-blur-[12px]">
-      <Container className="h-navigation-height flex">
-        <Link className="text-md flex items-center" href="/">
-          <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> "Name"
+    <header
+      className={` border-transparent-white pl-20  pr-20 ${colorClass}  fixed left-0 top-0 z-10 w-full bg-opacity-80  backdrop-blur-[12px] `}
+    >
+      <Container className="h-navigation-height flex ">
+        <Link className={`text-md flex items-center ${logoVisible}`} href="/">
+          {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
+          <img
+            className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
+            src="/logo1.svg"
+            height={20}
+            width={20}
+            color="#530095"
+            alt=""
+          />
         </Link>
 
         <div
@@ -81,7 +115,7 @@ export const Header = () => {
           </nav>
         </div>
 
-        <div className="ml-auto flex h-full items-center">
+        <div className="ml-auto mt-5 flex h-full items-center ">
           <Link className="mr-6 text-sm" href="#">
             Connect
           </Link>
