@@ -8,41 +8,47 @@ export const persons = [
     {
       img: "https://escalent.co/wp-content/uploads/2019/04/automotive-d.jpg",
       title: "",
-      name: "Vivek Sharma",
+      name: "Automotive & Mobility",
+    },
+    {
+      img: "https://escalent.co/wp-content/uploads/2019/05/canr-d.jpg",
+      title: "",
+      name: "Consumer & Retail Goods",
     },
     {
       img: "https://escalent.co/wp-content/uploads/2019/04/energy-d.jpg",
       title: "",
-      name: "Tanya Khakbaz",
+      name: "Energy",
     },
     {
-      img: "https://unsplash.com/photos/a5XdeIb9Zso/download?force=true&w=590&h=640",
+      img: "https://escalent.co/wp-content/uploads/2019/05/financial-services-1.jpg",
       title: "",
-      name: "Eileen O'Mara",
+      name: "Financial Services",
     },
     {
-      img: "https://unsplash.com/photos/RDUyi9YXPxk/download?force=true&w=590&h=640",
+      img: "https://escalent.co/wp-content/uploads/2019/05/health-1.jpg",
       title: "",
-      name: "Yin Wu",
+      name: "Health",
     },
     {
-      img: "https://unsplash.com/photos/TMZuhaL2kHo/download?force=true&w=590&h=640",
+      img: "https://escalent.co/wp-content/uploads/2019/05/technology-1.jpg",
       title: "",
-      name: "Devaki Raj",
+      name: "Technology",
     },
     {
-      img: "https://unsplash.com/photos/XO25cX2_0iE/download?force=true&w=590&h=640",
+      img: "https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1.jpg",
       title: "",
-      name: "Amit Sagiv",
+      name: "Telecom",
     },
     {
-      img: "https://escalent.co/wp-content/uploads/2019/04/automotive-d.jpg",
-      title: "",
-      name: "Angela Strange",
-    },
-    {
-        img: "https://unsplash.com/photos/XO25cX2_0iE/download?force=true&w=590&h=640",
+        img: "https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1.jpg",
         title: "",
-        name: "Amisdt Sagiv",
-      },
+        name: "Travel & Tourism",
+    },
+    {
+      img: "https://escalent.co/wp-content/uploads/2019/05/canr-d.jpg",
+      title:
+        "",
+      name: "Trial ",
+    },
   ];

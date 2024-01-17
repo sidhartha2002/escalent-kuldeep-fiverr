@@ -32,6 +32,17 @@ export const Header = () => {
       : "bg-[#530095]  text-white";
   const logoVisible =
     scrollPosition > scrollThreshold ? "opacity-100" : "opacity-0";
+  const searchColor = scrollPosition > scrollThreshold ? "#530095" : "#fff";
+  const iconStyle = {
+    transition: "fill 0.3s ease", // Smooth transition effect
+  };
+  const handleHover = () => {
+    // iconStyle.fill = "#0077b5"; // Change color on hover to LinkedIn blue
+  };
+
+  const handleLeave = () => {
+    // iconStyle.fill = "white"; // Reset color on leave
+  };
 
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
 
@@ -117,9 +128,30 @@ export const Header = () => {
 
         <div className="ml-auto mt-5 flex h-full items-center ">
           <Link className="mr-6 text-sm" href="#">
-            Connect
+            <span className="text-3xl hover:text-[#00b5ac]">escalent</span>
           </Link>
-          <Button href="#">Search</Button>
+
+          <Link href={""}>
+            <svg
+              width="25px"
+              height="25px"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#000"
+              xmlns="http://www.w3.org/2000/svg"
+              style={iconStyle} // Apply inline styles
+              onMouseEnter={handleHover} // Handle hover event
+              onMouseLeave={handleLeave}
+            >
+              <path
+                d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                stroke={searchColor}
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </Link>
         </div>
 
         <button
