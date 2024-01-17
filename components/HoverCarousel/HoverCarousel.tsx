@@ -53,7 +53,7 @@ function HoverCarousel() {
             >
               <div className="relative h-full w-full overflow-hidden rounded-2xl bg-[#c9c6c7]">
                 <img
-                  className="absolute right-0 top-1/2 h-auto w-24 max-w-none -translate-y-1/2 object-cover grayscale md:left-1/2 md:h-[640px] md:w-[590px] md:-translate-x-1/2"
+                  className="absolute right-0 top-1/2 h-auto w-24 max-w-none -translate-y-1/2 object-cover md:left-1/2 md:h-[640px] md:w-[590px] md:-translate-x-1/2"
                   src={person.img}
                   alt={person.name}
                   width="590px"
@@ -67,7 +67,7 @@ function HoverCarousel() {
                 />
                 <div
                   className={classNames(
-                    "left-8 top-8 w-[590px] p-4 transition-[transform,opacity] md:absolute md:p-0",
+                    "bottom-8 left-8 w-[590px] p-4 transition-[transform,opacity] md:absolute md:p-0",
                     activeItem === index
                       ? "md:translate-x-0 md:opacity-100"
                       : "md:translate-x-4 md:opacity-0"
@@ -76,7 +76,9 @@ function HoverCarousel() {
                   <p className="text-primary text-sm uppercase md:text-lg">
                     {person.title}
                   </p>
-                  <p className="text-lg font-bold md:text-4xl">{person.name}</p>
+                  <p className="text-lg font-bold text-[#530095] md:text-4xl">
+                    {person.name}
+                  </p>
                 </div>
               </div>
             </li>
