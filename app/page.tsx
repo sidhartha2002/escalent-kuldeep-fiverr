@@ -15,7 +15,21 @@ export default function Home() {
         >
           <source src="https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.webm" />
         </video>
-        <div className="absolute bottom-0 right-0  mr-2 h-80 w-[35rem] bg-[#00b5ac]"></div>
+        <div className="absolute bottom-0 right-0  mr-2 h-80 w-[35rem] bg-[#00b5ac] p-10">
+          <div className="mb-2 text-sm text-white">
+            ESCALENT ACQUIRES C SPACE, HALL & PARTNERS
+          </div>
+          <div className="text-2xl text-white">
+            Notable union helps clients find new sources of growth in
+            ever-changing world
+          </div>
+          <Link
+            href={""}
+            className="mt-12 flex flex-col justify-center text-sm text-[#530095] hover:font-bold hover:text-white"
+          >
+            SHOW ME MORE
+          </Link>
+        </div>
         <div className="absolute left-36 top-8 z-40  mr-2 h-32 w-32 ">
           <img src="/logo.svg" alt="" />
         </div>
