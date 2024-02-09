@@ -19,8 +19,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const htmlStyle = {
+    boxSizing: "border-box",
+    overflowX: "hidden",
+    font: "medium/1.2 HelveticaNeue, sans-serif",
+    color: "#3f3f3f",
+    backgroundColor: "#fff",
+  };
   return (
-    <html lang="en">
+    //@ts-ignore
+    <html lang="en" style={htmlStyle}>
       <body className={poppins.className}>
         <div>
           <Header />
