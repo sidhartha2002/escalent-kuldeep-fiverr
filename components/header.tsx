@@ -65,7 +65,7 @@ export const Header = () => {
 
   return (
     <header
-      className={` border-transparent-white pl-20  pr-20 ${colorClass}  fixed left-0 top-0 z-10 w-full bg-opacity-80  backdrop-blur-[12px] `}
+      className={` border-transparent-white pl-20  pr-20 ${colorClass}  fixed left-0 top-0 z-40 w-full bg-opacity-80  backdrop-blur-[12px] `}
     >
       <Container className="h-navigation-height flex ">
         <Link className={`text-md flex items-center ${logoVisible}`} href="/">
@@ -102,10 +102,14 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="#">Industries</Link>
+                <Link href="/industries/automotive-and-mobility/">
+                  Industries
+                </Link>
               </li>
               <li>
-                <Link href="#">Solutions</Link>
+                <Link href="/solutions/market-analysis/market-assessment">
+                  Solutions
+                </Link>
               </li>
               <li className="md:hidden lg:block">
                 <Link href="#">Expertise</Link>
@@ -146,9 +150,9 @@ export const Header = () => {
               <path
                 d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
                 stroke={searchColor}
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth={"2"}
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </Link>
