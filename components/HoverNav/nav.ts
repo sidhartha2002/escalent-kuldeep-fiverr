@@ -136,7 +136,7 @@ export const nav: NavItem[] = [
   {
     id: 5,
     title: "Careers & Culture",
-    href: "/careers-culture",
+    href: "/careers-and-culture",
   },
   {
     id: 6,

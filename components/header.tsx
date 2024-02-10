@@ -172,7 +172,7 @@ export const Header = () => {
                 >
                   {!item.subnavigation && !item.subnavigation2 && (
                     <Link
-                      href={item.title}
+                      href={item.href}
                       className={`${navLinkColor} peer px-2 py-2 `}
                     >
                       {item.title}
