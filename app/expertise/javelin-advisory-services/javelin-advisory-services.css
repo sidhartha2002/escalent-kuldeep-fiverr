@@ -160,7 +160,7 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus,
-[tabindex="0"]:focus {
+[tabIndex="0"]:focus {
   outline: thin dotted;
   outline-offset: 1px;
 }

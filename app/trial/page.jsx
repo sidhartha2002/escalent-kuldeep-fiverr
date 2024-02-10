@@ -846,15 +846,15 @@ export default function Home() {
             className="fma-desktop has-fma-video"
             style={{
               backgroundImage:
-                "url('https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')",
+                "url('https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')",
             }}
-            /* style="{{background-image:url('https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')}}" */
+            /* style="{{background-image:url('https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')}}" */
           >
             <div className="fma-desktop-video">
               <video
                 id="fmavideo"
-                src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.webm"
-                poster="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg"
+                src="https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.webm"
+                poster="https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg"
                 playsinline=""
                 autoplay=""
                 loop=""
@@ -879,7 +879,7 @@ export default function Home() {
           </div>
           <div className="fma-mobile">
             <img
-              src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/homepage-fma-768x960-2022.jpg"
+              src="https://escalent.co/wp-content/uploads/2022/02/homepage-fma-768x960-2022.jpg"
               alt="Homepage"
             />
 
@@ -936,23 +936,20 @@ export default function Home() {
             <h2 className="headingC">Choose Your Industry</h2>
             <ul className="industry-selector semlist">
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/automotive-and-mobility/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Automotive &amp; Mobility');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/automotive-and-mobility/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/04/automotive-m.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/04/automotive-m.jpg"
                     className="size-industry-m2x"
                     alt="Automotive"
                     decoding="async"
-                    fetchpriority="high"
+                    fetchPriority="high"
                   />
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/04/automotive-d.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/04/automotive-d.jpg"
                     className="size-industry-d2x"
                     alt="Automotive"
                     decoding="async"
@@ -965,14 +962,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/consumer-goods-and-retail/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Consumer Goods &amp; Retail');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/consumer-goods-and-retail/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/canr-m.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/canr-m.jpg"
                     className="size-industry-m2x"
                     alt="Canr"
                     decoding="async"
@@ -980,7 +974,7 @@ export default function Home() {
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/canr-d.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/canr-d.jpg"
                     className="size-industry-d2x"
                     alt=""
                     decoding="async"
@@ -994,14 +988,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/energy/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Energy');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/energy/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/04/energy-m.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/04/energy-m.jpg"
                     className="size-industry-m2x"
                     alt=""
                     decoding="async"
@@ -1010,7 +1001,7 @@ export default function Home() {
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/04/energy-d.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/04/energy-d.jpg"
                     className="size-industry-d2x"
                     alt="Energy"
                     decoding="async"
@@ -1022,14 +1013,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/financial-services/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Financial Services');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/financial-services/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/financial-services.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/financial-services.jpg"
                     className="size-industry-m2x"
                     alt="financial services"
                     decoding="async"
@@ -1038,7 +1026,7 @@ export default function Home() {
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/financial-services-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/financial-services-1.jpg"
                     className="size-industry-d2x"
                     alt="Financial Services"
                     decoding="async"
@@ -1052,14 +1040,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/healthcare-life-sciences/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Health');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/healthcare-life-sciences/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/health.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/health.jpg"
                     className="size-industry-m2x"
                     alt="Health"
                     decoding="async"
@@ -1068,7 +1053,7 @@ export default function Home() {
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/health-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/health-1.jpg"
                     className="size-industry-d2x"
                     alt="health"
                     decoding="async"
@@ -1080,14 +1065,11 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/technology/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Technology');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/technology/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/technology.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/technology.jpg"
                     className="size-industry-m2x"
                     alt="Technology"
                     decoding="async"
@@ -1096,7 +1078,7 @@ export default function Home() {
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/technology-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2019/05/technology-1.jpg"
                     className="size-industry-d2x"
                     alt="Technology"
                     decoding="async"
@@ -1108,30 +1090,27 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/telecommunications/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Telecom');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/telecommunications/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-640x440-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1.jpg"
                     className="size-industry-m2x"
                     alt="Telecom"
                     decoding="async"
                     loading="lazy"
-                    srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-640x440-1.jpg 640w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-640x440-1-170x117.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1.jpg 640w, https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1-170x117.jpg 170w"
                     sizes="(max-width: 640px) 100vw, 640px"
                   />
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-334x440-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1.jpg"
                     className="size-industry-d2x"
                     alt="Telecom"
                     decoding="async"
                     loading="lazy"
-                    srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-334x440-1.jpg 334w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/04/telecom-334x440-1-129x170.jpg 129w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1.jpg 334w, https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1-129x170.jpg 129w"
                     sizes="(max-width: 334px) 100vw, 334px"
                   />
                   <div className="overlay overlay-orange"></div>
@@ -1140,30 +1119,27 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://escalent-demo.sarthak.app/industries/travel-and-tourism/"
-                  onclick="ga('send', 'event', 'Industry Selector', 'Homepage', 'Travel &amp; Tourism');"
-                >
+                <a href="https://escalent-demo.sarthak.app/industries/travel-and-tourism/">
                   <img
                     width="640"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-640x440-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1.jpg"
                     className="size-industry-m2x"
                     alt="Travel"
                     decoding="async"
                     loading="lazy"
-                    srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-640x440-1.jpg 640w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-640x440-1-170x117.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1.jpg 640w, https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1-170x117.jpg 170w"
                     sizes="(max-width: 640px) 100vw, 640px"
                   />
                   <img
                     width="334"
                     height="440"
-                    src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-334x440-1.jpg"
+                    src="https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1.jpg"
                     className="size-industry-d2x"
                     alt="Travel"
                     decoding="async"
                     loading="lazy"
-                    srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-334x440-1.jpg 334w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/travel-334x440-1-129x170.jpg 129w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1.jpg 334w, https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1-129x170.jpg 129w"
                     sizes="(max-width: 334px) 100vw, 334px"
                   />
                   <div className="overlay overlay-blue"></div>
@@ -1184,12 +1160,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2021/01/stellantis-170x170.jpg"
+                  src="https://escalent.co/wp-content/uploads/2021/01/stellantis-170x170.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="Stellantis"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2021/01/stellantis-170x170.jpg 170w, https://escalent-demo.sarthak.app/wp-content/uploads/2021/01/stellantis-150x150.jpg 150w, https://escalent-demo.sarthak.app/wp-content/uploads/2021/01/stellantis.jpg 340w"
+                  srcSet="https://escalent.co/wp-content/uploads/2021/01/stellantis-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2021/01/stellantis-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2021/01/stellantis.jpg 340w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1197,12 +1173,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/uber-170x170.jpg"
+                  src="https://escalent.co/wp-content/uploads/2022/02/uber-170x170.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="Uber"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/uber-170x170.jpg 170w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/uber-150x150.jpg 150w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/uber.jpg 340w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/02/uber-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/02/uber-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/uber.jpg 340w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1210,12 +1186,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/fiserv-170x170.jpg"
+                  src="https://escalent.co/wp-content/uploads/2022/03/fiserv-170x170.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="fiserv"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/fiserv-170x170.jpg 170w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/fiserv-150x150.jpg 150w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/fiserv.jpg 340w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/fiserv-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/03/fiserv-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/fiserv.jpg 340w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1223,12 +1199,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/pfizer-170x170.jpg"
+                  src="https://escalent.co/wp-content/uploads/2022/03/pfizer-170x170.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="Pfizer"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/pfizer-170x170.jpg 170w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/pfizer-150x150.jpg 150w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/03/pfizer.jpg 340w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/pfizer-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/03/pfizer-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/pfizer.jpg 340w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1236,12 +1212,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/qualcomm-170x170.jpg"
+                  src="https://escalent.co/wp-content/uploads/2022/02/qualcomm-170x170.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="Qualcomm"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/qualcomm-170x170.jpg 170w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/qualcomm-150x150.jpg 150w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/02/qualcomm.jpg 340w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/02/qualcomm-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/02/qualcomm-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/qualcomm.jpg 340w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1249,12 +1225,12 @@ export default function Home() {
                 <img
                   width="170"
                   height="170"
-                  src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/09/lowes.jpg"
+                  src="https://escalent.co/wp-content/uploads/2019/09/lowes.jpg"
                   className="attachment-logo170 size-logo170"
                   alt="Lowe’s"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2019/09/lowes.jpg 340w, https://escalent-demo.sarthak.app/wp-content/uploads/2019/09/lowes-150x150.jpg 150w"
+                  srcSet="https://escalent.co/wp-content/uploads/2019/09/lowes.jpg 340w, https://escalent.co/wp-content/uploads/2019/09/lowes-150x150.jpg 150w"
                   sizes="(max-width: 170px) 100vw, 170px"
                 />
               </li>
@@ -1272,18 +1248,18 @@ export default function Home() {
                   <a
                     className="card-image fullgridbox fullgridbox-mobile"
                     href="https://escalent-demo.sarthak.app/papers/a-better-customer-growth-strategy-is-within-reach-download-the-guide-to-our-award-winning-path-to-purchase-research/"
-                    tabindex="-1"
+                    tabIndex="-1"
                     aria-hidden="true"
                   >
                     <img
                       width="770"
                       height="406"
-                      src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg"
+                      src="https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg"
                       className="attachment-full size-full"
                       alt="Want to Win More? Your Guide to Boosting Customer Growth Using Our Award-Winning Path-to-Purchase Approach"
                       decoding="async"
                       loading="lazy"
-                      srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg 770w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More-170x90.jpg 170w"
+                      srcSet="https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More-170x90.jpg 170w"
                       sizes="(max-width: 770px) 100vw, 770px"
                     />
                   </a>
@@ -1309,18 +1285,18 @@ export default function Home() {
                   <a
                     className="card-image fullgridbox fullgridbox-mobile"
                     href="https://escalent-demo.sarthak.app/blog/how-macroeconomic-disruption-has-upended-the-customer-journey-in-financial-services/"
-                    tabindex="-1"
+                    tabIndex="-1"
                     aria-hidden="true"
                   >
                     <img
                       width="770"
                       height="406"
-                      src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg"
+                      src="https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg"
                       className="attachment-full size-full"
                       alt="How Macroeconomic Disruption Has Upended the Customer Journey in Financial Services"
                       decoding="async"
                       loading="lazy"
-                      srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg 770w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services-170x90.jpg 170w"
+                      srcSet="https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services-170x90.jpg 170w"
                       sizes="(max-width: 770px) 100vw, 770px"
                     />
                   </a>
@@ -1345,18 +1321,18 @@ export default function Home() {
                   <a
                     className="card-image fullgridbox fullgridbox-mobile"
                     href="https://escalent-demo.sarthak.app/blog/investing-in-path-to-purchase-research-to-maintain-loyal-customers-during-inflationary-times/"
-                    tabindex="-1"
+                    tabIndex="-1"
                     aria-hidden="true"
                   >
                     <img
                       width="770"
                       height="406"
-                      src="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg"
+                      src="https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg"
                       className="attachment-full size-full"
                       alt="Investing in Path-to-Purchase Research to Maintain Loyal Customers During Inflationary Times"
                       decoding="async"
                       loading="lazy"
-                      srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg 770w, https://escalent-demo.sarthak.app/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times-170x90.jpg 170w"
+                      srcSet="https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times-170x90.jpg 170w"
                       sizes="(max-width: 770px) 100vw, 770px"
                     />
                   </a>
@@ -1389,14 +1365,14 @@ export default function Home() {
             <picture className="bigpic-block-image">
               <source
                 media="(max-width: 767px)"
-                srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/culture-careers-homepage-768x720.jpg"
+                srcSet="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-768x720.jpg"
               />
               <source
                 media="(min-width: 768px)"
-                srcset="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
+                srcSet="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
               />
               <img
-                src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
+                src="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
                 alt=""
               />
             </picture>
@@ -1411,7 +1387,7 @@ export default function Home() {
           <img
             width="570"
             height="300"
-            src="https://escalent-demo.sarthak.app/wp-content/uploads/2019/05/newsletter-image-570x300.jpg"
+            src="https://escalent.co/wp-content/uploads/2019/05/newsletter-image-570x300.jpg"
             className="attachment-full size-full"
             alt="Newsletter"
             decoding="async"
@@ -1428,7 +1404,6 @@ export default function Home() {
             <a
               className="btn btn-teal"
               href="https://escalent-demo.sarthak.app/contact/newsletter-sign-up/"
-              onclick="ga('send', 'event', 'Newsletter Sign Up', '', 'CTA Click');"
             >
               Subscribe
             </a>
@@ -1614,7 +1589,6 @@ export default function Home() {
             rel="noopener nofollow"
             className="footer-btn1 btn btn-purple"
             href="https://www.msiclient.net/"
-            onclick="ga('send', 'event', 'Escalent Client', '');"
           >
             Escalent Client
           </a>
@@ -1622,7 +1596,6 @@ export default function Home() {
             rel="noopener nofollow"
             className="footer-btn2 btn btn-teal"
             href="https://hub.escalent-demo.sarthak.app/"
-            onclick="ga('send', 'event', 'Escalent Hub', '');"
           >
             Escalent Hub
           </a>
@@ -1630,7 +1603,6 @@ export default function Home() {
             rel="noopener nofollow"
             className="footer-btn3 btn btn-teal"
             href="https://escalentportal.co/"
-            onclick="ga('send', 'event', 'Escalent Portal', '');"
           >
             Escalent Portal
           </a>

@@ -49,7 +49,7 @@ export default function Home() {
           height="0"
           width="0"
           style={{ display: "none", visibility: "hidden" }}
-          src="https://td.doubleclick.net/td/rul/734617582?random=1707540568828&amp;cv=11&amp;fst=1707540568828&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4270v9101284518za200&amp;gcd=13l3l3l3l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fescalent.co%2Fcareers-and-culture%2F&amp;ref=https%3A%2F%2Fescalent.co%2Fabout%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Careers%20%7C%20Escalent%20%7C%20Market%20Research&amp;npa=0&amp;pscdl=noapi&amp;auid=362968531.1706172643&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.140%7CChromium%3B121.0.6167.140&amp;uamb=0&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0&amp;fledge=1"
+          src="https://td.doubleclick.net/td/rul/734617582?random=1707540568828&amp;cv=11&amp;fst=1707540568828&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4270v9101284518za200&amp;gcd=13l3l3l3l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fescalent-demo.sarthak.app%2Fcareers-and-culture%2F&amp;ref=https%3A%2F%2Fescalent-demo.sarthak.app%2Fabout%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Careers%20%7C%20Escalent%20%7C%20Market%20Research&amp;npa=0&amp;pscdl=noapi&amp;auid=362968531.1706172643&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.140%7CChromium%3B121.0.6167.140&amp;uamb=0&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0&amp;fledge=1"
         ></iframe>
         <main id="maincontent" class="maincontent-blocks">
           <div class="video block">
@@ -64,8 +64,8 @@ export default function Home() {
                   class="attachment-full size-full"
                   alt="Careers Video Still Frame AJ"
                   decoding="async"
-                  fetchpriority="high"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/Careers-video-still-frame-AJ.jpg 1170w, https://escalent.co/wp-content/uploads/2022/03/Careers-video-still-frame-AJ-170x90.jpg 170w"
+                  fetchPriority="high"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/Careers-video-still-frame-AJ.jpg 1170w, https://escalent.co/wp-content/uploads/2022/03/Careers-video-still-frame-AJ-170x90.jpg 170w"
                   sizes="(max-width: 1170px) 100vw, 1170px"
                 />{" "}
                 <button
@@ -137,7 +137,7 @@ export default function Home() {
                   class="attachment-full size-full"
                   alt="Flexibly virtual"
                   decoding="async"
-                  srcset="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div class="copypluscircles-subhead">Flexibly virtual</div>
@@ -151,7 +151,7 @@ export default function Home() {
                   class="attachment-full size-full"
                   alt="Fully Remote"
                   decoding="async"
-                  srcset="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div class="copypluscircles-subhead">Fully remote</div>
@@ -166,7 +166,7 @@ export default function Home() {
                   alt="Office-based"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div class="copypluscircles-subhead">Office-based</div>
@@ -206,7 +206,7 @@ export default function Home() {
                     alt="Tigers game"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/Tigers-game-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Tigers-game-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/Tigers-game-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Tigers-game-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -223,7 +223,7 @@ export default function Home() {
                     alt="Annual Party in Noida"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/IMG-4352-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/IMG-4352-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/IMG-4352-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/IMG-4352-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -240,7 +240,7 @@ export default function Home() {
                     alt="Painting Party"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/Painting-Party-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Painting-Party-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/Painting-Party-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Painting-Party-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -256,7 +256,7 @@ export default function Home() {
                     alt="Escape Room"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/escape-room-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/escape-room-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/escape-room-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/escape-room-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -273,7 +273,7 @@ export default function Home() {
                     alt="London Summer Picnic Rain"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/London-Summer-Picnic-Rain-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/London-Summer-Picnic-Rain-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/London-Summer-Picnic-Rain-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/London-Summer-Picnic-Rain-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -289,7 +289,7 @@ export default function Home() {
                     alt="Communities Picnic"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/Communities-Picnic-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Communities-Picnic-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/Communities-Picnic-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Communities-Picnic-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -306,7 +306,7 @@ export default function Home() {
                     alt="Chinese New Year"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/Chinese-New-Year-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Chinese-New-Year-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/Chinese-New-Year-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Chinese-New-Year-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   /
@@ -323,7 +323,7 @@ export default function Home() {
                     alt="Carpenter Mark UK Team Social Distancing"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/Carpenter-Mark_UK-Team-Social-Distancing-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Carpenter-Mark_UK-Team-Social-Distancing-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/Carpenter-Mark_UK-Team-Social-Distancing-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/Carpenter-Mark_UK-Team-Social-Distancing-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -339,7 +339,7 @@ export default function Home() {
                     alt="Full Team McKays"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/ax-Ale_Full-Team-McKays-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/ax-Ale_Full-Team-McKays-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/ax-Ale_Full-Team-McKays-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/ax-Ale_Full-Team-McKays-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -356,7 +356,7 @@ export default function Home() {
                     alt="ATL Summer Golf"
                     loading="eager"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2022/03/ATL-Summer-Golf-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/ATL-Summer-Golf-970x660-1-170x116.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2022/03/ATL-Summer-Golf-970x660-1.jpg 970w, https://escalent.co/wp-content/uploads/2022/03/ATL-Summer-Golf-970x660-1-170x116.jpg 170w"
                     sizes="(max-width: 970px) 100vw, 970px"
                   />
                   <figcaption>
@@ -379,7 +379,7 @@ export default function Home() {
                 >
                   <path
                     fill="currentColor"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
                   ></path>
                 </svg>
@@ -395,7 +395,7 @@ export default function Home() {
                 >
                   <path
                     fill="currentColor"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
                   ></path>
                 </svg>
@@ -436,7 +436,7 @@ export default function Home() {
                     >
                       <path
                         fill="currentColor"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M-.001 87.998V-.005h88.002v88.003H-.001zM66.014 36.13s0-7.584-7.584-7.584H29.593s-7.58 0-7.58 7.584v15.732s0 7.584 7.58 7.584H58.43s7.584 0 7.584-7.584V36.13zm-27.864-.574l14.406 8.462-14.406 8.46V35.556z"
                       ></path>
                     </svg>
@@ -451,7 +451,7 @@ export default function Home() {
                       rel="noopener nofollow"
                       class="card-image fullgridbox fullgridbox-mobile"
                       href="https://www.youtube.com/watch?v=0rd3S8IFxTE"
-                      tabindex="-1"
+                      tabIndex="-1"
                       aria-hidden="true"
                     >
                       <img
@@ -475,7 +475,7 @@ export default function Home() {
                       rel="noopener nofollow"
                       class="card-image fullgridbox fullgridbox-mobile"
                       href="https://www.youtube.com/watch?v=sbVrQ106tJs"
-                      tabindex="-1"
+                      tabIndex="-1"
                       aria-hidden="true"
                     >
                       <img
@@ -513,7 +513,7 @@ export default function Home() {
                   alt="Vivek Amin"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/career-stories-amin.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-amin-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-amin-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/career-stories-amin.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-amin-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-amin-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -542,7 +542,7 @@ export default function Home() {
                   alt="Thandeka Mentor"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor.jpg 340w, https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor.jpg 340w, https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -564,7 +564,7 @@ export default function Home() {
                   alt=""
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar.jpg 340w, https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar.jpg 340w, https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -586,7 +586,7 @@ export default function Home() {
                   alt="Kimberly Doherty"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -615,7 +615,7 @@ export default function Home() {
                   alt="Yogesh Narang"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang.jpg 340w, https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang.jpg 340w, https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -637,7 +637,7 @@ export default function Home() {
                   alt="Lucas Lowden"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -667,7 +667,7 @@ export default function Home() {
                   alt="Kat Waller"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/career-stories-waller.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-waller-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-waller-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/career-stories-waller.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-waller-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-waller-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -697,7 +697,7 @@ export default function Home() {
                   alt=""
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew.jpg 340w, https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew.jpg 340w, https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -718,7 +718,7 @@ export default function Home() {
                   alt=""
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia.jpg 340w, https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia.jpg 340w, https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -742,7 +742,7 @@ export default function Home() {
                   alt="Stacy Sims"
                   decoding="async"
                   loading="lazy"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/career-stories-sims.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-sims-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-sims-170x170.jpg 170w"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/career-stories-sims.jpg 340w, https://escalent.co/wp-content/uploads/2022/03/career-stories-sims-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/career-stories-sims-170x170.jpg 170w"
                   sizes="(max-width: 340px) 100vw, 340px"
                 />
                 <blockquote>
@@ -798,7 +798,7 @@ export default function Home() {
                 alt="Our Commitment"
                 decoding="async"
                 loading="lazy"
-                srcset="https://escalent.co/wp-content/uploads/2022/02/commitment.jpg 600w, https://escalent.co/wp-content/uploads/2022/02/commitment-170x119.jpg 170w"
+                srcSet="https://escalent.co/wp-content/uploads/2022/02/commitment.jpg 600w, https://escalent.co/wp-content/uploads/2022/02/commitment-170x119.jpg 170w"
                 sizes="(max-width: 600px) 100vw, 600px"
               />
             </div>
@@ -813,7 +813,7 @@ export default function Home() {
                 team more unstoppable.
               </p>
               <p>
-                <a href="https://escalent.co/about/diversity-equity-and-inclusion/">
+                <a href="https://escalent-demo.sarthak.app/about/diversity-equity-and-inclusion/">
                   Read more about our Diversity, Equity &amp; Inclusion efforts
                   here.
                 </a>

@@ -57,35 +57,44 @@ export default function Home() {
                   >
                     <path
                       fill="currentColor"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
                     ></path>
                   </svg>
                 </button>
                 <ul class="semlist">
                   <li class="page_item page-item-22 current_page_item">
-                    <a href="https://escalent.co/about/" aria-current="page">
+                    <a
+                      href="https://escalent-demo.sarthak.app/about/"
+                      aria-current="page"
+                    >
                       About
                     </a>
                   </li>
                   <li class="page_item page-item-5385">
-                    <a href="https://escalent.co/about/locations/">Locations</a>
+                    <a href="https://escalent-demo.sarthak.app/about/locations/">
+                      Locations
+                    </a>
                   </li>
                   <li class="page_item page-item-23">
-                    <a href="https://escalent.co/about/people/">People</a>
+                    <a href="https://escalent-demo.sarthak.app/about/people/">
+                      People
+                    </a>
                   </li>
                   <li class="page_item page-item-4545">
-                    <a href="https://escalent.co/about/diversity-equity-and-inclusion/">
+                    <a href="https://escalent-demo.sarthak.app/about/diversity-equity-and-inclusion/">
                       Diversity, Equity &amp; Inclusion
                     </a>
                   </li>
                   <li class="page_item page-item-24">
-                    <a href="https://escalent.co/about/social-responsibility/">
+                    <a href="https://escalent-demo.sarthak.app/about/social-responsibility/">
                       Social Responsibility
                     </a>
                   </li>
                   <li class="page_item page-item-25">
-                    <a href="https://escalent.co/about/partners/">Partners</a>
+                    <a href="https://escalent-demo.sarthak.app/about/partners/">
+                      Partners
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -193,8 +202,7 @@ export default function Home() {
           </div>
           <a
             class="btn btn-teal"
-            href="https://escalent.co/contact/newsletter-sign-up/"
-            onclick="ga('send', 'event', 'Newsletter Sign Up', 'About', 'CTA Click');"
+            href="https://escalent-demo.sarthak.app/contact/newsletter-sign-up/"
           >
             Subscribe to Our Newsletter
           </a>

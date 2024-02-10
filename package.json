@@ -12,12 +12,15 @@
     "@types/dom-view-transitions": "^1.0.4",
     "class-variance-authority": "^0.3.0",
     "classnames": "^2.3.2",
+    "framer-motion": "^11.0.3",
+    "gsap": "^3.12.5",
     "js-cookie": "^3.0.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "react-intersection-observer": "^9.4.1",
-    "react-youtube": "^10.1.0"
+    "react-youtube": "^10.1.0",
+    "sass": "^1.70.0"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.2",

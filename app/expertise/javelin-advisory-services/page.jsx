@@ -59,8 +59,8 @@ export default function Home() {
                   className="attachment-full size-full"
                   alt="Javelin Advisory Services"
                   decoding="async"
-                  fetchpriority="high"
-                  srcset="https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1.jpg 370w, https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1-170x170.jpg 170w"
+                  fetchPriority="high"
+                  srcSet="https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1.jpg 370w, https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/javelin-advisory-services-370x370-1-170x170.jpg 170w"
                   sizes="(max-width: 370px) 100vw, 370px"
                 />
               </div>
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="thinking block">
             <h2>Explore Javelin’s thinking on the digital financial world</h2>
             <a
-              href="https://escalent.co/thought-leadership/?expertise=javelin-advisory-services"
+              href="https://escalent-demo.sarthak.app/thought-leadership/?expertise=javelin-advisory-services"
               className="smcaps"
             >
               Show All
@@ -148,8 +148,8 @@ export default function Home() {
               <li className="card card_blog">
                 <a
                   className="card-image fullgridbox fullgridbox-mobile"
-                  href="https://escalent.co/blog/javelin-recognizing-excellence-in-financial-services/"
-                  tabindex="-1"
+                  href="https://escalent-demo.sarthak.app/blog/javelin-recognizing-excellence-in-financial-services/"
+                  tabIndex="-1"
                   aria-hidden="true"
                 >
                   <img
@@ -159,17 +159,17 @@ export default function Home() {
                     className="attachment-full size-full"
                     alt="Recognizing Excellence in Financial Service"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2021/10/Recognizing-Excellence-in-Financial-Services_Blog.jpg 770w, https://escalent.co/wp-content/uploads/2021/10/Recognizing-Excellence-in-Financial-Services_Blog-170x90.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2021/10/Recognizing-Excellence-in-Financial-Services_Blog.jpg 770w, https://escalent.co/wp-content/uploads/2021/10/Recognizing-Excellence-in-Financial-Services_Blog-170x90.jpg 170w"
                     sizes="(max-width: 770px) 100vw, 770px"
                   />
                 </a>
                 <div className="card-type smcaps">
-                  <a href="https://escalent.co/thought-leadership/blog/">
+                  <a href="https://escalent-demo.sarthak.app/thought-leadership/blog/">
                     Blog
                   </a>
                 </div>
                 <div className="card-title headingC sans">
-                  <a href="https://escalent.co/blog/javelin-recognizing-excellence-in-financial-services/">
+                  <a href="https://escalent-demo.sarthak.app/blog/javelin-recognizing-excellence-in-financial-services/">
                     Javelin: Recognizing Excellence in Financial Services
                   </a>
                 </div>
@@ -181,8 +181,8 @@ export default function Home() {
               <li className="card card_blog">
                 <a
                   className="card-image fullgridbox fullgridbox-mobile"
-                  href="https://escalent.co/blog/consumers-to-banks-we-want-better-fraud-prevention-and-faster-payment/"
-                  tabindex="-1"
+                  href="https://escalent-demo.sarthak.app/blog/consumers-to-banks-we-want-better-fraud-prevention-and-faster-payment/"
+                  tabIndex="-1"
                   aria-hidden="true"
                 >
                   <img
@@ -192,17 +192,17 @@ export default function Home() {
                     className="attachment-full size-full"
                     alt="Consumers to Banks: We want better fraud prevention and faster payment"
                     decoding="async"
-                    srcset="https://escalent.co/wp-content/uploads/2021/04/Consumers-to-Banks-We-want-better-fraud-prevention-and-faster-payment.jpg 770w, https://escalent.co/wp-content/uploads/2021/04/Consumers-to-Banks-We-want-better-fraud-prevention-and-faster-payment-170x90.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2021/04/Consumers-to-Banks-We-want-better-fraud-prevention-and-faster-payment.jpg 770w, https://escalent.co/wp-content/uploads/2021/04/Consumers-to-Banks-We-want-better-fraud-prevention-and-faster-payment-170x90.jpg 170w"
                     sizes="(max-width: 770px) 100vw, 770px"
                   />
                 </a>
                 <div className="card-type smcaps">
-                  <a href="https://escalent.co/thought-leadership/blog/">
+                  <a href="https://escalent-demo.sarthak.app/thought-leadership/blog/">
                     Blog
                   </a>
                 </div>
                 <div className="card-title headingC sans">
-                  <a href="https://escalent.co/blog/consumers-to-banks-we-want-better-fraud-prevention-and-faster-payment/">
+                  <a href="https://escalent-demo.sarthak.app/blog/consumers-to-banks-we-want-better-fraud-prevention-and-faster-payment/">
                     Consumers to Banks: We want better fraud prevention and
                     faster payment
                   </a>
@@ -215,8 +215,8 @@ export default function Home() {
               <li className="card card_blog">
                 <a
                   className="card-image fullgridbox fullgridbox-mobile"
-                  href="https://escalent.co/blog/new-id-fraud-scams-create-imperative-for-online-retailers-big-tech/"
-                  tabindex="-1"
+                  href="https://escalent-demo.sarthak.app/blog/new-id-fraud-scams-create-imperative-for-online-retailers-big-tech/"
+                  tabIndex="-1"
                   aria-hidden="true"
                 >
                   <img
@@ -227,17 +227,17 @@ export default function Home() {
                     alt="New ID Fraud Scams Create Imperative for Online Retailers &amp; Big Tech"
                     decoding="async"
                     loading="lazy"
-                    srcset="https://escalent.co/wp-content/uploads/2021/04/New-ID-Fraud-Scams-Create-Imperative-for-Online-Retailers-Big-Tech.jpg 770w, https://escalent.co/wp-content/uploads/2021/04/New-ID-Fraud-Scams-Create-Imperative-for-Online-Retailers-Big-Tech-170x90.jpg 170w"
+                    srcSet="https://escalent.co/wp-content/uploads/2021/04/New-ID-Fraud-Scams-Create-Imperative-for-Online-Retailers-Big-Tech.jpg 770w, https://escalent.co/wp-content/uploads/2021/04/New-ID-Fraud-Scams-Create-Imperative-for-Online-Retailers-Big-Tech-170x90.jpg 170w"
                     sizes="(max-width: 770px) 100vw, 770px"
                   />
                 </a>
                 <div className="card-type smcaps">
-                  <a href="https://escalent.co/thought-leadership/blog/">
+                  <a href="https://escalent-demo.sarthak.app/thought-leadership/blog/">
                     Blog
                   </a>
                 </div>
                 <div className="card-title headingC sans">
-                  <a href="https://escalent.co/blog/new-id-fraud-scams-create-imperative-for-online-retailers-big-tech/">
+                  <a href="https://escalent-demo.sarthak.app/blog/new-id-fraud-scams-create-imperative-for-online-retailers-big-tech/">
                     New ID Fraud Scams Create Imperative for Online Retailers
                     &amp; Big Tech
                   </a>
@@ -260,8 +260,7 @@ export default function Home() {
           </div>
           <a
             className="btn btn-teal"
-            href="https://escalent.co/contact/newsletter-sign-up/"
-            onclick="ga('send', 'event', 'Newsletter Sign Up', 'Javelin Advisory Services', 'CTA Click');"
+            href="https://escalent-demo.sarthak.app/contact/newsletter-sign-up/"
           >
             Subscribe to Our Newsletter
           </a>
