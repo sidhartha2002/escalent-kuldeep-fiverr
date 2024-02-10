@@ -125,7 +125,7 @@ export const nav: NavItem[] = [
     title: "About",
     href: "/about",
     subnavigation: [
-      { title: "Overview", href: "/support" },
+      { title: "Overview", href: "/about" },
       { title: "Locations", href: "/support2" },
       { title: "People", href: "/support3" },
       { title: "Diversity, Equity & Inclusion", href: "/support4" },
