@@ -28,7 +28,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/page.jsx"
+    "app/page.jsx",
+    "app/layout.jsx",
+    "components/header.jsx",
+    "components/HoverNav/HoverNav.jsx"
   ],
   "exclude": ["node_modules"]
 }

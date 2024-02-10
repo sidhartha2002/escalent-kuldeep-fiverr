@@ -10,7 +10,7 @@ export const Logo = ({ className }: { className?: string }) => (
   >
     <path
       fill=""
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M52 100H0V78h52V61h21v39H52zm0-78H0V0h73v39H52V22zM31 61H0V39h31v22z"
     ></path>
   </svg>
