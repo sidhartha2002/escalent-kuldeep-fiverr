@@ -110,7 +110,7 @@ select {
     border-radius: 0;
     font-size: 1rem;
     color: #530095;
-    background-image: url('images/caratbg.svg');
+    /* background-image: url('images/caratbg.svg'); */
     background-position: calc(100% - 20px) center;
     background-repeat: no-repeat;
     -webkit-appearance: none;
@@ -618,7 +618,7 @@ table.alignleft,table.alignright {
     border-radius: 0;
     font-size: 1.125rem;
     color: #3f3f3f;
-    background-image: url('images/searchbg.svg');
+    /* background-image: url('images/searchbg.svg'); */
     background-position: left 12px center;
     background-repeat: no-repeat;
     background-size: 20px 21px;
