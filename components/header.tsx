@@ -1,12 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { Button } from "./button";
 import { Container } from "./container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";
+
+import "./HoverNav/nav.css";
+import { nav } from "./HoverNav/nav";
+import { flushSync } from "react-dom";
 
 export const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -33,6 +37,9 @@ export const Header = () => {
   const logoVisible =
     scrollPosition > scrollThreshold ? "opacity-100" : "opacity-0";
   const searchColor = scrollPosition > scrollThreshold ? "#530095" : "#fff";
+  const navLinkColor =
+    scrollPosition > scrollThreshold ? "text-[#530095]" : "text-white";
+
   const iconStyle = {
     transition: "fill 0.3s ease", // Smooth transition effect
   };
@@ -63,12 +70,53 @@ export const Header = () => {
     };
   }, [setHamburgerMenuIsOpen]);
 
+  /*  */
+  const [activeSub, _setActiveSub] = useState<null | number>(null);
+  const isTranstioningRef = useRef(false);
+  const prevSubRef = useRef<null | number>(null);
+
+  const updateNavigation = (id: number | null) => {
+    if (prevSubRef.current && id) {
+      document.documentElement.style.setProperty(
+        "--subnav-direction",
+        prevSubRef.current < id ? "1" : "-1"
+      );
+    }
+    _setActiveSub(id);
+  };
+
+  const setActiveSub = useCallback(
+    async (id: number | null) => {
+      if (isTranstioningRef.current || id === activeSub) return;
+
+      isTranstioningRef.current = true;
+      if (document.startViewTransition) {
+        const transition = document.startViewTransition(() => {
+          flushSync(() => {
+            updateNavigation(id);
+          });
+        });
+        await transition.finished;
+      } else {
+        updateNavigation(id);
+      }
+
+      isTranstioningRef.current = false;
+      prevSubRef.current = id;
+    },
+    [activeSub]
+  );
+  /*  */
+
   return (
     <header
       className={` border-transparent-white pl-20  pr-20 ${colorClass}  fixed left-0 top-0 z-40 w-full bg-opacity-80  backdrop-blur-[12px] `}
     >
-      <Container className="h-navigation-height flex ">
-        <Link className={`text-md flex items-center ${logoVisible}`} href="/">
+      <Container className="h-navigation-height flex items-center justify-center ">
+        <Link
+          className={`text-md z-50 flex items-center ${logoVisible}`}
+          href="/"
+        >
           {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
           <img
             className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
@@ -86,7 +134,7 @@ export const Header = () => {
             hamburgerMenuIsOpen ? "visible" : "invisible delay-500"
           )}
         >
-          <nav
+          {/* <nav
             className={classNames(
               "top-navigation-height bg-background fixed left-0 h-[calc(100vh_-_var(--navigation-height))] w-full overflow-auto transition-opacity duration-500 md:relative md:top-0 md:block md:h-auto md:w-auto md:translate-x-0 md:overflow-hidden md:bg-transparent md:opacity-100 md:transition-none",
               hamburgerMenuIsOpen
@@ -111,21 +159,133 @@ export const Header = () => {
                   Solutions
                 </Link>
               </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">Expertise</Link>
-              </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">About</Link>
-              </li>
-              <li className="md:hidden lg:block">
-                <Link href="#">Thought Leadership</Link>
-              </li>
-              <li>
-                <Link href="#">Careers & Culture</Link>
-              </li>
-              <li>
-                <Link href="#">Contact</Link>
-              </li>
+            </ul>
+          </nav> */}
+
+          <nav onPointerLeave={() => setActiveSub(null)}>
+            <ul className={`group flex items-center`}>
+              {nav.map((item) => (
+                <li
+                  key={item.id}
+                  className={`relative`}
+                  onPointerEnter={() => setActiveSub(item.id)}
+                >
+                  {!item.subnavigation && !item.subnavigation2 && (
+                    <Link
+                      href={item.href}
+                      className={`${navLinkColor} peer px-2 py-2 `}
+                    >
+                      {item.title}
+                    </Link>
+                  )}
+                  {item.subnavigation && (
+                    <>
+                      <button
+                        className={`peer block px-2 py-2 ${navLinkColor}`}
+                        onFocus={() => setActiveSub(item.id)}
+                        onClick={() => setActiveSub(item.id)}
+                        aria-expanded={activeSub === item.id}
+                        aria-controls={`subnav-${item.id}`}
+                      >
+                        {item.title}
+                      </button>
+                      <div
+                        id={`subnav-${item.id}`}
+                        className="absolute left-0 top-full hidden w-[500px] rounded-lg bg-white p-1 text-black [view-transition-name:subnav] peer-aria-expanded:block"
+                      >
+                        <div className="absolute -top-2 left-8 h-0 w-0 border-b-[12px] border-l-[12px] border-r-[12px] border-b-white border-l-transparent border-r-transparent" />
+                        <div className="flex [view-transition-name:subnavcontent]">
+                          {item.leftBar && (
+                            <div className="min-h-[300px] w-[140px] rounded-sm bg-gray-100 px-4 py-5">
+                              <p className="text-sm">{item.leftBar}</p>
+                            </div>
+                          )}
+                          <div className="w-full">
+                            <ul className="grid grid-cols-2 gap-2 p-4">
+                              {item.subnavigation.map((subitem) => (
+                                <li key={subitem.title}>
+                                  <Link href={subitem.href}>
+                                    {subitem.title}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                            {item.bottomBar && (
+                              <div className="mt-4 rounded-md bg-gray-100 p-4">
+                                <p className="text-sm uppercase">
+                                  {item.bottomBar.title}
+                                </p>
+                                <ul className="mt-2 grid grid-cols-2 gap-x-2 gap-y-1">
+                                  {item.bottomBar.links.map((link) => (
+                                    <li key={link.title}>
+                                      <Link href={link.href}>{link.title}</Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )}
+                  {item.subnavigation2 && (
+                    <>
+                      <button
+                        className={`peer block px-2 py-2 ${navLinkColor}`}
+                        onFocus={() => setActiveSub(item.id)}
+                        onClick={() => setActiveSub(item.id)}
+                        aria-expanded={activeSub === item.id}
+                        aria-controls={`subnav-${item.id}`}
+                      >
+                        {item.title}
+                      </button>
+                      <div
+                        id={`subnav-${item.id}`}
+                        className="absolute left-0 top-full hidden w-[500px] rounded-lg bg-white p-1 text-black [view-transition-name:subnav] peer-aria-expanded:block"
+                      >
+                        <div className="absolute -top-2 left-8 h-0 w-0 border-b-[12px] border-l-[12px] border-r-[12px] border-b-white border-l-transparent border-r-transparent" />
+                        <div className="flex [view-transition-name:subnavcontent]">
+                          {item.leftBar && (
+                            <div className="min-h-[300px] w-[140px] rounded-sm bg-gray-100 px-4 py-5">
+                              <p className="text-sm">{item.leftBar}</p>
+                            </div>
+                          )}
+                          <div className="w-full p-4">
+                            <Link
+                              className="text-sm uppercase"
+                              href={item.subnavigation2.href}
+                            >
+                              {item.subnavigation2.title}
+                            </Link>
+                            <ul className="grid grid-cols-2 gap-2 p-4">
+                              {item.subnavigation2.links.map((link) => (
+                                <li key={link.title}>
+                                  <Link href={link.href}>{link.title}</Link>
+                                </li>
+                              ))}
+                            </ul>
+                            {item.bottomBar && (
+                              <div className="mt-4 rounded-md bg-gray-100 p-4">
+                                <p className="text-sm uppercase">
+                                  {item.bottomBar.title}
+                                </p>
+                                <ul className="mt-2 grid grid-cols-2 gap-x-2 gap-y-1">
+                                  {item.bottomBar.links.map((link) => (
+                                    <li key={link.title}>
+                                      <Link href={link.href}>{link.title}</Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </li>
+              ))}
             </ul>
           </nav>
         </div>
