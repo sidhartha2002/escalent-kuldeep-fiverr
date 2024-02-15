@@ -68,7 +68,7 @@ export default function Home() {
                 Paint purchasing study - Customer satisfaction in 8th year of
                 fieldwork
               </h2>
-              <p className="SectionSpotlight__description">
+              <p className="SectionSpotlight__description leading-relaxed">
                 An internet-based and mobile phone project that combines
                 different methodologies. Customer sample lists were provided for
                 trade pain purchasers. They were initially contacted by email
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="">
                 <a
                   href="/case-studies/paint-purchasing-study"
-                  className=" bg-white px-5  py-4 font-bold text-[#530095]"
+                  className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
                   Paint purchasing study
                 </a>

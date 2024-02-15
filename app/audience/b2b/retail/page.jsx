@@ -74,7 +74,7 @@ export default function Home() {
               <h2 className="CommonHeading">
                 Fast food outlets tracking study
               </h2>
-              <p className="SectionSpotlight__description">
+              <p className="SectionSpotlight__description leading-relaxed">
                 Telephone, telephone recruitment to the Internet, and online
                 research concerning delivery services with retail managers.
                 Comparison of delivery companies' services, price, and future
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="">
                 <a
                   href="/case-studies/paint-purchasing-study"
-                  className=" bg-white px-5  py-4 font-bold text-[#530095]"
+                  className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
                   Fast food outlets tracking study
                 </a>

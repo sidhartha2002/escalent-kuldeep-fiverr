@@ -62,7 +62,7 @@ export default function Home() {
               <h2 className="CommonHeading">
                 Industrial brand loyalty and awareness
               </h2>
-              <p className="SectionSpotlight__description"> </p>
+              <p className="SectionSpotlight__description leading-relaxed"> </p>
 
               <ul className="StatGrid">
                 <li className="StatGrid__item">
@@ -82,7 +82,7 @@ export default function Home() {
               <div className="">
                 <a
                   href="/case-studies/paint-purchasing-study"
-                  className=" bg-white px-5  py-4 font-bold text-[#530095]"
+                  className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
                   Fast food outlets tracking study
                 </a>

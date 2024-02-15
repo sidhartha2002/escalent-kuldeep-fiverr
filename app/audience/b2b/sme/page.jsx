@@ -63,7 +63,7 @@ export default function Home() {
               <h2 className="CommonHeading">
                 Euro barometer of small & medium businesses
               </h2>
-              <p className="SectionSpotlight__description">
+              <p className="SectionSpotlight__description leading-relaxed">
                 {" "}
                 A CATI study was undertaken, encompassing a total of 6,900
                 interviews, of which 300 were with SMEs operating in 23 European
@@ -97,7 +97,7 @@ export default function Home() {
               <div className="">
                 <a
                   href="/case-studies/paint-purchasing-study"
-                  className=" bg-white px-5  py-4 font-bold text-[#530095]"
+                  className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
                   Fast food outlets tracking study
                 </a>
