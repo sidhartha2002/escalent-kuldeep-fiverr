@@ -216,7 +216,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://escalent-demo.sarthak.app/industries/healthcare-life-sciences/">
+                <a href="https://escalent-demo.sarthak.app/industries/audience/healthcare-life-sciences/">
                   <img
                     width="640"
                     height="440"

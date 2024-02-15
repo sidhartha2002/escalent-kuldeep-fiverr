@@ -89,18 +89,22 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/social-consumer/social-consumer">
+                  <a href="/audience/social-consumer/social-consumer">
                     SOCIAL & CONSUMER
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/social-consumer/social-consumer">General Public</a>
+                  <a href="/audience/social-consumer/social-consumer">
+                    General Public
+                  </a>
                 </div>
                 <div className="featured-success-story-excerpt">
                   ... from client ...
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/social-consumer/social-consumer">Find out more</a>
+                  <a href="/audience/social-consumer/social-consumer">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -130,12 +134,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/social-consumer/social-consumer">
+                  <a href="/audience/social-consumer/social-consumer">
                     SOCIAL & CONSUMER
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/social-consumer/social-consumer">
+                  <a href="/audience/social-consumer/social-consumer">
                     Social & consumer
                   </a>
                 </div>
@@ -143,7 +147,9 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/social-consumer/social-consumer">Find out more</a>
+                  <a href="/audience/social-consumer/social-consumer">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -173,16 +179,20 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/social-consumer/hobbyists">SOCIAL & CONSUMER</a>
+                  <a href="/audience/social-consumer/hobbyists">
+                    SOCIAL & CONSUMER
+                  </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/social-consumer/hobbyists">Hobbyists </a>
+                  <a href="/audience/social-consumer/hobbyists">Hobbyists </a>
                 </div>
                 <div className="featured-success-story-excerpt">
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/social-consumer/hobbyists">Find out more</a>
+                  <a href="/audience/social-consumer/hobbyists">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>

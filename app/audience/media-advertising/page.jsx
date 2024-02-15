@@ -73,12 +73,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/media-advertising/marketing-advertising-agencies">
+                  <a href="/audience/media-advertising/marketing-advertising-agencies">
                     MEDIA & ADVERTISING
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/media-advertising/marketing-advertising-agencies">
+                  <a href="/audience/media-advertising/marketing-advertising-agencies">
                     Marketing, Advertising & Agencies
                   </a>
                 </div>
@@ -86,7 +86,7 @@ export default function Home() {
                   ...Get from client...
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/media-advertising/marketing-advertising-agencies">
+                  <a href="/audience/media-advertising/marketing-advertising-agencies">
                     Find out more
                   </a>
                 </div>
@@ -118,16 +118,18 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/media-advertising/brands">MEDIA & ADVERTISING</a>
+                  <a href="/audience/media-advertising/brands">
+                    MEDIA & ADVERTISING
+                  </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/media-advertising/brands">Brands</a>
+                  <a href="/audience/media-advertising/brands">Brands</a>
                 </div>
                 <div className="featured-success-story-excerpt">
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/media-advertising/brands">Find out more</a>
+                  <a href="/audience/media-advertising/brands">Find out more</a>
                 </div>
               </div>
             </li>
@@ -157,18 +159,22 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/media-advertising/publishing">
+                  <a href="/audience/media-advertising/publishing">
                     MEDIA & ADVERTISING
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/media-advertising/publishing">Publishing</a>
+                  <a href="/audience/media-advertising/publishing">
+                    Publishing
+                  </a>
                 </div>
                 <div className="featured-success-story-excerpt">
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/media-advertising/publishing">Find out more</a>
+                  <a href="/audience/media-advertising/publishing">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -198,18 +204,22 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/media-advertising/news-agencies">
+                  <a href="/audience/media-advertising/news-agencies">
                     MEDIA & ADVERTISING
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/media-advertising/news-agencies">News agencies</a>
+                  <a href="/audience/media-advertising/news-agencies">
+                    News agencies
+                  </a>
                 </div>
                 <div className="featured-success-story-excerpt">
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/media-advertising/news-agencies">Find out more</a>
+                  <a href="/audience/media-advertising/news-agencies">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -239,12 +249,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/media-advertising/entertainment-podcasts-apps-gaming">
+                  <a href="/audience/media-advertising/entertainment-podcasts-apps-gaming">
                     MEDIA & ADVERTISING
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/media-advertising/entertainment-podcasts-apps-gaming">
+                  <a href="/audience/media-advertising/entertainment-podcasts-apps-gaming">
                     Entertainment: Podcasts, Apps & Gaming
                   </a>
                 </div>
@@ -252,7 +262,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/media-advertising/entertainment-podcasts-apps-gaming">
+                  <a href="/audience/media-advertising/entertainment-podcasts-apps-gaming">
                     Find out more
                   </a>
                 </div>

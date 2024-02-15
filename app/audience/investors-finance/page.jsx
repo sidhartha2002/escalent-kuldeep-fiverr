@@ -77,12 +77,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/investors-finance/b2b-invenstors">
+                  <a href="/audience/investors-finance/b2b-invenstors">
                     INVESTORS & FINANCE
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/investors-finance/b2b-invenstors">
+                  <a href="/audience/investors-finance/b2b-invenstors">
                     Hard to reach B2B investors
                   </a>
                 </div>
@@ -90,7 +90,9 @@ export default function Home() {
                   ...Get from client...
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/investors-finance/b2b-invenstors">Find out more</a>
+                  <a href="/audience/investors-finance/b2b-invenstors">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -120,12 +122,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/investors-finance/investors-finance">
+                  <a href="/audience/investors-finance/investors-finance">
                     INVESTORS & FINANCE
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/investors-finance/investors-finance">
+                  <a href="/audience/investors-finance/investors-finance">
                     Hard to reach B2B investors
                   </a>
                 </div>
@@ -133,7 +135,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/investors-finance/investors-finance">
+                  <a href="/audience/investors-finance/investors-finance">
                     Find out more
                   </a>
                 </div>
@@ -165,12 +167,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/investors-finance/corporate-banking">
+                  <a href="/audience/investors-finance/corporate-banking">
                     INVESTORS & FINANCE
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/investors-finance/corporate-banking">
+                  <a href="/audience/investors-finance/corporate-banking">
                     Corporate banking customer satisfaction
                   </a>
                 </div>
@@ -178,7 +180,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/investors-finance/corporate-banking">
+                  <a href="/audience/investors-finance/corporate-banking">
                     Find out more
                   </a>
                 </div>
@@ -210,12 +212,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/investors-finance/financial-decision-makers">
+                  <a href="/audience/investors-finance/financial-decision-makers">
                     INVESTORS & FINANCE
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/investors-finance/financial-decision-makers">
+                  <a href="/audience/investors-finance/financial-decision-makers">
                     Financial decision makers study
                   </a>
                 </div>
@@ -223,7 +225,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/investors-finance/financial-decision-makers">
+                  <a href="/audience/investors-finance/financial-decision-makers">
                     Find out more
                   </a>
                 </div>

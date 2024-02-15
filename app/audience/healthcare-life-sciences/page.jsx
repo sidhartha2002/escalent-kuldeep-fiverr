@@ -80,12 +80,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/healthcare-life-sciences/healthcare-professionals">
+                  <a href="/audience/healthcare-life-sciences/healthcare-professionals">
                     HEALTHCARE & LIFE SCIENCES
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/healthcare-life-sciences/healthcare-professionals">
+                  <a href="/audience/healthcare-life-sciences/healthcare-professionals">
                     Healthcare professionals
                   </a>
                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                   and diversity of B2B global market research.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/healthcare-life-sciences/healthcare-professionals">
+                  <a href="/audience/healthcare-life-sciences/healthcare-professionals">
                     Find out more
                   </a>
                 </div>
@@ -126,12 +126,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/healthcare-life-sciences/life-sciences">
+                  <a href="/audience/healthcare-life-sciences/life-sciences">
                     HEALTHCARE & LIFE SCIENCES
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/healthcare-life-sciences/life-sciences">
+                  <a href="/audience/healthcare-life-sciences/life-sciences">
                     Life sciences
                   </a>
                 </div>
@@ -139,7 +139,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/healthcare-life-sciences/life-sciences">
+                  <a href="/audience/healthcare-life-sciences/life-sciences">
                     Find out more
                   </a>
                 </div>
@@ -170,12 +170,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
+                  <a href="/audience/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
                     HEALTHCARE & LIFE SCIENCES
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
+                  <a href="/audience/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
                     Pharma, biopharma, biotech tracking
                   </a>
                 </div>
@@ -183,7 +183,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
+                  <a href="/audience/healthcare-life-sciences/pharma-biopharma-biotech-tracking">
                     Find out more
                   </a>
                 </div>

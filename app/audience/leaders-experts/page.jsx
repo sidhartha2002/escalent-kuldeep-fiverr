@@ -73,12 +73,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/leaders-experts/c-suite-non-executives">
+                  <a href="/audience/leaders-experts/c-suite-non-executives">
                     LEADERS & EXPERTS
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/leaders-experts/c-suite-non-executives">
+                  <a href="/audience/leaders-experts/c-suite-non-executives">
                     C-suite and Non-executives
                   </a>
                 </div>
@@ -87,7 +87,7 @@ export default function Home() {
                   organisation for research can be quite a challenge.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/leaders-experts/c-suite-non-executives">
+                  <a href="/audience/leaders-experts/c-suite-non-executives">
                     Find out more
                   </a>
                 </div>
@@ -119,12 +119,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/leaders-experts/opinion-formers-influencers">
+                  <a href="/audience/leaders-experts/opinion-formers-influencers">
                     LEADERS & EXPERTS
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/leaders-experts/opinion-formers-influencers">
+                  <a href="/audience/leaders-experts/opinion-formers-influencers">
                     Opinion formers & influencers
                   </a>
                 </div>
@@ -132,7 +132,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/leaders-experts/opinion-formers-influencers">
+                  <a href="/audience/leaders-experts/opinion-formers-influencers">
                     Find out more
                   </a>
                 </div>
@@ -164,10 +164,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/leaders-experts/project">LEADERS & EXPERTS</a>
+                  <a href="/audience/leaders-experts/project">
+                    LEADERS & EXPERTS
+                  </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/leaders-experts/project">
+                  <a href="/audience/leaders-experts/project">
                     Every project is different
                   </a>
                 </div>
@@ -175,7 +177,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/leaders-experts/project">Find out more</a>
+                  <a href="/audience/leaders-experts/project">Find out more</a>
                 </div>
               </div>
             </li>
@@ -205,12 +207,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/leaders-experts/business-leaders">
+                  <a href="/audience/leaders-experts/business-leaders">
                     LEADERS & EXPERTS
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/leaders-experts/business-leaders">
+                  <a href="/audience/leaders-experts/business-leaders">
                     Business leaders
                   </a>
                 </div>
@@ -218,7 +220,9 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/leaders-experts/business-leaders">Find out more</a>
+                  <a href="/audience/leaders-experts/business-leaders">
+                    Find out more
+                  </a>
                 </div>
               </div>
             </li>
@@ -248,12 +252,12 @@ export default function Home() {
               </div>
               <div className="featured-success-story-content">
                 <div className="featured-success-story-smlink smcaps">
-                  <a href="/leaders-experts/environmental-social-governance">
+                  <a href="/audience/leaders-experts/environmental-social-governance">
                     LEADERS & EXPERTS
                   </a>
                 </div>
                 <div className="featured-success-story-title">
-                  <a href="/leaders-experts/environmental-social-governance">
+                  <a href="/audience/leaders-experts/environmental-social-governance">
                     Environmental, social & governance
                   </a>
                 </div>
@@ -261,7 +265,7 @@ export default function Home() {
                   ....... To get this content from Client ....
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
-                  <a href="/leaders-experts/environmental-social-governance">
+                  <a href="/audience/leaders-experts/environmental-social-governance">
                     Find out more
                   </a>
                 </div>
