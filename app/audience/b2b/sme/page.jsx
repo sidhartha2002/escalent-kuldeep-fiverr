@@ -61,23 +61,37 @@ export default function Home() {
           <div className="SectionSpotlight__col SectionSpotlight__col--text">
             <div className="SectionSpotlight__text">
               <h2 className="CommonHeading">
-                Industrial brand loyalty and awareness
+                Euro barometer of small & medium businesses
               </h2>
-              <p className="SectionSpotlight__description"> </p>
+              <p className="SectionSpotlight__description">
+                {" "}
+                A CATI study was undertaken, encompassing a total of 6,900
+                interviews, of which 300 were with SMEs operating in 23 European
+                markets. Analyse sample sources from the D&B database according
+                to employee size, revenue, and sector (SIC). In each market,
+                representative targets relative to the national SME profile.
+                Complete programming and hosting services are provided by
+                Audience Match, including weekly data delivery and localised and
+                open-ended translations of the questionnaire.
+              </p>
 
               <ul className="StatGrid">
                 <li className="StatGrid__item">
-                  <strong className="StatGrid__title">1,900</strong>
-                  interviews
+                  <strong className="StatGrid__title">
+                    6,900 telephone interviews
+                  </strong>
+                  conducted in 23 European markets - Audience Match sources for
+                  a representative sample
                 </li>
-                <li className="StatGrid__item">
-                  <strong className="StatGrid__title">25 markets</strong>
-                  across Europe, North America, Asia and the Middle East
-                </li>
-                <li className="StatGrid__item">
+                {/* <li className="StatGrid__item">
                   <strong className="StatGrid__title">SIC code</strong> based
                   company selection, with phone, online and digital screening
+                </li> */}
+                <li className="StatGrid__item">
+                  <strong className="StatGrid__title">15 languages</strong>
+                  rendered by the translation services staff at Audience Match
                 </li>
+                <br />
               </ul>
 
               <div className="">
@@ -94,21 +108,21 @@ export default function Home() {
             <picture>
               {/* Source for screens with a minimum width of 1300px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=950&height=717&quality=80"
+                srcSet="https://www.ronin.com/media/0vumtqby/istock-1152618221.jpg?width=950&height=717&quality=80"
                 media="(min-width:1300px)"
                 width="950"
                 height="717"
               />
               {/* Source for screens with a minimum width of 980px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=650&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/0vumtqby/istock-1152618221.jpg?width=650&height=550&quality=80"
                 media="(min-width:980px)"
                 width="650"
                 height="550"
               />
               {/* Source for screens with a minimum width of 740px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=980&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/0vumtqby/istock-1152618221.jpg?width=650&height=550&quality=80"
                 media="(min-width:740px)"
                 width="980"
                 height="550"
@@ -117,7 +131,7 @@ export default function Home() {
               <img
                 className="SectionSpotlight__img"
                 alt=""
-                src="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=740&height=650&quality=80"
+                src="https://www.ronin.com/media/0vumtqby/istock-1152618221.jpg?width=740&height=650&quality=80"
                 width="740"
                 height="650"
                 decoding="async"
@@ -158,254 +172,368 @@ export default function Home() {
                   industry specialists on several specific topics:
                   <br />
                   <br />
-                  <div className="font-bold">Market dynamics & trends:</div>
+                  <div className="font-bold">Retail:</div>
                   <ul className="list-disc pl-4">
+                    <li>Small-scale independent grocery outlets</li>
                     <li>
-                      Examining the worldwide and local demand for particular
-                      industrial products or services.
+                      Local boutique establishments specializing in clothing
                     </li>
+                    <li>Specialized gift emporiums</li>
+                    <li>Hardware retailers catering to specific needs</li>
+                  </ul>
+                  <br />
+                  <br />
+                  <div className="font-bold">Services:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Local law practices</li>
+                    <li>Accountancy firms</li>
+                    <li>Consulting firms</li>
+                    <li>Marketing and advertising agencies</li>
+                    <li>Beauty salons and wellness centers</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Food and Beverage */}
+                  <div className="font-bold">Food and Beverage:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Independent cafés and coffeehouses</li>
+                    <li>Neighborhood eateries</li>
+                    <li>Catering establishments</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Technology and IT */}
+                  <div className="font-bold">Technology and IT:</div>
+                  <ul className="list-disc pl-4">
+                    <li>IT support and managed service providers</li>
+                    <li>Software development companies</li>
+                    <li>Digital marketing firms</li>
+                    <li>Emerging e-commerce ventures</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Manufacturing and Production */}
+                  <div className="font-bold">Manufacturing and Production:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Small-scale food processing businesses</li>
                     <li>
-                      Keeping up with the latest industrial trends, such as
-                      Industry 4.0, smart manufacturing, or the integration of
-                      AI in operations.
+                      Artisanal craftsmanship studios (e.g., woodworking,
+                      metalworking)
+                    </li>
+                    <li>Garment and textile production enterprises</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Healthcare */}
+                  <div className="font-bold">Healthcare:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Private dental practices</li>
+                    <li>Physiotherapy clinics</li>
+                    <li>Local pharmacies</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Agriculture */}
+                  <div className="font-bold">Agriculture:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Family-operated agricultural enterprises</li>
+                    <li>Micro vineyards or wine producers</li>
+                    <li>
+                      Specialty agribusiness ventures (e.g., organic herb farms,
+                      apiaries)
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Technological innovations */}
-                  <div className="font-bold">Technological innovations:</div>
+                  {/* Construction and Real Estate */}
+                  <div className="font-bold">Construction and Real Estate:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Community construction companies</li>
+                    <li>Local realty agencies</li>
+                    <li>Residential and commercial property managers</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Transportation */}
+                  <div className="font-bold">Transportation:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Neighborhood courier and delivery services</li>
+                    <li>Boutique charter airline operators</li>
+                    <li>Locally-owned taxi or ride-hailing companies</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Arts and Entertainment */}
+                  <div className="font-bold">Arts and Entertainment:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Privately-owned art galleries</li>
+                    <li>Event management firms</li>
+                    <li>Recording facilities</li>
+                    <li>Community theaters</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Education and Training */}
+                  <div className="font-bold">Education and Training:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Private tutoring or coaching academies</li>
+                    <li>Community vocational training centers</li>
+                    <li>Self-employed e-learning content developers</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Tourism and Hospitality */}
+                  <div className="font-bold">Tourism and Hospitality:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Boutique bed and breakfast accommodations</li>
+                    <li>Community-based tour operators</li>
+                    <li>Small-scale adventure sports outfitters</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* User */}
+                  <div className="font-bold">User:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Embracing and appreciating the latest technologies,
-                      machinery, and software.
-                    </li>
-                    <li>
-                      Delving into the exciting realm of automation, IoT, and
-                      digital twins.
+                      When contemplating market research for SMEs (small to
+                      medium-sized enterprises), comprehension of the
+                      competition, the market, customer behavior, and
+                      prospective development opportunities are frequently the
+                      objectives.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Supply chain management & Optimisation */}
-                  <div className="font-bold">
-                    Supply chain management & Optimisation:
-                  </div>
+                  {/* Topics to Cover */}
+                  <div className="font-bold">Topics to Cover:</div>
                   <ul className="list-disc pl-4">
+                    <li>Comprehension of market dynamics</li>
+                    <li>Assessment of market size and growth rate</li>
                     <li>
-                      Assessing obstacles and remedies in the procurement,
-                      manufacturing, and distribution of basic materials.
+                      Segmentation of the market and identification of target
+                      audience
                     </li>
                     <li>
-                      The influence of occurrences such as pandemics and
-                      geopolitical tensions on the resilience of supply chains,
-                      as well as mitigation strategies.
+                      Analysis of market trends and forecasting future
+                      developments
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Operational efficiency */}
-                  <div className="font-bold">Operational efficiency:</div>
+                  {/* Customer Insights */}
+                  <div className="font-bold">Customer Insights:</div>
                   <ul className="list-disc pl-4">
+                    <li>Study of customer demographics and psychographics</li>
                     <li>
-                      Identifying tools and best practices for optimizing
-                      processes and minimizing waste.
+                      Analysis of buying behavior and decision-making processes
                     </li>
                     <li>
-                      Assessing the efficacy of lean manufacturing and Six Sigma
-                      implementation.
+                      Identification of customer needs, preferences, and pain
+                      points
+                    </li>
+                    <li>Evaluation of customer satisfaction and loyalty</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Competitive Analysis */}
+                  <div className="font-bold">Competitive Analysis:</div>
+                  <ul className="list-disc pl-4">
+                    <li>
+                      Identification of key competitors and their respective
+                      market shares
+                    </li>
+                    <li>
+                      Evaluation of competitors' strengths, weaknesses,
+                      opportunities, and threats (SWOT analysis)
+                    </li>
+                    <li>
+                      Assessment of competitors' unique selling propositions
+                      (USPs) and competitive advantages
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Environmental & Sustainability concerns */}
-                  <div className="font-bold">
-                    Environmental & Sustainability concerns:
-                  </div>
+                  {/* Product and Service Feedback */}
+                  <div className="font-bold">Product and Service Feedback:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Investigating approaches to sustainability and circular
-                      economy practices within the industry.
+                      Measurement of product/service usage and satisfaction
+                      levels among customers
                     </li>
                     <li>
-                      Investigating the demand on the market for sustainable or
-                      environmentally favorable industrial processes and
-                      products.
+                      Gathering feedback on pricing strategies and perceived
+                      value
+                    </li>
+                    <li>
+                      Soliciting suggestions for product/service improvements or
+                      new ideas through customer feedback loops
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Regulatory & Compliance landscape */}
-                  <div className="font-bold">
-                    Regulatory & Compliance landscape:
-                  </div>
+                  {/* Branding and Positioning */}
+                  <div className="font-bold">Branding and Positioning:</div>
+                  <ul className="list-disc pl-4">
+                    <li>Brand awareness and perception</li>
+                    <li>Positioning in the market relative to competitors</li>
+                  </ul>
+                  <br />
+                  <br />
+                  {/* Distribution Channels */}
+                  <div className="font-bold">Distribution Channels:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Evaluating the impact of industry-specific regulations and
-                      standards.
+                      Assessment of the effectiveness and reach of existing
+                      distribution channels
                     </li>
                     <li>
-                      Examining the influence and readiness for evolving
-                      regulatory landscapes, particularly in regard to
-                      environmental and safety protocols.
+                      Exploration of potential opportunities for new
+                      distribution methods or strategic partnerships
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Product development & innovation */}
-                  <div className="font-bold">
-                    Product development & innovation:
-                  </div>
+                  {/* Pricing Strategy */}
+                  <div className="font-bold">Pricing Strategy:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Identifying the requirements and areas for improvement in
-                      existing product offerings.
+                      Conducting price sensitivity analysis to understand
+                      customer reactions to pricing changes
                     </li>
                     <li>
-                      Exploring the potential for new product lines or
-                      diversifying our offerings.
+                      Identifying optimal pricing points and developing
+                      strategies to maximize profitability
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Labour & Workforce */}
-                  <div className="font-bold">Labour & Workforce:</div>
+                  {/* Promotion and Advertising */}
+                  <div className="font-bold">Promotion and Advertising:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Issues concerning the acquisition, training, and retention
-                      of talent.
+                      Evaluation of the effectiveness of current marketing
+                      campaigns in reaching target audiences
                     </li>
                     <li>
-                      The importance of acquiring new skills and enhancing
-                      existing ones in response to automation and technological
-                      progress.
+                      Soliciting feedback on promotional materials and
+                      advertising mediums to refine future strategies
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Financial health & Investment */}
-                  <div className="font-bold">
-                    Financial health & Investment:
-                  </div>
+                  {/* Barriers to Entry */}
+                  <div className="font-bold">Barriers to Entry:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing various financing options and investment
-                      opportunities.
+                      Identification and analysis of challenges encountered when
+                      entering or expanding within the market
                     </li>
                     <li>
-                      Mastering investment patterns, budgeting, and financial
-                      strategies in the industrial sector.
+                      Assessment of regulatory, economic, and competitive
+                      barriers impacting market entry or expansion efforts
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Customer preferences & engagement */}
-                  <div className="font-bold">
-                    Customer preferences & engagement:
-                  </div>
+                  {/* Types of Market Research */}
+                  <div className="font-bold">Types of Market Research:</div>
                   <ul className="list-disc pl-4">
-                    <li>
-                      The purchasing patterns, loyalty, and decision-making
-                      processes of B2B clients.
-                    </li>
-                    <li>
-                      Evaluating the efficacy of marketing and sales strategies
-                      in attracting and retaining industrial customers.
-                    </li>
+                    <li>Qualitative Research</li>
+                    <ul>
+                      <li>
+                        In-depth Interviews: Conducting one-on-one interviews
+                        with stakeholders, customers, or industry experts to
+                        gather detailed insights.
+                      </li>
+                      <li>
+                        Focus Groups: Facilitating group discussions led by a
+                        moderator to delve into specific topics and gain diverse
+                        perspectives.
+                      </li>
+                      <li>
+                        Ethnographic Studies: Observing and immersing in
+                        customers' natural environments to understand their
+                        behavior, preferences, and needs.
+                      </li>
+                    </ul>
+                    <br />
+                    <li>Quantitative Research</li>
+                    <ul>
+                      <li>
+                        Surveys and Questionnaires: Administering structured
+                        surveys to a larger audience, whether online, via phone,
+                        or in-person, to collect quantitative data on opinions,
+                        attitudes, and behaviors.
+                      </li>
+                      <li>
+                        Observational Research: Systematically observing and
+                        recording specific behaviors or actions in a given
+                        setting to quantify and analyze patterns.
+                      </li>
+                    </ul>
+                    <br />
+                    <li>Secondary Research</li>
+                    <ul>
+                      <li>
+                        Industry Reports: Reviewing existing reports and
+                        publications to gather insights on market size, trends,
+                        and competitive landscape provided by industry experts.
+                      </li>
+                      <li>
+                        Competitor Analysis: Analyzing publicly available data
+                        and information to assess competitors' strategies,
+                        products, market positioning, and performance.
+                      </li>
+                      <li>
+                        Online Analytics: Utilizing tools such as Google
+                        Analytics or social media analytics to track and analyze
+                        online user behavior, engagement, and interactions.
+                      </li>
+                    </ul>
+                    <br />
+                    <li>Experimental Research</li>
+                    <ul>
+                      <li>
+                        A/B Testing: Implementing two versions to compare
+                        performance and determine the most effective option,
+                        commonly utilized for marketing campaigns, website
+                        designs, or product features.
+                      </li>
+                      <li>
+                        Product Trials: Distributing samples or prototypes to
+                        gather feedback and evaluate consumer responses to new
+                        products or features before full-scale launch.
+                      </li>
+                    </ul>
                   </ul>
                   <br />
                   <br />
-                  {/* Sales channels & distribution */}
-                  <div className="font-bold">
-                    Sales channels & distribution:
-                  </div>
+                  {/* Analytical Tools */}
+                  <div className="font-bold">Analytical Tools:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing the effectiveness of existing sales channels and
-                      considering new possibilities.
+                      SWOT Analysis: Conducting an evaluation of internal
+                      strengths and weaknesses, as well as external
+                      opportunities and threats, to inform strategic
+                      decision-making and planning.
                     </li>
                     <li>
-                      Examining the impact of online shopping and online
-                      platforms on B2B sales.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Risk management */}
-                  <div className="font-bold">Risk management:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Locating weak points in supply networks, operations, and
-                      geopolitical situations.
+                      PESTEL Analysis: Examining external factors including
+                      Political, Economic, Social, Technological, Environmental,
+                      and Legal aspects to understand their impact on the
+                      business environment and identify potential opportunities
+                      and challenges.
                     </li>
                     <li>
-                      Exploring strategies and tools for predicting, assessing,
-                      and mitigating risks.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Competitive landscape & positioning */}
-                  <div className="font-bold">
-                    Competitive landscape & positioning:
-                  </div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Examination of market share, industry rivalry, and
-                      differentiation tactics.
-                    </li>
-                    <li>
-                      Investigating options for acquisitions, mergers, and
-                      strategic alliances.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Branding & Marketing */}
-                  <div className="font-bold">Branding & Marketing:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Improving brand image and equity in the B2B industrial
-                      market.
-                    </li>
-                    <li>
-                      Evaluating the success of various marketing channels and
-                      strategies, such as trade exhibitions, internet marketing,
-                      and print media.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Globalisation & Localisation Strategies */}
-                  <div className="font-bold">
-                    Globalisation & Localisation Strategies:
-                  </div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Examining the potential and difficulties of worldwide
-                      expansion.
-                    </li>
-                    <li>
-                      Considering the advantages of specialized manufacturing
-                      and service centers.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Digital transformation & Industry 4.0 */}
-                  <div className="font-bold">
-                    Digital transformation & Industry 4.0:
-                  </div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Assessing the readiness and difficulties of incorporating
-                      modern digital technology into industrial processes.
-                    </li>
-                    <li>
-                      Given the large scope of the manufacturing industry,
-                      individual themes may differ depending on various
-                      divisions. However, the topics indicated above provide a
-                      complete overview of prospective study fields for
-                      industrial organizations and associated legislators.
+                      Performing market research can demand a significant
+                      investment of resources from SMBs, which are generally
+                      constrained by limited financial resources. However, by
+                      selecting the appropriate methods and subjects, one can
+                      gain insightful knowledge that can inform strategy and
+                      decision-making. A combination of qualitative and
+                      quantitative research methods frequently yields an
+                      all-encompassing comprehension of the market and the
+                      obstacles that need to be addressed.
                     </li>
                   </ul>
                   <br />
