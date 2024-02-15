@@ -97,6 +97,8 @@ export default function Home() {
                   of each participant 4 times per year
                 </li>
               </ul>
+              <br />
+              <br />
 
               <div className="">
                 <a
