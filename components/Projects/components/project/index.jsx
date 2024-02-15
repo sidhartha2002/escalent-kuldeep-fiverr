@@ -14,7 +14,7 @@ export default function index({ index, title, manageModal }) {
       className={styles.project}
     >
       <h2 className="">{title}</h2>
-      <p className="">Our Quality</p>
+      <p className="">Industry</p>
     </div>
   );
 }

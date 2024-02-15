@@ -60,21 +60,24 @@ function App() {
                   onPointerEnter={() => setActiveSub(item.id)}
                 >
                   {!item.subnavigation && (
-                    <a href={item.title} className="peer block px-2 py-2">
+                    <a href={item.href} className="peer block px-2 py-2">
                       {item.title}
                     </a>
                   )}
                   {item.subnavigation && (
                     <>
-                      <button
-                        className="peer block px-2 py-2"
-                        onFocus={() => setActiveSub(item.id)}
-                        onClick={() => setActiveSub(item.id)}
-                        aria-expanded={activeSub === item.id}
-                        aria-controls={`subnav-${item.id}`}
-                      >
-                        {item.title}
-                      </button>
+                      <a href={item.href}>
+                        <button
+                          className="peer block px-2 py-2"
+                          onFocus={() => setActiveSub(item.id)}
+                          onClick={() => setActiveSub(item.id)}
+                          aria-expanded={activeSub === item.id}
+                          aria-controls={`subnav-${item.id}`}
+                        >
+                          {item.title}
+                        </button>
+                      </a>
+
                       <div
                         id={`subnav-${item.id}`}
                         className="absolute left-0 top-full hidden w-[500px] rounded-lg bg-white p-1 text-black [view-transition-name:subnav] peer-aria-expanded:block"

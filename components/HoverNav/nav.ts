@@ -18,20 +18,19 @@ type NavItem = {
 export const nav: NavItem[] = [
   {
     id: 1,
-    title: "Industries",
-    href: "",
+    title: "Audiences",
+    href: "/audience",
     subnavigation: [
-      {
-        title: "Automotive & Mobility",
-        href: "/industries/automotive-and-mobility/",
-      },
-      { title: "Consumer Goods & Retail", href: "/prod2" },
-      { title: "Energy", href: "/prod3" },
-      { title: "Financial Services", href: "/prod4" },
-      { title: "Health", href: "/prod5" },
-      { title: "Technology", href: "/prod6" },
-      { title: "Telecom", href: "/prod7" },
-      { title: "Travel & Tourism", href: "/prod8" },
+      // {
+      //   title: "Automotive & Mobility",
+      //   href: "/audience/automotive-and-mobility/",
+      // },
+      { title: "B2B audiences", href: "/audience/b2b" },
+      { title: "Investors & finance", href: "/audience/investors-finance" },
+      { title: "Leaders & experts", href: "/audience/leaders-experts" },
+      { title: "Healthcare & life sciences", href: "/audience/healthcare-life-sciences" },
+      { title: "Social & consumer", href: "/audience/social-consumer" },
+      { title: "Media & advertising", href: "/audience/media-advertising" },
     ],
     // leftBar: "Just some random text so we have different layouts.",
   },

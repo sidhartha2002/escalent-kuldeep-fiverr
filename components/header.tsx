@@ -187,7 +187,9 @@ export const Header = () => {
                         aria-expanded={activeSub === item.id}
                         aria-controls={`subnav-${item.id}`}
                       >
-                        {item.title}
+                        <a href={item.href} className={`${navLinkColor}`}>
+                          {item.title}
+                        </a>
                       </button>
                       <div
                         id={`subnav-${item.id}`}

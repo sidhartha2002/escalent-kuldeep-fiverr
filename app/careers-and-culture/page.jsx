@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import styles from "./careers-and-culture.css"; // Import CSS file
-// import { url } from "inspector";
 
 export default function Home() {
   return (
