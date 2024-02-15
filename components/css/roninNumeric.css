@@ -2216,7 +2216,7 @@ ul {
   gap: 24px;
   margin: 0 auto;
   max-width: 32.3125rem;
-  padding: 1.25rem 1rem 1.25rem 1rem;
+  padding: 2.25rem 1rem 2.5rem 1rem;
   position: relative;
   text-align: center;
 }
@@ -4590,7 +4590,7 @@ ul {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 517px;
-  padding: 1.25rem 1rem 1.25rem 1rem;
+  padding: 2.25rem 1rem 2.5rem 1rem;
   position: relative;
   width: 100%;
 }

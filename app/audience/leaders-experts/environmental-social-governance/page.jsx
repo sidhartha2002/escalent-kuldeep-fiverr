@@ -18,50 +18,48 @@ export default function Home() {
         </div>
         <div className="fma-heading">
           <div className="fma-breadcrumbs smcaps">LEADERS & EXPERTS</div>
-          <h1>C-suite and Non-executives</h1>
+          <h1>Environmental, social & governance</h1>
         </div>
       </div>
       <main id="maincontent" className="maincontent-blocks">
         <div className="intro-content block">
-          <h2 className="font-bold">C-suite and Non-executives</h2>
+          <h2 className="font-bold">Environmental, social & governance</h2>
           <div className="flex flex-col pt-5 text-left text-base">
-            Getting the attention of top-level executives in an organisation for
-            research can be quite a challenge. Due to the critical and
-            high-stakes nature of their positions, the C-suite and non-executive
-            audience usually has restricted availability and a sharp eye for
-            detail. Although it may be difficult to tap into their perspectives,
-            their feedback is incredibly valuable, providing a comprehensive
-            understanding of industry trends, organisational obstacles, and
-            strategic goals. When conducting research with this exclusive group,
-            it's crucial to be concise, captivating, and, most importantly,
-            pertinent. It is imperative that the discussions be customised to
-            suit their individual viewpoints, covering subjects that align with
-            their daily decision-making procedures and strategic orientation. By
-            presenting the research in a way that values their labour and
-            expertise, one can extract valuable insights that can redefine
-            entire organisations and industries.
+            To fully grasp the complex nature of Environmental, Social, and
+            Governance (ESG) issues, it is essential to conduct market research
+            with a wide variety of stakeholders, such as investors, regulators,
+            suppliers, consumers, workers, and civil society organisations. It
+            sheds light on the possibilities and threats associated with ESG and
+            sustainability from a strategic, operational, financial, and social
+            perspective. Organisations may use this data to their advantage by
+            creating well-rounded strategies to deal with ESG challenges,
+            incorporate sustainability into their operations, and meet the
+            demands of different stakeholders. In the end, thorough market
+            research on ESG subjects aids firms in improving their financial
+            performance, compliance with regulations, relationships with
+            stakeholders, and social impact, which adds to their sustainability
+            and success in the long run.
             <br />
             <br />
-            <div className="font-bold">Audiences</div>
+            <div className="font-bold">
+              Audiences - Sustainability - ESG issues
+            </div>
             <ul className="list-disc pl-4">
               <li>
-                Organisations that generate over $70 million in group revenue
-                are usually sizable and complex, with a wide range of job titles
-                and roles.
+                The following groups include: business leaders and board
+                members, environmental, social, and governance (ESG) experts,
+                investors, policymakers, academics, consumers, employees, and
+                trade groups. To fully grasp the many viewpoints, difficulties,
+                and possibilities connected to ESG and sustainability, it is
+                necessary to conduct interviews with a wide variety of
+                stakeholders.
               </li>
               <li>
-                When reaching out to these companies for research, partnership,
-                sales, or other business initiatives, it's essential to identify
-                the individuals who hold the power to make important decisions
-                and influence outcomes.
-              </li>
-              <li>
-                These are some of the job titles and audiences that we often
-                focus on in corporate entities: High-ranking executives and
-                board members, including chief financial officers, CEOs, chief
-                operating officers, CIOs, chief technology officers, CMOs,
-                CHROs, board chairmen, non-executive directors, compliance and
-                risk directors, and directors of ESG.
+                A wide variety of topics, such as business strategy and
+                governance, managing environmental effect, social impact,
+                investor relations, financial performance, innovation in
+                products and services, risk management, and compliance with
+                regulations and policy involvement.
               </li>
             </ul>
           </div>
@@ -74,29 +72,39 @@ export default function Home() {
         <section className="SectionSpotlight SectionSpotlight--flipped SectionSpotlight--blue">
           <div className="SectionSpotlight__col SectionSpotlight__col--text">
             <div className="SectionSpotlight__text">
-              <h2 className="CommonHeading">Board risk</h2>
+              <h2 className="CommonHeading">
+                ESG Research - Sustainability issues study
+              </h2>
               <p className="SectionSpotlight__description leading-relaxed">
-                Spanning across 9 markets in Asia, Europe, and America.
-                Conducting qualitative interviews with board directors,
-                independent board directors, and non-executive board directors
-                in large companies with over $70 million global revenue.
-                Supported by a renowned professional services company, the
-                project aimed to explore the connection between corporate
-                governance and enterprise risk management. Seeking to gain a
-                deeper understanding of the practices of board and non-exec
-                board members and gain valuable insights into how corporate
-                boards govern risk and opportunities, including their approach
-                to overseeing enterprise risk management.
+                An analysis of sustainability and ESG issues from the
+                perspectives of both businesses and consumers. Targeting
+                non-governmental organisations (NGOs), public and private sector
+                regulators, corporations, academics, media, and consulting firms
+                in the United States and across the world. Five hundred
+                interviews with members of the general population in the United
+                States and Canada, chosen based on demographics, media
+                consumption, and level of education.
               </p>
 
               <ul className="StatGrid">
                 <li className="StatGrid__item">
-                  <strong className="StatGrid__title">150</strong>
-                  depth interviews
+                  <strong className="StatGrid__title">500</strong>
+                  consumer interviews
                 </li>
                 <li className="StatGrid__item">
                   <strong className="StatGrid__title">30</strong>
-                  minute interviews
+                  opinion lead interviews
+                </li>
+                <li className="StatGrid__item">
+                  <strong className="StatGrid__title">Global</strong>
+                  NGO's and experts
+                </li>
+                <li className="StatGrid__item">
+                  <strong className="StatGrid__title">
+                    Digital recruitment
+                  </strong>
+                  of targeted experts and phone interviews with selected high
+                  media consuming consumers
                 </li>
               </ul>
               <br />
@@ -107,7 +115,7 @@ export default function Home() {
                   href="/case-studies/paint-purchasing-study"
                   className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
-                  Board risk
+                  ESG Research - Sustainability issues study
                 </a>
               </div>
             </div>
@@ -116,21 +124,21 @@ export default function Home() {
             <picture>
               {/* Source for screens with a minimum width of 1300px */}
               <source
-                srcSet="https://www.ronin.com/media/vxdcospm/istock-1022805556.jpg?width=950&height=717&quality=80"
+                srcSet="https://www.ronin.com/media/e0bio23c/esg-740.png?width=950&height=717&quality=80"
                 media="(min-width:1300px)"
                 width="950"
                 height="717"
               />
               {/* Source for screens with a minimum width of 980px */}
               <source
-                srcSet="https://www.ronin.com/media/vxdcospm/istock-1022805556.jpg?width=650&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/e0bio23c/esg-740.png?width=650&height=550&quality=80"
                 media="(min-width:980px)"
                 width="650"
                 height="550"
               />
               {/* Source for screens with a minimum width of 740px */}
               <source
-                srcSet="https://www.ronin.com/media/vxdcospm/istock-1022805556.jpg?width=980&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/e0bio23c/esg-740.png?width=980&height=550&quality=80"
                 media="(min-width:740px)"
                 width="980"
                 height="550"
@@ -139,7 +147,7 @@ export default function Home() {
               <img
                 className="SectionSpotlight__img"
                 alt=""
-                src="https://www.ronin.com/media/vxdcospm/istock-1022805556.jpg?width=740&height=650&quality=80"
+                src="https://www.ronin.com/media/asolj4uz/opinion-formers-740.png?width=740&height=650&quality=80"
                 width="740"
                 height="650"
                 decoding="async"
@@ -162,159 +170,225 @@ export default function Home() {
               <h2 className="ctaband-heading"> </h2>
               <div>
                 <div className="mt-5 text-base">
-                  Given their strategic positions, extensive knowledge, and
-                  restricted availability, engaging a senior audience from huge
-                  corporate organisations demands a unique strategy. When it
-                  comes to their strategic emphasis and high-level
-                  decision-making processes, the sort of research and themes of
-                  conversation that they do should be congruent with each other.
-                  <br />
-                  <br />
-                  The following categories of research and their corresponding
-                  subjects are most appropriate for this audience:
+                  Interviewing the diverse range of stakeholders mentioned
+                  earlier will enable you to cover a broad spectrum of topics
+                  and themes related to ESG (Environmental, Social, Governance)
+                  topics:
                   <br />
                   <br />
                   {/*  */}
-                  <div className="font-bold">Strategic interviews:</div>
+                  <div className="font-bold">
+                    Corporate Strategy and Governance:
+                  </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Vision, purpose, long-term strategic objectives, industry
-                      trends and projections, competitive landscape, prospective
-                      mergers and purchases, and economic factors affecting the
-                      organisation.
+                      Incorporating Environmental, Social, and Governance (ESG)
+                      factors into corporate strategy and decision-making
+                      processes.
+                    </li>
+                    <li>
+                      Enhancing board oversight and governance structures to
+                      ensure effective management of ESG risks and
+                      opportunities.
+                    </li>
+                    <li>
+                      Linking executive compensation to ESG performance to align
+                      incentives with long-term sustainable value creation.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Brand perception & Equity studies:
+                    Environmental Impact and Management:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Analysing the position of the brand in the market,
-                      evaluating advertise strengths and weaknesses, identifying
-                      areas of improvement, and assessing brand image in
-                      relation to competitors.
+                      Assessing and reducing the company's carbon footprint
+                      through emissions reduction initiatives and renewable
+                      energy adoption.
+                    </li>
+                    <li>
+                      Managing water usage, implementing waste management
+                      strategies, and promoting recycling efforts to minimize
+                      environmental impact.
+                    </li>
+                    <li>
+                      Promoting supply chain sustainability and responsible
+                      sourcing practices to address environmental concerns
+                      throughout the value chain.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Product/Service concept testing:
+                    Social Impact and Responsibility:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Deliver feedback on the new product/service concepts,
-                      evaluate their potential market acceptance, identify any
-                      areas of concern or enhancement, and assess how they align
-                      strategically with the company's portfolio.
+                      Prioritizing employee welfare, fostering diversity and
+                      inclusion, and upholding fair labor practices within the
+                      organization.
                     </li>
-                  </ul>
-                  <br />
-                  <br />
-                  <div className="font-bold">Crisis management research:</div>
-                  <ul className="list-disc pl-4">
                     <li>
-                      Managing PR crises, firm reputation, communication, and
-                      learning from prior disasters.
+                      Engaging with local communities and stakeholders to
+                      understand their needs and concerns and contribute
+                      positively to social development.
+                    </li>
+                    <li>
+                      Ensuring respect for human rights and promoting ethical
+                      labor practices across the supply chain to mitigate social
+                      risks and promote responsible business conduct.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Competitive analysis interviews:
+                    Investor Relations and Financial Performance:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Analysis of main rivals, the company's competitive
-                      advantage, and market risks and opportunities.
+                      Understanding the ESG criteria used by investors for
+                      making investment decisions.
+                    </li>
+                    <li>
+                      Evaluating the impact of ESG performance on financial
+                      performance and shareholder value.
+                    </li>
+                    <li>
+                      Ensuring transparent disclosure and reporting of ESG
+                      metrics and performance to investors.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Stakeholder & Investor relations research:
+                    Regulatory Compliance and Policy Engagement:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Investor concerns, the financial performance of the
-                      company, its growth strategies, and its prospective
-                      investment approaches.
+                      Ensuring compliance with existing ESG-related regulations
+                      and standards.
+                    </li>
+                    <li>
+                      Engaging with policymakers and regulators on ESG-related
+                      issues to influence policy development.
+                    </li>
+                    <li>
+                      Anticipating and preparing for upcoming regulatory changes
+                      to stay ahead of compliance requirements.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Organisational structure & Culture studies:
+                    Product and Service Innovation:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Organisational health, culture, leadership, employee
-                      engagement, and restructuring opportunities.
+                      Driving innovation in the development of sustainable
+                      products and services to meet evolving customer demands.
                     </li>
-                  </ul>
-                  <br />
-                  <br />
-                  <div className="font-bold">Risk assessment interviews:</div>
-                  <ul className="list-disc pl-4">
                     <li>
-                      Risk identification, management, and contingency planning
-                      for company.
+                      Assessing customer demand for sustainable products and
+                      services and incorporating sustainability into product
+                      design and development.
+                    </li>
+                    <li>
+                      Conducting life cycle assessments of products and services
+                      to identify opportunities for improvement and minimize
+                      environmental impact.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Innovation & Technology trend discussions:
+                    Stakeholder Engagement and Communication:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Future technological developments, corporate integration
-                      of new technologies, and technology adoption issues.
+                      Engaging with various stakeholders, including investors,
+                      customers, employees, and communities, on ESG issues.
+                    </li>
+                    <li>
+                      Communicating transparently and effectively about ESG
+                      performance and initiatives through various channels.
+                    </li>
+                    <li>
+                      Listening to stakeholder feedback and concerns and
+                      incorporating them into decision-making processes to
+                      enhance accountability and trust.
+                    </li>
+                  </ul>
+                  <br />
+                  <br />
+                  <div className="font-bold">Risk Management:</div>
+                  <ul className="list-disc pl-4">
+                    <li>
+                      Identifying and assessing ESG-related risks that may
+                      impact the business.
+                    </li>
+                    <li>
+                      Integrating ESG risks into the overall risk management
+                      strategy to ensure comprehensive risk mitigation.
+                    </li>
+                    <li>
+                      Developing mitigation strategies for addressing
+                      ESG-related risks and enhancing resilience.
+                    </li>
+                  </ul>
+                  <br />
+                  <br />
+                  <div className="font-bold">Supply Chain Management:</div>
+                  <ul className="list-disc pl-4">
+                    <li>
+                      Assessing suppliers for compliance with ESG standards and
+                      monitoring their performance over time.
+                    </li>
+                    <li>
+                      Promoting supply chain transparency and traceability to
+                      ensure ethical and sustainable practices throughout the
+                      supply chain.
+                    </li>
+                    <li>
+                      Collaborating with suppliers to implement and promote
+                      sustainable practices, such as reducing emissions and
+                      minimizing waste.
                     </li>
                   </ul>
                   <br />
                   <br />
                   <div className="font-bold">
-                    Regulatory & Compliance surveys:
+                    Employee Engagement and Development:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Understanding regulatory issues, compliance, government
-                      policy input, and strategy alterations owing to regulatory
-                      changes.
+                      Providing training and development opportunities for
+                      employees on ESG-related topics to enhance awareness and
+                      understanding.
+                    </li>
+                    <li>
+                      Encouraging employee engagement and participation in
+                      sustainability initiatives to foster a culture of
+                      environmental and social responsibility.
+                    </li>
+                    <li>
+                      Promoting diversity and inclusion in the workplace to
+                      ensure a supportive and inclusive work environment for all
+                      employees.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  <div className="font-bold">
-                    Supply chain & Operations reviews:
-                  </div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Evaluation of supply chain efficiency, improvements,
-                      operational issues, and worldwide procurement and
-                      distribution strategies.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  <div className="font-bold">
-                    Mergers & Acquisitions feedback:
-                  </div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Assessing acquisition candidates, merger feedback, and
-                      integration methods.
-                    </li>
-                    <li>
-                      Approaching this older audience should be straightforward,
-                      appreciative regarding their time, and well-prepared. The
-                      conversations should be based on well-researched facts and
-                      enable these leaders to share their knowledge and
-                      high-level viewpoint.{" "}
-                    </li>
-                  </ul>
+                  <p>
+                    If you want to learn all there is to know about
+                    environmental, social, and governance (ESG) concerns and how
+                    to incorporate sustainability into your company's
+                    operations, then you need to study up on these subjects and
+                    themes. You may better meet the expectations of investors,
+                    regulators, consumers, workers, and society at large by
+                    attending to these issues, which will also assist in
+                    harmonising your company policies.
+                  </p>
                   <br />
                   <br />
                   {/*  */}
