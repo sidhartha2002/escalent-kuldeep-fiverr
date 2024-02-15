@@ -1,9 +1,9 @@
 import styles from "./audience.css"; // Import CSS file
-
+import "./roninNumeric.css"; // Import CSS file
 export default function Home() {
   return (
     <div
-      className="industries-template industries-template-expertise2022 industries-template-expertise2022-php single single-industries postid-4847 deluxe deluxe-teal"
+      className="industries-template industries-template-expertise2022 industries-template-expertise2022-php single single-industries postid-4847 deluxe deluxe-teal mt-10"
       data-title="Managing Product Complexity"
     >
       <div className="fma fma-A">
@@ -221,11 +221,13 @@ export default function Home() {
           </div>
         </div>
 
+        {/* (Optional to just check for client) */}
         <div className="ctaband block">
           <div className="ctaband-wrapper">
             <div className="ctaband-content">
               <h2 className="ctaband-heading">
-                What is the best way to engage with your audience?
+                What is the best way to engage with your audience? (Optional for
+                client to check)
               </h2>
               <div>
                 <p className="mt-5 text-base">
@@ -248,6 +250,81 @@ export default function Home() {
           </div>
         </div>
 
+        {/*  */}
+
+        {/*  */}
+        {/*  */}
+        <section className="SectionSpotlight SectionSpotlight--flipped SectionSpotlight--blue">
+          <div className="SectionSpotlight__col SectionSpotlight__col--text">
+            <div className="SectionSpotlight__text">
+              <h2 className="CommonHeading">
+                What is the best way to engage with your audience?
+              </h2>
+              <p className="SectionSpotlight__description leading-relaxed">
+                In order to connect with these elusive HEALTHCARE & LIFE
+                SCIENCES, Audience Match employs its tried-and-true
+                methodologies for effective interaction. With our strategic
+                approach and targeted platforms, we guarantee that your research
+                will effectively reach its intended audience. Our engagement
+                methods are tailored to match the unique preferences of every
+                industry, resulting in powerful and effective interactions
+              </p>
+
+              <br />
+              <br />
+
+              <div className="">
+                <a
+                  href="/case-studies/paint-purchasing-study"
+                  className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
+                >
+                  START YOUR PROJECT TODAY
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="SectionSpotlight__col SectionSpotlight__col--image">
+            <picture>
+              {/* Source for screens with a minimum width of 1300px */}
+              <source
+                srcSet="/images/healthcare.jpg?width=950&height=717&quality=80"
+                media="(min-width:1300px)"
+                width="950"
+                height="717"
+              />
+              {/* Source for screens with a minimum width of 980px */}
+              <source
+                srcSet="/images/healthcare.jpg?width=650&height=550&quality=80"
+                media="(min-width:980px)"
+                width="650"
+                height="550"
+              />
+              {/* Source for screens with a minimum width of 740px */}
+              <source
+                srcSet="/images/healthcare.jpg?width=980&height=550&quality=80"
+                media="(min-width:740px)"
+                width="980"
+                height="550"
+              />
+              {/* Fallback image for other screens */}
+              <img
+                className="SectionSpotlight__img"
+                alt=""
+                src="https://www.ronin.com/media/asolj4uz/opinion-formers-740.png?width=740&height=650&quality=80"
+                width="740"
+                height="650"
+                decoding="async"
+                loading="lazy"
+                style={{
+                  backgroundSize: "cover",
+                  backgroundImage:
+                    "url('data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cfilter id='a' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='9'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23a)' height='100%25' width='100%25' preserveAspectRatio='xMidYMid slice' xlink:href='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAAUABgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOwsrG2vrySK6iEzJEp3vgnn69OtaH/CPaX/AM+sf/fI/wAKz7Kxtr68kiuohMyRKd74J5+vTrWh/wAI9pf/AD6x/wDfI/wp0dKcVtoRJXk3vqz/2Q=='",
+                }}
+              />
+            </picture>
+          </div>
+        </section>
+        {/*  */}
         {/*  */}
       </main>
 
