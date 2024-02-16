@@ -17,7 +17,9 @@ export default function Home() {
           />
         </div>
         <div className="fma-heading">
-          <div className="fma-breadcrumbs smcaps">B2B audiences</div>
+          <div className="fma-breadcrumbs smcaps">
+            HEALTHCARE & LIFE SCIENCES
+          </div>
           <h1>Healthcare professionals</h1>
         </div>
       </div>
@@ -99,40 +101,42 @@ export default function Home() {
                   within a very defined universe
                 </li>
                 <li className="StatGrid__item">
-                  <strong className="StatGrid__title">SIC code</strong> based
-                  company selection, with phone, online and digital screening
+                  <strong className="StatGrid__title">
+                    In house recruitment
+                  </strong>
+                  and use of extensive local network for maximum coverage
                 </li>
               </ul>
 
-              <div className="">
+              {/* <div className="">
                 <a
                   href="/case-studies/paint-purchasing-study"
                   className=" bg-white px-5  py-4 font-bold text-[#530095] hover:bg-black"
                 >
                   Fast food outlets tracking study
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="SectionSpotlight__col SectionSpotlight__col--image">
             <picture>
               {/* Source for screens with a minimum width of 1300px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=950&height=717&quality=80"
+                srcSet="https://www.ronin.com/media/smkaaekf/global-neurology-programme-case-study.jpg?width=950&height=717&quality=80"
                 media="(min-width:1300px)"
                 width="950"
                 height="717"
               />
               {/* Source for screens with a minimum width of 980px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=650&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/smkaaekf/global-neurology-programme-case-study.jpg?width=650&height=550&quality=80"
                 media="(min-width:980px)"
                 width="650"
                 height="550"
               />
               {/* Source for screens with a minimum width of 740px */}
               <source
-                srcSet="https://www.ronin.com/media/ixspqitv/1c32f752-9fbc-4d10-bb0d-463820aa3243.jpg?width=980&height=550&quality=80"
+                srcSet="https://www.ronin.com/media/smkaaekf/global-neurology-programme-case-study.jpg?width=980&height=550&quality=80"
                 media="(min-width:740px)"
                 width="980"
                 height="550"
@@ -164,272 +168,199 @@ export default function Home() {
               <h2 className="ctaband-heading"> </h2>
               <div>
                 <div className="mt-5 text-base">
-                  An intriguing brand equity exercise that delves into the
-                  realms of brand loyalty, brand awareness, brand associations,
-                  and perceived quality, all of which contribute immense value
-                  to a company in various ways. Once a brand recognises the
-                  importance of brand equity, it can follow this roadmap to
-                  create and oversee that potential value. Conducted on behalf
-                  of a polymer business across various industrial sectors in 25
-                  markets. Interviews were conducted with a wide range of
-                  stakeholders, including OEMs, manufacturers, fabricators,
-                  builders, installers, distributors, planners, architects,
-                  municipalities, and decision makers involved in purchasing,
-                  technical specifications, and procurement.
+                  Several types of routine research involving medical experts
+                  and specialists are possible:
                   <br />
                   <br />
-                  We constantly undertake market research with construction and
-                  industry specialists on several specific topics:
-                  <br />
-                  <br />
-                  <div className="font-bold">Market dynamics & trends:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Examining the worldwide and local demand for particular
-                      industrial products or services.
-                    </li>
-                    <li>
-                      Keeping up with the latest industrial trends, such as
-                      Industry 4.0, smart manufacturing, or the integration of
-                      AI in operations.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Technological innovations */}
-                  <div className="font-bold">Technological innovations:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Embracing and appreciating the latest technologies,
-                      machinery, and software.
-                    </li>
-                    <li>
-                      Delving into the exciting realm of automation, IoT, and
-                      digital twins.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Supply chain management & Optimisation */}
                   <div className="font-bold">
-                    Supply chain management & Optimisation:
+                    Product Evaluation and Feedback:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing obstacles and remedies in the procurement,
-                      manufacturing, and distribution of basic materials.
+                      Assessing the effectiveness, usability, and safety of
+                      pharmaceuticals, medical devices, healthcare IT systems,
+                      and other healthcare products.
                     </li>
                     <li>
-                      The influence of occurrences such as pandemics and
-                      geopolitical tensions on the resilience of supply chains,
-                      as well as mitigation strategies.
+                      Providing feedback on product design, user-friendliness,
+                      and areas for improvement to enhance patient outcomes and
+                      user experience.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Operational efficiency */}
-                  <div className="font-bold">Operational efficiency:</div>
+                  <div className="font-bold">Market Assessment and Trends:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Identifying tools and best practices for optimizing
-                      processes and minimizing waste.
+                      Understanding market dynamics, including demand for
+                      specific services, products, and technologies, prescribing
+                      trends, and adoption of new treatments and technologies.
                     </li>
                     <li>
-                      Assessing the efficacy of lean manufacturing and Six Sigma
-                      implementation.
+                      Analyzing market trends to identify opportunities for
+                      innovation, expansion, or strategic partnerships in the
+                      healthcare sector.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Environmental & Sustainability concerns */}
                   <div className="font-bold">
-                    Environmental & Sustainability concerns:
+                    Clinical Practice and Guidelines:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Investigating approaches to sustainability and circular
-                      economy practices within the industry.
+                      Researching current standards of care, adherence to
+                      clinical guidelines, and barriers to implementing best
+                      practices in clinical settings.
                     </li>
                     <li>
-                      Investigating the demand on the market for sustainable or
-                      environmentally favorable industrial processes and
-                      products.
+                      Identifying opportunities to improve patient outcomes and
+                      healthcare quality through evidence-based practice and
+                      adherence to clinical guidelines.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Regulatory & Compliance landscape */}
                   <div className="font-bold">
-                    Regulatory & Compliance landscape:
+                    Healthcare Delivery and Operations:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Evaluating the impact of industry-specific regulations and
-                      standards.
+                      Understanding operational challenges faced by healthcare
+                      providers, including workflow efficiency, resource
+                      allocation, and patient management.
                     </li>
                     <li>
-                      Examining the influence and readiness for evolving
-                      regulatory landscapes, particularly in regard to
-                      environmental and safety protocols.
+                      Developing strategies to optimize healthcare delivery and
+                      operations, improve patient flow, and enhance overall
+                      efficiency and effectiveness of care delivery.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Product development & innovation */}
                   <div className="font-bold">
-                    Product development & innovation:
+                    Regulatory and Reimbursement Landscape:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Identifying the requirements and areas for improvement in
-                      existing product offerings.
+                      Assessing the impact of regulatory changes, reimbursement
+                      policies, and healthcare reforms on clinical practice and
+                      healthcare delivery.
                     </li>
                     <li>
-                      Exploring the potential for new product lines or
-                      diversifying our offerings.
+                      Adapting to evolving regulatory requirements and
+                      reimbursement models to ensure compliance and financial
+                      sustainability.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Labour & Workforce */}
-                  <div className="font-bold">Labour & Workforce:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Issues concerning the acquisition, training, and retention
-                      of talent.
-                    </li>
-                    <li>
-                      The importance of acquiring new skills and enhancing
-                      existing ones in response to automation and technological
-                      progress.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Financial health & Investment */}
                   <div className="font-bold">
-                    Financial health & Investment:
+                    Patient Satisfaction and Experience:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing various financing options and investment
-                      opportunities.
+                      Understanding the patient's perspective on the quality of
+                      care, satisfaction with healthcare services, and barriers
+                      to accessing healthcare.
                     </li>
                     <li>
-                      Mastering investment patterns, budgeting, and financial
-                      strategies in the industrial sector.
+                      Gathering feedback to improve patient experience, address
+                      unmet needs, and enhance patient engagement and
+                      satisfaction.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Customer preferences & engagement */}
                   <div className="font-bold">
-                    Customer preferences & engagement:
+                    Health Economics and Outcomes Research (HEOR):
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      The purchasing patterns, loyalty, and decision-making
-                      processes of B2B clients.
+                      Conducting research on the economic impact of healthcare
+                      interventions, including cost-effectiveness analyses and
+                      studies on the quality of life and outcomes associated
+                      with different treatments.
                     </li>
                     <li>
-                      Evaluating the efficacy of marketing and sales strategies
-                      in attracting and retaining industrial customers.
+                      Analyzing real-world data to evaluate the effectiveness
+                      and value of healthcare interventions in improving patient
+                      outcomes and reducing healthcare costs.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Sales channels & distribution */}
                   <div className="font-bold">
-                    Sales channels & distribution:
+                    Technology Adoption and Digital Health:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing the effectiveness of existing sales channels and
-                      considering new possibilities.
+                      Assessing the adoption of digital health technologies,
+                      including electronic health records, telemedicine, and
+                      wearable devices, and evaluating their impact on
+                      healthcare delivery and patient outcomes.
                     </li>
                     <li>
-                      Examining the impact of online shopping and online
-                      platforms on B2B sales.
+                      Identifying barriers to the implementation of digital
+                      health solutions and developing strategies to overcome
+                      these barriers to promote technology adoption and
+                      integration.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Risk management */}
-                  <div className="font-bold">Risk management:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Locating weak points in supply networks, operations, and
-                      geopolitical situations.
-                    </li>
-                    <li>
-                      Exploring strategies and tools for predicting, assessing,
-                      and mitigating risks.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Competitive landscape & positioning */}
                   <div className="font-bold">
-                    Competitive landscape & positioning:
+                    Public Health and Population Health:
                   </div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Examination of market share, industry rivalry, and
-                      differentiation tactics.
+                      Conducting research on population health trends,
+                      healthcare access, health disparities, and the
+                      effectiveness of public health interventions in improving
+                      health outcomes at the community and population levels.
                     </li>
                     <li>
-                      Investigating options for acquisitions, mergers, and
-                      strategic alliances.
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  {/* Branding & Marketing */}
-                  <div className="font-bold">Branding & Marketing:</div>
-                  <ul className="list-disc pl-4">
-                    <li>
-                      Improving brand image and equity in the B2B industrial
-                      market.
-                    </li>
-                    <li>
-                      Evaluating the success of various marketing channels and
-                      strategies, such as trade exhibitions, internet marketing,
-                      and print media.
+                      Collaborating with public health agencies and community
+                      organizations to address health disparities and promote
+                      health equity through targeted interventions and policy
+                      initiatives.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Globalisation & Localisation Strategies */}
-                  <div className="font-bold">
-                    Globalisation & Localisation Strategies:
-                  </div>
+                  <div className="font-bold">Educational Needs Assessment:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Examining the potential and difficulties of worldwide
-                      expansion.
+                      Conducting assessments to identify the educational needs
+                      of healthcare professionals, including physicians, nurses,
+                      and allied health professionals, to inform the development
+                      of continuing education programs and resources.
                     </li>
                     <li>
-                      Considering the advantages of specialized manufacturing
-                      and service centers.
+                      Gathering feedback on knowledge gaps, preferred formats
+                      for education, and barriers to accessing and participating
+                      in continuing education activities.
                     </li>
                   </ul>
                   <br />
                   <br />
-                  {/* Digital transformation & Industry 4.0 */}
-                  <div className="font-bold">
-                    Digital transformation & Industry 4.0:
-                  </div>
+                  <div className="font-bold">Competitive Analysis:</div>
                   <ul className="list-disc pl-4">
                     <li>
-                      Assessing the readiness and difficulties of incorporating
-                      modern digital technology into industrial processes.
+                      Conducting competitive analysis to assess the strengths
+                      and weaknesses of competing products and services in the
+                      healthcare market.
                     </li>
                     <li>
-                      Given the large scope of the manufacturing industry,
-                      individual themes may differ depending on various
-                      divisions. However, the topics indicated above provide a
-                      complete overview of prospective study fields for
-                      industrial organizations and associated legislators.
+                      Identifying unmet needs and market opportunities to inform
+                      strategic planning and product development initiatives.
+                    </li>
+                    <li>
+                      To keep up with the ever-changing healthcare environment,
+                      make educated judgements, and enhance their goods and
+                      services consistently, healthcare organisations,
+                      pharmaceutical firms, medical device makers, and other
+                      stakeholders regularly do research in these areas.{" "}
                     </li>
                   </ul>
                   <br />
