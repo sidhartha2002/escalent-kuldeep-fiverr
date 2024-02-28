@@ -14,18 +14,16 @@ export default function Home() {
         <div class="row container mx-auto px-0 text-left">
           <div class="CoverHeader__contain col-12 col-lg-6  pl-3">
             <h4 class="CoverHeader__subtitle col-lg-11 px-0">
-              SOCIAL SAMPLING
+              WEBCAM INTERVIEWS
             </h4>
             <h1 class="CoverHeader__title  col-lg-11 px-0">
-              Rapid Insights, Every Time:
+              Market Research Augmented with Webcam-based interviews
             </h1>
 
             <div class="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
               <p>
-                Locate and interview a consistently responsive sample, ensuring
-                lightning-fast feedback, even against the odds. Finding and
-                interviewing a new and responsive sample in a short period of
-                time is possible regardless of the incidence rate.
+                Interview your respondents while looking them in the eyes, break
+                down physical barriers to get deeper data.
               </p>
             </div>
 
@@ -77,25 +75,24 @@ export default function Home() {
           </div>
           <div class="col-12 col-lg-6 offset-lg-1  px-0">
             <h2 class="AlternativeBlocks__title">
-              Identify potential respondents
+              Online video chats for both qualitative and quantitative studies
             </h2>
 
             <div class="AlternativeBlocks__descr py-3 pb-4 ">
               <p>
-                Social sampling yields excellent results when you are seeking a
-                highly targeted audience, when you need to interview a profiled
-                audience **with a low percentage of incidence rate**, or when
-                you need to interview a large audience and collect data
-                efficiently in a short amount of time.
+                There is a 12-person workstation in the Focus Room in the
+                Italian FFIND headquarters, and there is also a viewing room
+                nearby. <strong>Quantitative research is our speciality</strong>
+                , and we have been conducting video interviews for this purpose
+                for quite some time, even before the advent of lockdowns.
               </p>
               <br />
               <p>
-                Our ability to **get surveyed respondents** for the surveys
-                utilising inbound approaches on social networks has allowed us
-                to boast for years that we can locate (im)possible respondents.
-                To take things to the next level, you'll need a depth sounder
-                and deep diving skills if you want to find a needle amid a sea
-                of trash.
+                Since the video interview allows for the analysis of mimics,
+                <strong>tone of voice, and behaviour of the respondents</strong>
+                , the research goes from quantitative to quantitative 2.0.
+                Neuromarketing analysis for sentiment analysis may thereafter be
+                applied to the video content.
               </p>
             </div>
           </div>
@@ -111,24 +108,26 @@ export default function Home() {
           </div>
           <div class="col-12 col-lg-6   px-0">
             <h2 class="AlternativeBlocks__title">
-              How to get respondents in 4 steps
+              The steps of conducting interviews using webcam
             </h2>
 
             <div class="AlternativeBlocks__descr py-3 pb-4">
               <p>
-                <strong>1. Identifying the objective</strong>
+                <strong>1. Social sampling or sampling</strong>
                 <br />
-                The research institution specifies a target audience, and our
-                PMs and SMMs assess and characterise that audience accordingly.
+                We validate screening criteria and plan a day and time to do the
+                video interview by conducting a quick survey with the
+                responders.
               </p>
               <br />
               <p>
-                <strong>2. Social Network Selection</strong>
+                <strong>
+                  2. double-check everything before the video call.
+                </strong>
                 <br />
-                Social media marketers choose the platform (e.g., Facebook,
-                Twitter, TikTok, etc.) where their target demographic spends the
-                most time. For business-to-business interactions, LinkedIn is
-                superior than Facebook.
+                One of our employees calls the responder a few days before to
+                the interview to confirm the time and make sure they are
+                prepared.
               </p>
               <br />
               <p>
@@ -140,20 +139,19 @@ export default function Home() {
               </p>
               <br />
               <p>
-                <strong>3. Methodology Selection</strong>
+                <strong>3. Get ready for the set and the action!</strong>
                 <br />
-                The respondent may be brought into the web-based questionnaire
-                immediately (Social to CAWI) or their contact information can be
-                collected to do an interview by CATI, webcam, or VAI Research.
+                We go through a brief warmup and soundcheck with our
+                interviewees.
               </p>
               <br />
               <p>
-                <strong>4. advertising on social media</strong>
+                <strong>4. Editing</strong>
                 <br />
-                Only users who interact with our social media ads based on their
-                interests, demographics, and past actions will see them. In
-                order to participate in the interview, participants must first
-                access the survey or landing page.
+                Following data gathering, we supply the research institution
+                with a condensed version that highlights the most important
+                aspects so that they may present a high-quality film to their
+                customer.
               </p>
             </div>
           </div>
@@ -172,33 +170,29 @@ export default function Home() {
             src="https://ffind.com/app/uploads/2021/07/social_sampling.svg"
           />
           <h2 class="CenterTitleText__title mx-auto">
-            The Benefits of Social Sampling
+            The Benefits of Interviews Conducted Through Webcam
           </h2>
 
           <div class="CenterTitleText__descr col-12 col-lg-10 mx-auto">
             <li>
-              Compared to other quantitative approaches, the survey's 4-5%
-              dropout rate is much lower.
+              These days, people all around the globe utilise video calls on a
+              regular basis.
             </li>
-
             <li>
-              The interview is conducted in real-time, allowing the supervisor
-              to closely observe and adjust the results of the data collecting.
+              Recruiting of respondents is done in strict accordance with the
+              target analysis's criteria.
             </li>
-
             <li>
-              It is the best approach for doing business-to-business and
-              business-to-consumer market research globally.
+              There are new possibilities for both conventional qualitative
+              research and quantitative investigations that use video.
             </li>
-
             <li>
-              The interviewer leads the interviewee through the questions on the
-              survey.
+              The research benefits from the respondents' active participation
+              and the depth of information they often supply.
             </li>
-
             <li>
-              This approach permits end-to-end monitoring to the greatest extent
-              possible.
+              Participants are able to physically examine the product, which is
+              an advantage of conducting product testing at a distance.
             </li>
           </div>
         </div>
