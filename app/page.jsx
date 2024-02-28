@@ -13,10 +13,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <>
-      <div
-        className="home page-template page-template-page-templates page-template-page-blocks page-template-page-templatespage-blocks-php page page-id-101 wp-embed-responsive group-blog"
-        itemscope=""
-      >
+      <div className="home page-template page-template-page-templates page-template-page-blocks page-template-page-templatespage-blocks-php page page-id-101 wp-embed-responsive group-blog">
         <div className="site" id="page">
           <main className="main">
             <div className="page page--new page--no-image">
@@ -81,7 +78,32 @@ export default function Home() {
                       <br />
                       <br />
                       <br />
-                      <ul className="ListButton WhiteAndOutline no-gutters col-12 flex gap-7 px-0">
+
+                      <div className="flex scale-90 gap-7 md:ml-5 md:scale-100">
+                        <a
+                          href="#_"
+                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                        >
+                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                            Contact
+                          </span>
+                        </a>
+                        <a
+                          href="#_"
+                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                        >
+                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                            Ask a quote
+                          </span>
+                        </a>
+                      </div>
+                      {/* <ul className="ListButton WhiteAndOutline no-gutters col-12 flex gap-7 px-0">
                         <div className="">
                           <a
                             href="/case-studies/paint-purchasing-study"
@@ -98,7 +120,7 @@ export default function Home() {
                             Ask to a quote
                           </a>
                         </div>
-                      </ul>
+                      </ul> */}
                     </div>
 
                     <div className="Image__inpage col-lg-6">
@@ -182,12 +204,17 @@ export default function Home() {
                               </p>
                             </div>
                             <div>
-                              <div className="mt-16">
+                              <div className="mt-8">
                                 <a
                                   href="/methods/social-sampling"
-                                  className=" border-2 bg-white px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  Social Sampling
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Social Sampling
+                                  </span>
                                 </a>
                               </div>
                             </div>
@@ -222,9 +249,14 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/telephone-research-CATI"
-                                  className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  Telephone research CATI
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Telephone research CATI
+                                  </span>
                                 </a>
                               </div>
                             </div>
@@ -261,9 +293,14 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/online-research-CAWI"
-                                  className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  Online research CAWI
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Online research CAWI
+                                  </span>
                                 </a>
                               </div>
                             </div>
@@ -297,9 +334,14 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/interviews-with-video-call"
-                                  className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  Interviews with video call
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Interviews with video call
+                                  </span>
                                 </a>
                               </div>
                             </div>
@@ -313,14 +355,6 @@ export default function Home() {
             </div>
           </main>
 
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
-          {/*  */}
           {/*  */}
           {/*  */}
           {/*  */}
