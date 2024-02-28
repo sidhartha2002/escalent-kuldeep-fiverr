@@ -66,8 +66,10 @@
   font-size: 25px;
   line-height: 30px;
   margin: 20px 0;
-  border-bottom: 4px solid #ffb607;
+  border-bottom: 4px solid #64ffda;
   max-width: 260px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
 }
 
 @media (min-width: 992px) {
@@ -2835,6 +2837,7 @@
 }
 
 .CoverHeader__title {
+  font-weight: bold;
   font-size: 30px;
   line-height: 35px;
   margin-top: 20px;
@@ -2868,6 +2871,8 @@
 .CoverHeader__descr {
   font-size: 16px;
   line-height: 20px;
+  letter-spacing: 0.05em;
+  color: rgb(144, 203, 255);
 }
 
 @media (min-width: 992px) {
@@ -3791,4 +3796,134 @@
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
+}
+
+/*  */
+.Career**content**title,
+.CarouselPartner**title,
+.CenterTitleText**title,
+.CoverBlog**title,
+.JobTextButton**title,
+.ListsJobUs**title,
+.OurFounder**title,
+.OurNews**title,
+.ThankPage**title,
+.TitlePage\_\_title,
+.title {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media (min-width: 992px) {
+  .Career**content**title,
+  .CarouselPartner**title,
+  .CenterTitleText**title,
+  .CoverBlog**title,
+  .JobTextButton**title,
+  .ListsJobUs**title,
+  .OurFounder**title,
+  .OurNews**title,
+  .ThankPage**title,
+  .TitlePage\_\_title,
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.CenterTitleText\_\_img {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.CenterTitleText\_\_title {
+  margin: 20px 0;
+  display: inline-block;
+  border-bottom: 4px solid #530095;
+}
+
+.CenterTitleText\_\_subtitle {
+  color: #707070;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.CenterTitleText\_\_descr {
+  color: #707070;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.AlternativeBlocks\_\_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+  -moz-box-orient: vertical;
+  -moz-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 992px) {
+  .AlternativeBlocks\_\_wrapper--odd {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.AlternativeBlocks\_\_wrapper--odd img {
+  position: relative;
+  right: 30px;
+}
+
+@media (min-width: 992px) {
+  .AlternativeBlocks\_\_wrapper--even {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+.AlternativeBlocks\_\_title {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 20px 0;
+  border-bottom: 4px solid #530095;
+  max-width: 420px;
+  color: #530095;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .AlternativeBlocks\_\_title {
+    margin: 0 0 20px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.AlternativeBlocks\_\_descr {
+  color: #ffffff;
+  letter-spacing: 0.025em;
 }
