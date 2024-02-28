@@ -152,10 +152,10 @@ export default function Home() {
                   Here are some example topics and themes:
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Software Development & Programming
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Programming Languages: Their popularity, convenience of
                       use, and current trends.
@@ -171,8 +171,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Cloud Computing & Infrastructure</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">
+                    Cloud Computing & Infrastructure
+                  </div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Cloud Service Providers: An evaluation of the major cloud
                       platforms and their respective preferences.
@@ -188,8 +190,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Cybersecurity</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">Cybersecurity</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Understanding emerging cybersecurity threats and
                       weaknesses.
@@ -205,10 +207,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Artificial Intelligence & Machine Learning
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       AI Structures and Equipment: Status, Obstacles, and
                       Advancements.
@@ -224,8 +226,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">IT Management & Strategy</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">IT Management & Strategy</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Digital Transformation: Obstacles, Opportunities, and
                       Excellence in Practice.
@@ -241,8 +243,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Hardware & Devices</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">Hardware & Devices</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Upcoming Hardware Innovations: An assessment of new
                       technologies such as supercomputers and virtual and
@@ -259,8 +261,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Networking & Communication</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">Networking & Communication</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       5G Execution: Challenges, Opportunities, and Market
                       Penetration.
@@ -276,10 +278,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Blockchain and Distributed Systems:
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Beyond digital currency, blockchain has uses in a variety
                       of sectors.

@@ -10,43 +10,43 @@ export default function Home() {
   return (
     <>
       <div
-        class="body-div page-template page-template-about page-template-about-php page page-id-22 page-parent"
+        className="body-div page-template page-template-about page-template-about-php page page-id-22 page-parent"
         data-title="About"
         cz-shortcut-listen="true"
       >
-        <div class="tingle-modal" style={{ display: "none" }}>
-          <button class="tingle-modal__close">
-            <span class="tingle-modal__closeIcon">×</span>
-            <span class="tingle-modal__closeLabel">Close</span>
+        <div className="tingle-modal" style={{ display: "none" }}>
+          <button className="tingle-modal__close">
+            <span className="tingle-modal__closeIcon">×</span>
+            <span className="tingle-modal__closeLabel">Close</span>
           </button>
-          <div class="tingle-modal-box">
-            <div class="tingle-modal-box__content"></div>
+          <div className="tingle-modal-box">
+            <div className="tingle-modal-box__content"></div>
           </div>
         </div>
 
-        <div class="fma fma-A">
+        <div className="fma fma-A">
           <div
-            class="fma-desktop"
+            className="fma-desktop"
             style={{
               backgroundImage:
                 "url('https://escalent.co/wp-content/uploads/2019/05/about-image-template-1335x480.jpg')",
             }}
           ></div>
-          <div class="fma-mobile">
+          <div className="fma-mobile">
             <img
               src="https://escalent.co/wp-content/uploads/2019/05/about-768x576.jpg"
               alt="About"
             />
           </div>
-          <div class="fma-heading">
+          <div className="fma-heading">
             <h1>About</h1>
           </div>
         </div>
         <main id="maincontent">
-          <div class="gridbox gridbox-170-970">
-            <div class="gridcol1 gridcol1-hasnav">
-              <nav class="leftnav fullgridbox">
-                <button type="button" class="toggleheading smcaps">
+          <div className="gridbox gridbox-170-970">
+            <div className="gridcol1 gridcol1-hasnav">
+              <nav className="leftnav fullgridbox">
+                <button type="button" className="toggleheading smcaps">
                   <span>Menu</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +62,8 @@ export default function Home() {
                     ></path>
                   </svg>
                 </button>
-                <ul class="semlist">
-                  <li class="page_item page-item-22 current_page_item">
+                <ul className="semlist">
+                  <li className="page_item page-item-22 current_page_item">
                     <a
                       href="https://escalent-demo.sarthak.app/about/"
                       aria-current="page"
@@ -71,27 +71,27 @@ export default function Home() {
                       About
                     </a>
                   </li>
-                  <li class="page_item page-item-5385">
+                  <li className="page_item page-item-5385">
                     <a href="https://escalent-demo.sarthak.app/about/locations/">
                       Locations
                     </a>
                   </li>
-                  <li class="page_item page-item-23">
+                  <li className="page_item page-item-23">
                     <a href="https://escalent-demo.sarthak.app/about/people/">
                       People
                     </a>
                   </li>
-                  <li class="page_item page-item-4545">
+                  <li className="page_item page-item-4545">
                     <a href="https://escalent-demo.sarthak.app/about/diversity-equity-and-inclusion/">
                       Diversity, Equity &amp; Inclusion
                     </a>
                   </li>
-                  <li class="page_item page-item-24">
+                  <li className="page_item page-item-24">
                     <a href="https://escalent-demo.sarthak.app/about/social-responsibility/">
                       Social Responsibility
                     </a>
                   </li>
-                  <li class="page_item page-item-25">
+                  <li className="page_item page-item-25">
                     <a href="https://escalent-demo.sarthak.app/about/partners/">
                       Partners
                     </a>
@@ -99,9 +99,9 @@ export default function Home() {
                 </ul>
               </nav>
             </div>
-            <div class="gridcol2">
-              <div class="wysiwyg">
-                <h1 class="headingB">Catalysts of progress</h1>
+            <div className="gridcol2">
+              <div className="wysiwyg">
+                <h1 className="headingB">Catalysts of progress</h1>
                 <p>
                   Escalent is an award-winning data analytics and advisory firm
                   that helps clients understand human and market behaviors to
@@ -151,25 +151,25 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="big-video-block">
-            <div class="big-video-block-img">
+          <div className="big-video-block">
+            <div className="big-video-block-img">
               <img
                 width="1170"
                 height="618"
                 src="https://escalent.co/wp-content/uploads/2019/05/about-us-video-image-1170x618.jpg"
-                class="attachment-full size-full"
+                className="attachment-full size-full"
                 alt="About Us Video"
                 decoding="async"
                 loading="lazy"
               />
               <button
                 type="button"
-                class="playbtn"
+                className="playbtn"
                 data-href="https://player.vimeo.com/video/334071332"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="playbtnsvg"
+                  className="playbtnsvg"
                   width="44"
                   height="44"
                   viewBox="0 0 44 44 "
@@ -183,7 +183,7 @@ export default function Home() {
                 </svg>
               </button>
             </div>
-            <blockquote class="big-block-quote">
+            <blockquote className="big-block-quote">
               <p>
                 We are always looking for new ways to apply insight in
                 meaningful ways…to find answers to tough questions…to be agile
@@ -193,15 +193,15 @@ export default function Home() {
             </blockquote>
           </div>
         </main>
-        <section class="newsletter-bar">
-          <div class="newsletter-bar-content">
+        <section className="newsletter-bar">
+          <div className="newsletter-bar-content">
             <p>
               Keep me informed. I’d like to receive occasional newsletters,
               event notifications, and thought leadership materials.
             </p>
           </div>
           <a
-            class="btn btn-teal"
+            className="btn btn-teal"
             href="https://escalent-demo.sarthak.app/contact/newsletter-sign-up/"
           >
             Subscribe to Our Newsletter

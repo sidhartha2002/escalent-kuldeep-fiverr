@@ -9,35 +9,35 @@ export default function Home() {
   return (
     <>
       <div
-        class="div-body  page-template page-template-culture2022 page-template-culture2022-php page page-id-33 deluxe deluxe-purple"
+        className="div-body  page-template page-template-culture2022 page-template-culture2022-php page page-id-33 deluxe deluxe-purple"
         data-title="Careers &amp; Culture"
         cz-shortcut-listen="true"
       >
-        <div class="tingle-modal" style={{ display: "none" }}>
-          <button class="tingle-modal__close">
-            <span class="tingle-modal__closeIcon">×</span>
-            <span class="tingle-modal__closeLabel">Close</span>
+        <div className="tingle-modal" style={{ display: "none" }}>
+          <button className="tingle-modal__close">
+            <span className="tingle-modal__closeIcon">×</span>
+            <span className="tingle-modal__closeLabel">Close</span>
           </button>
-          <div class="tingle-modal-box">
-            <div class="tingle-modal-box__content"></div>
+          <div className="tingle-modal-box">
+            <div className="tingle-modal-box__content"></div>
           </div>
         </div>
 
-        <div class="fma fma-A">
+        <div className="fma fma-A">
           <div
-            class="fma-desktop"
+            className="fma-desktop"
             style={{
               backgroundImage:
                 "url('https://escalent.co/wp-content/uploads/2022/04/careers-and-culture-1335x480-1.jpg')",
             }}
           ></div>
-          <div class="fma-mobile">
+          <div className="fma-mobile">
             <img
               src="https://escalent.co/wp-content/uploads/2022/04/careers-and-culture-768x576-1.jpg"
               alt="Careers &amp; Culture"
             />
           </div>
-          <div class="fma-heading">
+          <div className="fma-heading">
             <h1>Careers &amp; Culture</h1>
           </div>
         </div>
@@ -50,17 +50,17 @@ export default function Home() {
           style={{ display: "none", visibility: "hidden" }}
           src="https://td.doubleclick.net/td/rul/734617582?random=1707540568828&amp;cv=11&amp;fst=1707540568828&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He4270v9101284518za200&amp;gcd=13l3l3l3l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fescalent-demo.sarthak.app%2Fcareers-and-culture%2F&amp;ref=https%3A%2F%2Fescalent-demo.sarthak.app%2Fabout%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Careers%20%7C%20Escalent%20%7C%20Market%20Research&amp;npa=0&amp;pscdl=noapi&amp;auid=362968531.1706172643&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%2520A(Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B121.0.6167.140%7CChromium%3B121.0.6167.140&amp;uamb=0&amp;uap=Windows&amp;uapv=15.0.0&amp;uaw=0&amp;fledge=1"
         ></iframe>
-        <main id="maincontent" class="maincontent-blocks">
-          <div class="video block">
+        <main id="maincontent" className="maincontent-blocks">
+          <div className="video block">
             <h2>We’re seeking world changers with great stories.</h2>
 
-            <div class="big-video-block">
-              <div class="big-video-block-img">
+            <div className="big-video-block">
+              <div className="big-video-block-img">
                 <img
                   width="1170"
                   height="618"
                   src="https://escalent.co/wp-content/uploads/2022/03/Careers-video-still-frame-AJ.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Careers Video Still Frame AJ"
                   decoding="async"
                   fetchPriority="high"
@@ -69,12 +69,12 @@ export default function Home() {
                 />{" "}
                 <button
                   type="button"
-                  class="playbtn"
+                  className="playbtn"
                   data-href="https://player.vimeo.com/video/693575915"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="playbtnsvg"
+                    className="playbtnsvg"
                     width="44"
                     height="44"
                     viewBox="0 0 44 44 "
@@ -90,8 +90,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="centeredcopy centeredcopy-light block">
-            <div class="centeredcopy-wrapper">
+          <div className="centeredcopy centeredcopy-light block">
+            <div className="centeredcopy-wrapper">
               <h2>
                 The bold. The curious. The disruptors.
                 <br />
@@ -108,7 +108,7 @@ export default function Home() {
               <p>
                 <a
                   id="seeOpenings"
-                  class="btn btn-purple"
+                  className="btn btn-purple"
                   href="#"
                   rel="nofollow"
                 >
@@ -117,8 +117,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="copypluscircles block">
-            <div class="copypluscircles-content">
+          <div className="copypluscircles block">
+            <div className="copypluscircles-content">
               <h2>Our Work Smart Philosophy</h2>
               <p>
                 Transformation is in our DNA—and we’ve seen a ton of it over the
@@ -127,48 +127,48 @@ export default function Home() {
                 global choice approach, including:
               </p>
             </div>
-            <div class="copypluscircles-circles">
-              <div class="copypluscircles-circle">
+            <div className="copypluscircles-circles">
+              <div className="copypluscircles-circle">
                 <img
                   width="360"
                   height="360"
                   src="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Flexibly virtual"
                   decoding="async"
                   srcSet="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
-                <div class="copypluscircles-subhead">Flexibly virtual</div>
+                <div className="copypluscircles-subhead">Flexibly virtual</div>
                 <div>You choose when to work in the office.</div>
               </div>
-              <div class="copypluscircles-circle">
+              <div className="copypluscircles-circle">
                 <img
                   width="360"
                   height="360"
                   src="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Fully Remote"
                   decoding="async"
                   srcSet="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
-                <div class="copypluscircles-subhead">Fully remote</div>
+                <div className="copypluscircles-subhead">Fully remote</div>
                 <div>100% working from home or wherever you are.</div>
               </div>
-              <div class="copypluscircles-circle">
+              <div className="copypluscircles-circle">
                 <img
                   width="360"
                   height="360"
                   src="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Office-based"
                   decoding="async"
                   loading="lazy"
                   srcSet="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-170x170.jpg 170w"
                   sizes="(max-width: 360px) 100vw, 360px"
                 />
-                <div class="copypluscircles-subhead">Office-based</div>
+                <div className="copypluscircles-subhead">Office-based</div>
                 <div>
                   4-5 days per week onsite required for some dedicated client
                   roles.
@@ -176,8 +176,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="centeredcopy centeredcopy-dark block">
-            <div class="centeredcopy-wrapper">
+          <div className="centeredcopy centeredcopy-dark block">
+            <div className="centeredcopy-wrapper">
               <h2>Inside Escalent</h2>
               <p>
                 How do we describe our culture? Fast-paced. Fun. Collaborative.
@@ -187,21 +187,21 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="imgcarousel block">
-            <div class="imgcarousel-content">
+          <div className="imgcarousel block">
+            <div className="imgcarousel-content">
               <h2>Moments at Escalent</h2>
               <p>
                 We are a collection of moments. Take a peek into some of ours.
               </p>
             </div>
-            <div class="imgcarousel-carousel">
-              <div class="imgcarousel-imgs scroller2022">
-                <figure class="slide active">
+            <div className="imgcarousel-carousel">
+              <div className="imgcarousel-imgs scroller2022">
+                <figure className="slide active">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/Tigers-game-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Tigers game"
                     loading="eager"
                     decoding="async"
@@ -213,12 +213,12 @@ export default function Home() {
                     baseball game.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/IMG-4352-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Annual Party in Noida"
                     loading="eager"
                     decoding="async"
@@ -230,12 +230,12 @@ export default function Home() {
                     fabulous!
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/Painting-Party-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Painting Party"
                     loading="eager"
                     decoding="async"
@@ -246,12 +246,12 @@ export default function Home() {
                     Exploring our inner artists with a virtual painting party.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/escape-room-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Escape Room"
                     loading="eager"
                     decoding="async"
@@ -263,12 +263,12 @@ export default function Home() {
                     swag.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/London-Summer-Picnic-Rain-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="London Summer Picnic Rain"
                     loading="eager"
                     decoding="async"
@@ -279,12 +279,12 @@ export default function Home() {
                     Determined to gather in Canada rain or shine!
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/Communities-Picnic-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Communities Picnic"
                     loading="eager"
                     decoding="async"
@@ -296,12 +296,12 @@ export default function Home() {
                     Michigan.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/Chinese-New-Year-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Chinese New Year"
                     loading="eager"
                     decoding="async"
@@ -313,12 +313,12 @@ export default function Home() {
                     Chinese New Year celebration in Beijing.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/Carpenter-Mark_UK-Team-Social-Distancing-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Carpenter Mark UK Team Social Distancing"
                     loading="eager"
                     decoding="async"
@@ -329,12 +329,12 @@ export default function Home() {
                     Our UK team gathering safely during the pandemic.
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/ax-Ale_Full-Team-McKays-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="Full Team McKays"
                     loading="eager"
                     decoding="async"
@@ -346,12 +346,12 @@ export default function Home() {
                     seating for the win!
                   </figcaption>
                 </figure>
-                <figure class="slide">
+                <figure className="slide">
                   <img
                     width="970"
                     height="660"
                     src="https://escalent.co/wp-content/uploads/2022/03/ATL-Summer-Golf-970x660-1.jpg"
-                    class="attachment-full size-full"
+                    className="attachment-full size-full"
                     alt="ATL Summer Golf"
                     loading="eager"
                     decoding="async"
@@ -366,7 +366,7 @@ export default function Home() {
               </div>
               <button
                 type="button"
-                class="imgcarousel-prev prev"
+                className="imgcarousel-prev prev"
                 aria-disabled="true"
               >
                 <svg
@@ -382,9 +382,9 @@ export default function Home() {
                     d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
                   ></path>
                 </svg>
-                <span class="screen-reader-text">Previous</span>
+                <span className="screen-reader-text">Previous</span>
               </button>
-              <button type="button" class="imgcarousel-next next">
+              <button type="button" className="imgcarousel-next next">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="11"
@@ -398,13 +398,13 @@ export default function Home() {
                     d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
                   ></path>
                 </svg>
-                <span class="screen-reader-text">Next</span>
+                <span className="screen-reader-text">Next</span>
               </button>
             </div>
           </div>
-          <div class="monthlymingle block">
-            <div class="monthlymingle-intro">
-              <div class="monthlymingle-intro-wrapper">
+          <div className="monthlymingle block">
+            <div className="monthlymingle-intro">
+              <div className="monthlymingle-intro-wrapper">
                 <h2>Humans of Escalent</h2>
                 <p>
                   For fun, we help colleagues around the world get to know each
@@ -412,9 +412,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="monthlymingle-bottom">
-              <div class="monthlymingle-logo">
-                <div class="monthlymingle-logo-wrapper">
+            <div className="monthlymingle-bottom">
+              <div className="monthlymingle-logo">
+                <div className="monthlymingle-logo-wrapper">
                   <img
                     loading="lazy"
                     width="230"
@@ -439,16 +439,16 @@ export default function Home() {
                         d="M-.001 87.998V-.005h88.002v88.003H-.001zM66.014 36.13s0-7.584-7.584-7.584H29.593s-7.58 0-7.58 7.584v15.732s0 7.584 7.58 7.584H58.43s7.584 0 7.584-7.584V36.13zm-27.864-.574l14.406 8.462-14.406 8.46V35.556z"
                       ></path>
                     </svg>
-                    <span class="smcaps">View on YouTube</span>
+                    <span className="smcaps">View on YouTube</span>
                   </a>
                 </div>
               </div>
-              <div class="monthlymingles-outer">
-                <ul class="monthlymingles semlist">
-                  <li class="card card_monthlymingles">
+              <div className="monthlymingles-outer">
+                <ul className="monthlymingles semlist">
+                  <li className="card card_monthlymingles">
                     <a
                       rel="noopener nofollow"
-                      class="card-image fullgridbox fullgridbox-mobile"
+                      className="card-image fullgridbox fullgridbox-mobile"
                       href="https://www.youtube.com/watch?v=0rd3S8IFxTE"
                       tabIndex="-1"
                       aria-hidden="true"
@@ -459,8 +459,10 @@ export default function Home() {
                         alt=""
                       />
                     </a>
-                    <div class="card-type card-date smcaps">Monthly Mingle</div>
-                    <div class="card-title headingC sans">
+                    <div className="card-type card-date smcaps">
+                      Monthly Mingle
+                    </div>
+                    <div className="card-title headingC sans">
                       <a
                         rel="noopener nofollow"
                         href="https://www.youtube.com/watch?v=0rd3S8IFxTE"
@@ -469,10 +471,10 @@ export default function Home() {
                       </a>
                     </div>
                   </li>
-                  <li class="card card_monthlymingles">
+                  <li className="card card_monthlymingles">
                     <a
                       rel="noopener nofollow"
-                      class="card-image fullgridbox fullgridbox-mobile"
+                      className="card-image fullgridbox fullgridbox-mobile"
                       href="https://www.youtube.com/watch?v=sbVrQ106tJs"
                       tabIndex="-1"
                       aria-hidden="true"
@@ -483,8 +485,10 @@ export default function Home() {
                         alt=""
                       />
                     </a>
-                    <div class="card-type card-date smcaps">Monthly Mingle</div>
-                    <div class="card-title headingC sans">
+                    <div className="card-type card-date smcaps">
+                      Monthly Mingle
+                    </div>
+                    <div className="card-title headingC sans">
                       <a
                         rel="noopener nofollow"
                         href="https://www.youtube.com/watch?v=sbVrQ106tJs"
@@ -497,18 +501,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div class="quoteslider block">
-            <div class="quoteslider-content">
+          <div className="quoteslider block">
+            <div className="quoteslider-content">
               <h2>Career Stories</h2>
               <p>You will grow at Escalent. Our people say it best.</p>
             </div>
-            <div class="quoteslider-slider scroller2022">
-              <div class="quoteslider-quote slide">
+            <div className="quoteslider-slider scroller2022">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/03/career-stories-amin.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Vivek Amin"
                   decoding="async"
                   loading="lazy"
@@ -532,12 +536,12 @@ export default function Home() {
                   </footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/09/career-stories-thandeka-mentor.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Thandeka Mentor"
                   decoding="async"
                   loading="lazy"
@@ -554,12 +558,12 @@ export default function Home() {
                   <footer>Thandeka Mentor, Analyst</footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2023/03/career-stories-tanmai-hatwar.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt=""
                   decoding="async"
                   loading="lazy"
@@ -576,12 +580,12 @@ export default function Home() {
                   <footer>Tanmai N. Hatwar, Associate</footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/03/career-stories-doherty.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Kimberly Doherty"
                   decoding="async"
                   loading="lazy"
@@ -605,12 +609,12 @@ export default function Home() {
                   </footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide active">
+              <div className="quoteslider-quote slide active">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/08/career-stories-yogesh-narang.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Yogesh Narang"
                   decoding="async"
                   loading="lazy"
@@ -627,12 +631,12 @@ export default function Home() {
                   <footer>Yogesh Narang, Consultant, IT</footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/03/career-stories-lowden.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Lucas Lowden"
                   decoding="async"
                   loading="lazy"
@@ -657,12 +661,12 @@ export default function Home() {
                   </footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/03/career-stories-waller.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Kat Waller"
                   decoding="async"
                   loading="lazy"
@@ -687,12 +691,12 @@ export default function Home() {
                   </footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/11/career-stories-shin-yang-yew.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt=""
                   decoding="async"
                   loading="lazy"
@@ -708,12 +712,12 @@ export default function Home() {
                   <footer>Shin Yang Yew, Senior Business Analyst</footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/08/career-stories-puneet-chaurasia.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt=""
                   decoding="async"
                   loading="lazy"
@@ -732,12 +736,12 @@ export default function Home() {
                   <footer>Puneet Chaurasia, Project Lead</footer>
                 </blockquote>
               </div>
-              <div class="quoteslider-quote slide">
+              <div className="quoteslider-quote slide">
                 <img
                   width="340"
                   height="340"
                   src="https://escalent.co/wp-content/uploads/2022/03/career-stories-sims.jpg"
-                  class="attachment-full size-full"
+                  className="attachment-full size-full"
                   alt="Stacy Sims"
                   decoding="async"
                   loading="lazy"
@@ -760,8 +764,8 @@ export default function Home() {
                 </blockquote>
               </div>
             </div>
-            <div class="quoteslider-ctrls">
-              <button type="button" class="quoteslider-prev prev">
+            <div className="quoteslider-ctrls">
+              <button type="button" className="quoteslider-prev prev">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="28">
                   <path
                     fill="none"
@@ -771,9 +775,9 @@ export default function Home() {
                     d="M23.461.713 36.748 14 23.461 27.287M36.748 14H-.001"
                   ></path>
                 </svg>{" "}
-                <span class="screen-reader-text">Previous</span>
+                <span className="screen-reader-text">Previous</span>
               </button>
-              <button type="button" class="quoteslider-next next">
+              <button type="button" className="quoteslider-next next">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="28">
                   <path
                     fill="none"
@@ -783,17 +787,17 @@ export default function Home() {
                     d="M23.461.713 36.748 14 23.461 27.287M36.748 14H-.001"
                   ></path>
                 </svg>{" "}
-                <span class="screen-reader-text">Next</span>
+                <span className="screen-reader-text">Next</span>
               </button>
             </div>
           </div>
-          <div class="offsetimagepluscontent block">
-            <div class="offsetimagepluscontent-image">
+          <div className="offsetimagepluscontent block">
+            <div className="offsetimagepluscontent-image">
               <img
                 width="600"
                 height="420"
                 src="https://escalent.co/wp-content/uploads/2022/02/commitment.jpg"
-                class="attachment-full size-full"
+                className="attachment-full size-full"
                 alt="Our Commitment"
                 decoding="async"
                 loading="lazy"
@@ -801,7 +805,7 @@ export default function Home() {
                 sizes="(max-width: 600px) 100vw, 600px"
               />
             </div>
-            <div class="offsetimagepluscontent-content">
+            <div className="offsetimagepluscontent-content">
               <h2>Our Commitment</h2>
               <p>
                 We are a business of perspectives. Therefore, we are committed
@@ -819,11 +823,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="job-filter" id="jobFilter"></div>
+          <div className="job-filter" id="jobFilter"></div>
         </main>
 
-        <div class="newsletter-bar newsletter-bar-empty">
-          <div class="newsletter-bar-content"></div>
+        <div className="newsletter-bar newsletter-bar-empty">
+          <div className="newsletter-bar-content"></div>
         </div>
       </div>
     </>
