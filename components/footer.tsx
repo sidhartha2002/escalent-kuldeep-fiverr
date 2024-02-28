@@ -20,10 +20,16 @@ const footerLinks = [
   {
     title: "Solutions",
     links: [
-      { title: "Social Sampling", href: "#" },
-      { title: "Telephone research CATI", href: "#" },
-      { title: "Online research CAWI", href: "#" },
-      { title: "Interviews with video call", href: "#" },
+      { title: "Social Sampling", href: "/methods/social-sampling" },
+      {
+        title: "Telephone research CATI",
+        href: "/methods/telephone-research-CATI",
+      },
+      { title: "Online research CAWI", href: "/methods/online-research-CAWI" },
+      {
+        title: "Interviews with video call",
+        href: "/methods/interviews-with-video-call",
+      },
     ],
   },
   {
@@ -54,10 +60,10 @@ export const Footer = () => (
           <div className="text-grey flex items-center">
             <Logo className="mr-4 h-10 w-10" /> Website Logo
           </div>
-          <div className="text-grey mt-auto flex space-x-4">
-            {/* <TwitterIcon />
+          <div className="text-grey ml-6 mt-auto flex scale-125 space-x-4">
+            <TwitterIcon />
             <GithubIcon />
-            <SlackIcon /> */}
+            <SlackIcon />
           </div>
         </div>
       </div>

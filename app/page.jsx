@@ -106,7 +106,8 @@ export default function Home() {
                         width="680"
                         height="800"
                         className=""
-                        src="https://ffind.com/app/uploads/2021/07/home.jpg"
+                        // src="https://ffind.com/app/uploads/2021/07/home.jpg"
+                        src="/images/home-images-edit.png"
                       />
                     </div>
                   </div>
@@ -183,7 +184,7 @@ export default function Home() {
                             <div>
                               <div className="mt-16">
                                 <a
-                                  href="/case-studies/paint-purchasing-study"
+                                  href="/methods/social-sampling"
                                   className=" border-2 bg-white px-5 py-4 font-bold text-[#530095] hover:bg-black"
                                 >
                                   Social Sampling
@@ -220,7 +221,7 @@ export default function Home() {
                             <div>
                               <div className="mt-16">
                                 <a
-                                  href="/case-studies/paint-purchasing-study"
+                                  href="/methods/telephone-research-CATI"
                                   className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
                                 >
                                   Telephone research CATI
@@ -259,7 +260,7 @@ export default function Home() {
                             <div>
                               <div className="mt-16">
                                 <a
-                                  href="/case-studies/paint-purchasing-study"
+                                  href="/methods/online-research-CAWI"
                                   className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
                                 >
                                   Online research CAWI
@@ -295,7 +296,7 @@ export default function Home() {
                             <div>
                               <div className="mt-16">
                                 <a
-                                  href="/case-studies/paint-purchasing-study"
+                                  href="/methods/interviews-with-video-call"
                                   className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
                                 >
                                   Interviews with video call
