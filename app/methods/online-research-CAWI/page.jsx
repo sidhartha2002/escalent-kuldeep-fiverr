@@ -13,19 +13,16 @@ export default function Home() {
       >
         <div class="row container mx-auto px-0 text-left">
           <div class="CoverHeader__contain col-12 col-lg-6  pl-3">
-            <h4 class="CoverHeader__subtitle col-lg-11 px-0">
-              SOCIAL SAMPLING
-            </h4>
+            <h4 class="CoverHeader__subtitle col-lg-11 px-0">CAWI RESEARCH</h4>
             <h1 class="CoverHeader__title  col-lg-11 px-0">
-              Rapid Insights, Every Time:
+              Interview Instantly And Anywhere With CAWI Market Research
+              (Online)
             </h1>
 
             <div class="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
               <p>
-                Locate and interview a consistently responsive sample, ensuring
-                lightning-fast feedback, even against the odds. Finding and
-                interviewing a new and responsive sample in a short period of
-                time is possible regardless of the incidence rate.
+                Our core business is CATI, but in recent years we have developed
+                a responsive and professional CAWI department.
               </p>
             </div>
 
@@ -77,25 +74,25 @@ export default function Home() {
           </div>
           <div class="col-12 col-lg-6 offset-lg-1  px-0">
             <h2 class="AlternativeBlocks__title">
-              Identify potential respondents
+              The operations of online surveys
             </h2>
 
             <div class="AlternativeBlocks__descr py-3 pb-4 ">
               <p>
-                Social sampling yields excellent results when you are seeking a
-                highly targeted audience, when you need to interview a profiled
-                audience **with a low percentage of incidence rate**, or when
-                you need to interview a large audience and collect data
-                efficiently in a short amount of time.
+                Here, the responder will have to fill out the questionnaire on
+                his own, without the help of the telephone interviewer (CATI).
+                All of the data collecting, processing, and cleaning happens
+                within our own software, and then it's sent to the customer in
+                the format they requested.
               </p>
               <br />
               <p>
-                Our ability to **get surveyed respondents** for the surveys
-                utilising inbound approaches on social networks has allowed us
-                to boast for years that we can locate (im)possible respondents.
-                To take things to the next level, you'll need a depth sounder
-                and deep diving skills if you want to find a needle amid a sea
-                of trash.
+                We began utilising social media to identify respondents in
+                target and interview them in 2016, but we went above and above
+                by establishing a digital department with the objective of
+                <strong>creating a responsive CAWI</strong>. This is because
+                respondents now complete surveys immediately via their
+                cellphones.
               </p>
             </div>
           </div>
@@ -111,49 +108,40 @@ export default function Home() {
           </div>
           <div class="col-12 col-lg-6   px-0">
             <h2 class="AlternativeBlocks__title">
-              How to get respondents in 4 steps
+              The phases of CAWI research
             </h2>
 
             <div class="AlternativeBlocks__descr py-3 pb-4">
               <p>
-                <strong>1. Identifying the objective</strong>
+                <strong>1. Managing samples and projects</strong>
                 <br />
-                The research institution specifies a target audience, and our
-                PMs and SMMs assess and characterise that audience accordingly.
+                While checking the questionnaire for quality and translation
+                issues, the PM responds to client emails or arranges for the
+                Social Sampling.
               </p>
               <br />
               <p>
-                <strong>2. Social Network Selection</strong>
+                <strong>2. Starting the wave</strong>
                 <br />
-                Social media marketers choose the platform (e.g., Facebook,
-                Twitter, TikTok, etc.) where their target demographic spends the
-                most time. For business-to-business interactions, LinkedIn is
-                superior than Facebook.
+                After submitting the survey to all potential responders, we
+                check up with those who either did not begin or did not finish.
               </p>
               <br />
               <p>
-                <strong>3. Choice of methodology</strong>
+                <strong>3. Ensuring quality</strong>
                 <br />
-                We can either choose to bring the respondent directly into the
-                online survey (Social to CAWI) or collect their contact data to
-                interview them via CATI, webcam or VAI Research.
+                Project managers and data managers check for serious
+                questionnaire problems and track progress towards goals while
+                data is being collected.
               </p>
               <br />
               <p>
-                <strong>3. Methodology Selection</strong>
+                <strong>4. Managing data</strong>
                 <br />
-                The respondent may be brought into the web-based questionnaire
-                immediately (Social to CAWI) or their contact information can be
-                collected to do an interview by CATI, webcam, or VAI Research.
-              </p>
-              <br />
-              <p>
-                <strong>4. advertising on social media</strong>
-                <br />
-                Only users who interact with our social media ads based on their
-                interests, demographics, and past actions will see them. In
-                order to participate in the interview, participants must first
-                access the survey or landing page.
+                Data managers are tasked with ensuring quality at every stage of
+                data collecting, from designing the survey to presenting the
+                results according to the client's specifications and completing
+                all necessary last touches before final delivery.
               </p>
             </div>
           </div>
@@ -172,33 +160,21 @@ export default function Home() {
             src="https://ffind.com/app/uploads/2021/07/social_sampling.svg"
           />
           <h2 class="CenterTitleText__title mx-auto">
-            The Benefits of Social Sampling
+            The Benefits of Conducting Interviews Online
           </h2>
 
           <div class="CenterTitleText__descr col-12 col-lg-10 mx-auto">
             <li>
-              Compared to other quantitative approaches, the survey's 4-5%
-              dropout rate is much lower.
+              Nowadays, everyone has a computer, a phone, and an email account.
             </li>
 
-            <li>
-              The interview is conducted in real-time, allowing the supervisor
-              to closely observe and adjust the results of the data collecting.
-            </li>
+            <li>Perfect balance of speed and cost</li>
+
+            <li>The results of quick polls are astounding</li>
 
             <li>
-              It is the best approach for doing business-to-business and
-              business-to-consumer market research globally.
-            </li>
-
-            <li>
-              The interviewer leads the interviewee through the questions on the
-              survey.
-            </li>
-
-            <li>
-              This approach permits end-to-end monitoring to the greatest extent
-              possible.
+              Permits you to include audio, video, and graphic components into
+              the survey.
             </li>
           </div>
         </div>
