@@ -925,6 +925,7 @@ export default function Home() {
               helping brands translate human and market behaviors into ideas
               that change the world.
             </p>
+            <br />
             <p>
               <a className="smcaps" href="/about/">
                 Learn More

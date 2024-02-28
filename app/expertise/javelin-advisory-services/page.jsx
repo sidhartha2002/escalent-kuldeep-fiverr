@@ -99,6 +99,7 @@ export default function Home() {
                 brokerages, and insurers, as well as payments companies,
                 technology providers, fintechs, and government agencies.
               </p>
+              <br />
               <p>
                 Javelin’s advisory services offer subscription-based reports,
                 access to analysts, custom data cuts and topic-based,

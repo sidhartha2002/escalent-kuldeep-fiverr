@@ -105,6 +105,7 @@ export default function Home() {
                 “Join Us” below to see our current openings. We’d love to hear
                 from you.
               </p>
+              <br />
               <p>
                 <a
                   id="seeOpenings"
@@ -815,6 +816,7 @@ export default function Home() {
                 eyes. This makes our work better. Our thinking sharper. And our
                 team more unstoppable.
               </p>
+              <br />
               <p>
                 <a href="https://escalent-demo.sarthak.app/about/diversity-equity-and-inclusion/">
                   Read more about our Diversity, Equity &amp; Inclusion efforts

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// import styles from "@/app/escalent.css";
 import styles from "@/app/ffind.css";
 
 export default function Home() {
@@ -89,6 +88,7 @@ export default function Home() {
                 you need to interview a large audience and collect data
                 efficiently in a short amount of time.
               </p>
+              <br />
               <p>
                 Our ability to **get surveyed respondents** for the surveys
                 utilising inbound approaches on social networks has allowed us
@@ -121,6 +121,7 @@ export default function Home() {
                 The research institution specifies a target audience, and our
                 PMs and SMMs assess and characterise that audience accordingly.
               </p>
+              <br />
               <p>
                 <strong>2. Social Network Selection</strong>
                 <br />
@@ -129,6 +130,7 @@ export default function Home() {
                 most time. For business-to-business interactions, LinkedIn is
                 superior than Facebook.
               </p>
+              <br />
               <p>
                 <strong>3. Choice of methodology</strong>
                 <br />
@@ -136,6 +138,7 @@ export default function Home() {
                 online survey (Social to CAWI) or collect their contact data to
                 interview them via CATI, webcam or VAI Research.
               </p>
+              <br />
               <p>
                 <strong>3. Methodology Selection</strong>
                 <br />
@@ -143,6 +146,7 @@ export default function Home() {
                 immediately (Social to CAWI) or their contact information can be
                 collected to do an interview by CATI, webcam, or VAI Research.
               </p>
+              <br />
               <p>
                 <strong>4. advertising on social media</strong>
                 <br />
@@ -172,25 +176,25 @@ export default function Home() {
           </h2>
 
           <div class="CenterTitleText__descr col-12 col-lg-10 mx-auto">
-            <p>
+            <li>
               We aim to find the optimal time and place to reach the ideal
               response.
-            </p>
-            <p>
+            </li>
+            <li>
               Since social algorithms display the ad to the most engaged
               audience, social sampling is a better alternative to panels for
               finding motivated respondents who answer because the subject is
               interesting to them.
-            </p>
-            <p>
+            </li>
+            <li>
               Instead of finding individuals who take part in hundreds of
               surveys on a monthly basis for incentives, Social Sampling only
               finds audiences who are relevant to the survey subject.
-            </p>
-            <p>
+            </li>
+            <li>
               The audience of social media platforms is quite representative, as
               over 50% of the global population is active on these platforms.
-            </p>
+            </li>
           </div>
         </div>
       </section>
