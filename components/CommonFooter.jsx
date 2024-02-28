@@ -41,11 +41,17 @@ export function CommonFooter() {
 
           <br />
           <br />
+
           <a
-            href="/case-studies/paint-purchasing-study"
-            className="border-2 bg-black px-5  py-4 font-bold text-white hover:bg-white hover:text-[#530095]"
+            href="#_"
+            class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
           >
-            Contact
+            <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-white transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+            <span class="absolute inset-0 h-full w-full rounded-md bg-black "></span>
+            <span class="absolute inset-0 h-full w-full rounded-md bg-white opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+            <span class="relative text-white transition-colors delay-100 duration-200 ease-in-out group-hover:text-black">
+              Contact
+            </span>
           </a>
         </div>
       </section>
