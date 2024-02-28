@@ -4,10 +4,11 @@ import { GithubIcon } from "./icons/github";
 import { Logo } from "./icons/logo";
 import { SlackIcon } from "./icons/slack";
 import { TwitterIcon } from "./icons/twitter";
+import Image from "next/image";
 
 const footerLinks = [
   {
-    title: "Product",
+    title: "Audience",
     links: [
       { title: "Features", href: "#" },
       { title: "Solutions", href: "#" },
@@ -17,17 +18,16 @@ const footerLinks = [
     ],
   },
   {
-    title: "Company",
+    title: "Solutions",
     links: [
-      { title: "About us", href: "#" },
-      { title: "Blog", href: "#" },
-      { title: "Careers", href: "#" },
-      { title: "Customers", href: "#" },
-      { title: "Brand", href: "#" },
+      { title: "Social Sampling", href: "#" },
+      { title: "Telephone research CATI", href: "#" },
+      { title: "Online research CAWI", href: "#" },
+      { title: "Interviews with video call", href: "#" },
     ],
   },
   {
-    title: "Resources",
+    title: "About",
     links: [
       { title: "Community", href: "#" },
       { title: "Contact", href: "#" },
@@ -37,7 +37,7 @@ const footerLinks = [
     ],
   },
   {
-    title: "Developers",
+    title: "Job with Us",
     links: [
       { title: "API", href: "#" },
       { title: "Status", href: "#" },
@@ -52,7 +52,7 @@ export const Footer = () => (
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="text-grey flex items-center">
-            {/* <Logo className="mr-4 h-4 w-4" /> Demo Website */}
+            <Logo className="mr-4 h-10 w-10" /> Website Logo
           </div>
           <div className="text-grey mt-auto flex space-x-4">
             {/* <TwitterIcon />
@@ -84,5 +84,81 @@ export const Footer = () => (
         ))}
       </div>
     </Container>
+
+    <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
+      {/* UK */}
+      <div className="flex flex-col rounded-lg bg-gray-100 p-4">
+        <h2 className="text-lg font-semibold lg:text-xl">UK</h2>
+        <p>FFIND ltd – Britannia House 11 Glenthorne Road, London</p>
+        <p>VAT Number GB-348617865</p>
+      </div>
+
+      {/* Italy */}
+      <div className="flex flex-col rounded-lg bg-gray-100 p-4">
+        <h2 className="text-lg font-semibold lg:text-xl">ITALY</h2>
+        <p>FFIND srl – Via Ercole Bernabei, 51 90145 – Palermo (Italy)</p>
+        <p>P.IVA 02372540811</p>
+      </div>
+
+      {/* Germany */}
+      <div className="flex flex-col rounded-lg bg-gray-100 p-4">
+        <h2 className="text-lg font-semibold lg:text-xl">GERMANY</h2>
+        <p>FFIND GmbH – Dreieichstraße 59 60594 Frankfurt am Main</p>
+        <p>German VAT Number DE276580654</p>
+      </div>
+    </div>
+
+    <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
+      <div className="item-center flex flex-col justify-center rounded-lg bg-gray-100 p-4">
+        <img
+          src={
+            "https://ffind.com/app/themes/ffind/images/partners/footer/adm-logo.png"
+          }
+          width={100}
+          height={100}
+          alt="logos"
+        />
+      </div>
+      <div className="item-center flex flex-col justify-center rounded-lg bg-gray-100 p-4">
+        <img
+          src={
+            "https://ffind.com/app/themes/ffind/images/partners/footer/esomar_corporate2023.svg"
+          }
+          width={100}
+          height={100}
+          alt="logos"
+        />
+      </div>
+      <div className="item-center flex flex-col justify-center rounded-lg bg-gray-100 p-4">
+        <img
+          src={
+            "https://ffind.com/app/themes/ffind/images/partners/footer/assirm-ita-bn2023.svg"
+          }
+          width={100}
+          height={100}
+          alt="logos"
+        />
+      </div>
+      <div className="item-center flex flex-col justify-center rounded-lg bg-gray-100 p-4">
+        <img
+          src={
+            "https://ffind.com/app/themes/ffind/images/partners/footer/ia-logo-bw.png"
+          }
+          width={100}
+          height={100}
+          alt="logos"
+        />
+      </div>
+      <div className="item-center flex flex-col justify-center rounded-lg bg-gray-100 p-4">
+        <img
+          src={
+            "https://ffind.com/app/themes/ffind/images/partners/footer/dekra-logo.svg"
+          }
+          width={100}
+          height={100}
+          alt="logos"
+        />
+      </div>
+    </div>
   </footer>
 );

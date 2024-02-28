@@ -27,7 +27,7 @@ export default function Home() {
                 {/*  */}
                 <section
                   className="CoverHeader  pbM40 h-screen px-6 lg:px-20 "
-                  style={{ color: "#ffffff", backgroundColor: "#2b2b29" }}
+                  style={{ color: "#ffffff", backgroundColor: "#530095" }}
                 >
                   <div className="row container mx-auto items-center justify-center px-0 text-left">
                     <div className="CoverHeader__contain col-12 col-lg-6  pl-3">
