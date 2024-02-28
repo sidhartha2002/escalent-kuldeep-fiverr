@@ -159,10 +159,10 @@ export default function Home() {
                   addressed:
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Asset Allocation and Portfolio Management
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Exploring trends in portfolio diversification strategies.
                     </li>
@@ -180,8 +180,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Economic Analysis and Forecasting</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">
+                    Economic Analysis and Forecasting
+                  </div>
+                  <ul className="list-disc pl-4">
                     <li>Reviewing global and regional economic outlooks.</li>
                     <li>
                       Evaluating the effects of government policies on
@@ -198,8 +200,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Technological Innovations</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">Technological Innovations</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Investigating the adoption of AI and machine learning in
                       investment strategies.
@@ -215,10 +217,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Regulatory Compliance and Ethical Considerations
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Exploring regulatory changes and their impacts on
                       investment strategies.
@@ -234,8 +236,8 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Alternative Investments</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">Alternative Investments</div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Analyzing the performance of hedge funds, private equity,
                       and venture capital.
@@ -251,10 +253,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Client Behavior and Relationship Management
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Understanding the preferences and needs of various
                       investor segments.
@@ -270,10 +272,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     Market Dynamics and Investment Strategies
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Examining sector-wise performance analysis, such as
                       healthcare, technology, and energy sectors.
@@ -293,10 +295,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">
+                  <div className="font-bold">
                     FinTech and Digital Transformation
                   </div>
-                  <ul class="list-disc pl-4">
+                  <ul className="list-disc pl-4">
                     <li>
                       Assessing the impact of FinTech startups on traditional
                       investment management practices.
@@ -312,8 +314,10 @@ export default function Home() {
                   </ul>
                   <br />
                   <br />
-                  <div class="font-bold">Emerging Trends and Opportunities</div>
-                  <ul class="list-disc pl-4">
+                  <div className="font-bold">
+                    Emerging Trends and Opportunities
+                  </div>
+                  <ul className="list-disc pl-4">
                     <li>
                       Analyzing the impact of global events like pandemics and
                       natural disasters on investment strategies.
