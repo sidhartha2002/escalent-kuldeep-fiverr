@@ -83,7 +83,10 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ...Get from client...
+                  Advertising agency managers, market and brand specialists, and
+                  others possess distinct viewpoints regarding consumer
+                  behaviour, branding tactics, and the efficacy of diverse
+                  advertising platforms.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising/marketing-advertising-agencies">
@@ -126,7 +129,9 @@ export default function Home() {
                   <a href="/audience/media-advertising/brands">Brands</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Editors, publishers, reporters, as well as content managers
+                  are examples of media and publishing professionals who
+                  commonly participate in marketing research.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising/brands">Find out more</a>
@@ -169,7 +174,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Editors, publishers, reporters, as well as content managers
+                  are examples of media and publishing professionals who
+                  commonly participate in marketing research.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising/publishing">
@@ -214,7 +221,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Topics covered often include audience preferences,
+                  distribution methods, new technology, content strategy, and
+                  market trends.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising/news-agencies">
@@ -259,7 +268,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Our extensive knowledge of the gaming business allows us to
+                  cover all the bases when it comes to market research for the
+                  gaming sector.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising/entertainment-podcasts-apps-gaming">

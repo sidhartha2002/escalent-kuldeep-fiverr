@@ -129,7 +129,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Market research projects benefit greatly from the insights and
+                  wealth of knowledge that opinion farmers and senior-level
+                  businesspeople bring to the table in terms of society
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/leaders-experts/opinion-formers-influencers">
@@ -217,7 +219,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Subjects often covered in marketing research with corporate
+                  organisations, particularly those with annual revenues of over
+                  $1 billion.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/leaders-experts/business-leaders">
@@ -262,7 +266,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  To fully grasp the complex nature of Environmental, Social,
+                  and Governance (ESG) issues, it is essential to conduct market
+                  research with a wide variety of stakeholders.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/leaders-experts/environmental-social-governance">

@@ -99,7 +99,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ... from client ...
+                  From RDD CATI studies to focussed audience consumer projects,
+                  RONIN has completed multiple projects within the general
+                  public across Europe, North America and beyond.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/social-consumer/social-consumer">
@@ -144,7 +146,10 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Phone contact using a dual frame landline and mobile sample
+                  can be an effective way of interviewing a broad audience
+                  across multiple markets or even targeted to local zip and
+                  postcodes.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/social-consumer/social-consumer">
@@ -187,7 +192,9 @@ export default function Home() {
                   <a href="/audience/social-consumer/hobbyists">Hobbyists </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Different hobbyist and niche groups bring with them unique
+                  perspectives, needs, and behaviours that can be valuable for
+                  market research.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/social-consumer/hobbyists">

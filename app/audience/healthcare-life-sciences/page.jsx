@@ -90,9 +90,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  Our ability to connect you with the right B2B audience is
-                  built into everything we do. We understand the complexities
-                  and diversity of B2B global market research.
+                  With Healthcare Professionals from all around the world,
+                  Audience Match has a long experience of performing complex
+                  research initiatives.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/healthcare-life-sciences/healthcare-professionals">
@@ -136,7 +136,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Digital recruitment and character screening may prove to be a
+                  successful method of engaging with professionals in the
+                  biological sciences.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/healthcare-life-sciences/life-sciences">

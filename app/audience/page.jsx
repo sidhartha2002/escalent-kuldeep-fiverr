@@ -184,7 +184,9 @@ export default function Home() {
                   <a href="/audience/investors-finance">Investors & finance</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Audience Match has crafted a powerful approach that
+                  effectively tackles this challenge and conveniently links you
+                  with the people who are at the core of your target audience.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/investors-finance">Find out more</a>
@@ -222,7 +224,9 @@ export default function Home() {
                   <a href="/audience/leaders-experts">Leaders & experts</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  We begin the process by identifying influential individuals in
+                  the B2B industry and connecting with them through personalized
+                  communication channels.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/leaders-experts">Find out more</a>
@@ -263,7 +267,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Uncover the diverse HEALTHCARE & LIFE SCIENCES we've
+                  successfully worked with, guaranteeing precise and practical
+                  market research outcomes.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/healthcare-life-sciences">Find out more</a>
@@ -302,7 +308,10 @@ export default function Home() {
                   <a href="/audience/social-consumer">Social & consumer</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  At Audience Match, we are committed to ensuring that your
+                  projects effortlessly resonate with the perfect audience
+                  across a wide range of studies – from RDD CATI projects to
+                  targeted consumer projects.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/social-consumer">Find out more</a>
@@ -343,7 +352,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  We understand the importance of obtaining insights from these
+                  hard-to-reach people, and we are here to make it happen.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/media-advertising">Find out more</a>
