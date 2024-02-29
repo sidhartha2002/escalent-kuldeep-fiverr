@@ -170,7 +170,7 @@ export default function Home() {
             class="CenterTitleText__img"
             src="https://ffind.com/app/uploads/2021/07/ricerche_tel_CATI.svg"
           />
-          <h2 class="CenterTitleText__title mx-auto">
+          <h2 class="CenterTitleText__title mx-auto text-xl md:text-3xl">
             The benefits of using telephone surveys
           </h2>
 

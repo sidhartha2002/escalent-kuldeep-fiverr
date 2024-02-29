@@ -87,7 +87,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ...Get from client...
+                  Through meticulous desk research and the utilisation of
+                  specialised databases, we have successfully connected with
+                  more than 35,000 Finance experts
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/investors-finance/b2b-invenstors">
@@ -132,7 +134,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Through meticulous desk research and the utilisation of
+                  specialised databases, we have successfully connected with
+                  more than 35,000 Finance experts.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/investors-finance/investors-finance">
@@ -177,7 +181,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Engaging business & institutional investors, like pension
+                  funds and insurance companies.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/investors-finance/corporate-banking">
@@ -222,7 +227,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  About Financial decision makers study.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/investors-finance/financial-decision-makers">

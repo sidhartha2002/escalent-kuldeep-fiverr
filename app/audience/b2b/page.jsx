@@ -128,7 +128,8 @@ export default function Home() {
                   <a href="/audience/b2b/retail">Retail</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Exploring the world of retailers provides a captivating
+                  glimpse into the complex web of business and buying patterns.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/retail">Find out more</a>
@@ -168,7 +169,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Marketing research with manufacturing businesses typically
+                  focuses on gaining insights into market developments.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/construction-industrial">
@@ -209,7 +211,8 @@ export default function Home() {
                   <a href="/audience/b2b/sme">SME's</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Nearly all firms fall within the category of small and
+                  medium-sized enterprises (SME).
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/sme">Find out more</a>
@@ -250,7 +253,9 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  Market analysis in the the agricultural sector, property, and
+                  cultivating sectors focuses on comprehending the dynamic
+                  landscape.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/agriculture-land-farming">
@@ -291,7 +296,9 @@ export default function Home() {
                   <a href="/audience/b2b/automotive">Automotive</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  The automobile industry, particularly when paired with
+                  commercial transportation operations, is experiencing
+                  substantial upheavals as technology advances.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/automotive">Find out more</a>
@@ -330,7 +337,9 @@ export default function Home() {
                   <a href="/audience/b2b/technology">Technology</a>
                 </div>
                 <div className="featured-success-story-excerpt">
-                  ....... To get this content from Client ....
+                  When engaging in market research with technology experts,
+                  developers, and IT decision-makers, the discussions revolve
+                  around highly specialised topics and themes.
                 </div>
                 <div className="featured-success-story-links linkpair smcaps">
                   <a href="/audience/b2b/technology">Find out more</a>
