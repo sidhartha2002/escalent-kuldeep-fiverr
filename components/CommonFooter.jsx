@@ -63,6 +63,14 @@ export function CommonFooter() {
       {/*  */}
       {/*  */}
 
+      <br />
+      <br />
+      <h1 className="flex justify-center text-lg uppercase text-gray-500 underline">
+        🔽⏬ Other Types of Footers (just for checking) ⏬🔽
+      </h1>
+      <br />
+      <br />
+
       <div className="wrapper Footer px-0" id="wrapper-footer">
         <footer className="site-footer container px-0">
           <div className="Footer__first__wrapper d-flex flex-col pt-10 md:px-5 lg:flex-row">
