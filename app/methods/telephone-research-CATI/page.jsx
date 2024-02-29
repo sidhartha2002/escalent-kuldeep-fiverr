@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div class="row container mx-auto px-0 text-left">
           <div class="CoverHeader__contain col-12 col-lg-6  pl-3">
-            <h4 class="CoverHeader__subtitle col-lg-11 px-0">ATI FIELDWORK</h4>
+            <h4 class="CoverHeader__subtitle col-lg-11 px-0">CATI FIELDWORK</h4>
             <h1 class="CoverHeader__title  col-lg-11 px-0">
               Perform CATI surveys via phone with experienced professionals
             </h1>
@@ -56,7 +56,7 @@ export default function Home() {
               width="680"
               height="800"
               class=""
-              src="https://ffind.com/app/uploads/2021/07/social-sampling.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cati.jpg"
             />
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
             <img
               width="680"
               height="590"
-              src="https://ffind.com/app/uploads/2021/07/social-sampling-1.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cati-1.jpg"
             />
           </div>
           <div class="col-12 col-lg-6 offset-lg-1  px-0">
@@ -105,7 +105,7 @@ export default function Home() {
             <img
               width="680"
               height="590"
-              src="https://ffind.com/app/uploads/2021/07/social-sampling-2.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cati-2.jpg"
             />
           </div>
           <div class="col-12 col-lg-6   px-0">
@@ -168,7 +168,7 @@ export default function Home() {
             width="126"
             height="109"
             class="CenterTitleText__img"
-            src="https://ffind.com/app/uploads/2021/07/social_sampling.svg"
+            src="https://ffind.com/app/uploads/2021/07/ricerche_tel_CATI.svg"
           />
           <h2 class="CenterTitleText__title mx-auto">
             The benefits of using telephone surveys

@@ -57,7 +57,7 @@ export default function Home() {
               width="680"
               height="800"
               class=""
-              src="https://ffind.com/app/uploads/2021/07/social-sampling.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cawi_2.jpg"
             />
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Home() {
             <img
               width="680"
               height="590"
-              src="https://ffind.com/app/uploads/2021/07/social-sampling-1.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cawi-1.jpg"
             />
           </div>
           <div class="col-12 col-lg-6 offset-lg-1  px-0">
@@ -103,7 +103,7 @@ export default function Home() {
             <img
               width="680"
               height="590"
-              src="https://ffind.com/app/uploads/2021/07/social-sampling-2.jpg"
+              src="https://ffind.com/app/uploads/2021/07/cawi-2.jpg"
             />
           </div>
           <div class="col-12 col-lg-6   px-0">
@@ -157,7 +157,7 @@ export default function Home() {
             width="126"
             height="109"
             class="CenterTitleText__img"
-            src="https://ffind.com/app/uploads/2021/07/social_sampling.svg"
+            src="https://ffind.com/app/uploads/2021/07/ricerche_online_CAVI.svg"
           />
           <h2 class="CenterTitleText__title mx-auto">
             The Benefits of Conducting Interviews Online
