@@ -38,15 +38,15 @@ export default function RootLayout({
           <main>{children}</main>
 
           <CommonFooter />
+          {/* <br />
           <br />
           <br />
           <br />
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <FooterComponent />
+          <br /> */}
+          {/* <FooterComponent /> */}
         </div>
       </body>
     </html>

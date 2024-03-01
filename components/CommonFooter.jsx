@@ -17,6 +17,7 @@ export function CommonFooter() {
               If you need a quote for a...
             </div>
           </div>
+          <br />
           <TypeAnimation
             className="lgl:text-3xl lgl:mt-4 mt-2 flex flex-col items-center text-center text-xl font-extrabold tracking-wider text-black md:text-3xl"
             sequence={[
@@ -38,7 +39,6 @@ export function CommonFooter() {
             }}
             repeat={Infinity}
           />
-
           <br />
           <br />
 
@@ -63,9 +63,9 @@ export function CommonFooter() {
       {/*  */}
       {/*  */}
 
-      <br />
-      <br />
-      <h1 className="flex justify-center text-lg uppercase text-gray-500 underline">
+      {/* <br />
+      <br /> */}
+      {/* <h1 className="flex justify-center text-lg uppercase text-gray-500 underline">
         🔽⏬ Other Types of Footers (just for checking) ⏬🔽
       </h1>
       <br />
@@ -300,7 +300,7 @@ export function CommonFooter() {
             </div>
           </div>
         </footer>
-      </div>
+      </div> */}
     </>
   );
 }

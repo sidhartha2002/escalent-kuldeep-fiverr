@@ -21,8 +21,8 @@
 .OurSolutions__list__item {
   -webkit-box-shadow: 0 3px 6px rgba(255, 14, 14, 0.57);
   box-shadow: 0 23px 26px rgba(0, 0, 0, 0.16);
-  -moz-border-radius: 16px;
-  border-radius: 16px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   padding: 20px;
   display: -webkit-box;
   display: -webkit-f lex;
@@ -48,11 +48,11 @@
     min-height: 340px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
+    /* -webkit-flex-direction: row; */
     -moz-box-orient: horizontal;
     -moz-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    /* -ms-flex-direction: row; */
+    /* flex-direction: row; */
     padding: 20px;
   }
 }
