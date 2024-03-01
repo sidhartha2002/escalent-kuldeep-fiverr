@@ -122,7 +122,7 @@ export const Header = () => {
           {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
           <img
             className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
-            src="/logo1.svg"
+            src="/images/logo.svg"
             height={20}
             width={20}
             color="#530095"
@@ -136,10 +136,10 @@ export const Header = () => {
           {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
           <img
             className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
-            src="/logo.svg"
+            src="/images/logo-white.svg"
             height={20}
             width={20}
-            color="#530095"
+            color="#fff"
             alt=""
           />
         </Link>

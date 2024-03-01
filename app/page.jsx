@@ -44,7 +44,6 @@ export default function Home() {
                           </span>
                         </p>
                       </div>
-
                       <br />
                       <div>
                         <h2 className="OurSolutions__list__item__wrap__title">
@@ -183,7 +182,7 @@ export default function Home() {
                             <img
                               width="102"
                               height="91"
-                              src="https://ffind.com/app/uploads/2021/07/ricerche_tel_CATI.svg"
+                              src="/images/social.svg"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -204,7 +203,7 @@ export default function Home() {
                               </p>
                             </div>
                             <div>
-                              <div className="mt-8">
+                              <div className="mt-16">
                                 <a
                                   href="/methods/social-sampling"
                                   class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
@@ -228,7 +227,7 @@ export default function Home() {
                             <img
                               width="129"
                               height="82"
-                              src="https://ffind.com/app/uploads/2021/07/ricerche_online_CAVI.svg"
+                              src="/images/telephone.svg"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -270,7 +269,7 @@ export default function Home() {
                             <img
                               width="128"
                               height="83"
-                              src="https://ffind.com/app/uploads/2021/07/interview.svg"
+                              src="/images/research-online.svg"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -314,7 +313,7 @@ export default function Home() {
                             <img
                               width="137"
                               height="87"
-                              src="https://ffind.com/app/uploads/2021/07/research.svg"
+                              src="/images/interview.svg"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">

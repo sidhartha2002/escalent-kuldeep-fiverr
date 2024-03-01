@@ -1,17 +1,14 @@
 export const Logo = ({ className }: { className?: string }) => (
   <svg
-    width="64"
-    height="64"
-    viewBox="0 0 20 20"
-    fill=""
-    color=""
-    aria-label="Linear Logotype"
-    className={className}
+    width="38"
+    height="37"
+    viewBox="0 0 18 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill=""
-      fillRule="evenodd"
-      d="M52 100H0V78h52V61h21v39H52zm0-78H0V0h73v39H52V22zM31 61H0V39h31v22z"
-    ></path>
+      d="M12.65 16.5498L9.14996 7.1498L5.54996 16.5498L0.649963 16.5498L7.14996 0.449806L11.15 0.449806L17.65 16.5498L12.65 16.5498Z"
+      fill="#fff"
+    />
   </svg>
 );
