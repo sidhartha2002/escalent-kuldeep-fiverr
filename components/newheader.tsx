@@ -425,7 +425,7 @@ function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={`${navLinkColor} mx-5`}>
               Solutions
             </NavigationMenuLink>
