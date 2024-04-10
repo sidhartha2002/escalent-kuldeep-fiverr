@@ -18,20 +18,44 @@ type NavItem = {
 export const nav: NavItem[] = [
   {
     id: 1,
-    title: "Industries",
-    href: "",
+    title: "Audiences",
+    href: "/audience",
     subnavigation: [
+      // {
+      //   title: "Automotive & Mobility",
+      //   href: "/audience/automotive-and-mobility/",
+      // },
+      { title: "B2B audiences", href: "/audience/b2b" },
+      { title: "Investors & finance", href: "/audience/investors-finance" },
+      { title: "Leaders & experts", href: "/audience/leaders-experts" },
       {
-        title: "Automotive & Mobility",
-        href: "/industries/automotive-and-mobility/",
+        title: "Healthcare & life sciences",
+        href: "/audience/healthcare-life-sciences",
       },
-      { title: "Consumer Goods & Retail", href: "/prod2" },
-      { title: "Energy", href: "/prod3" },
-      { title: "Financial Services", href: "/prod4" },
-      { title: "Health", href: "/prod5" },
-      { title: "Technology", href: "/prod6" },
-      { title: "Telecom", href: "/prod7" },
-      { title: "Travel & Tourism", href: "/prod8" },
+      { title: "Social & consumer", href: "/audience/social-consumer" },
+      { title: "Media & advertising", href: "/audience/media-advertising" },
+    ],
+    // leftBar: "Just some random text so we have different layouts.",
+  },
+  {
+    id: 2,
+    title: "Methods",
+    href: "/methods",
+    subnavigation: [
+      // {
+      //   title: "Automotive & Mobility",
+      //   href: "/audience/automotive-and-mobility/",
+      // },
+      { title: "Social Sampling", href: "/methods/social-sampling" },
+      {
+        title: "Telephone research CATI",
+        href: "/methods/telephone-research-CATI",
+      },
+      { title: "Online research CAWI", href: "/methods/online-research-CAWI" },
+      {
+        title: "Interviews with video call",
+        href: "/methods/interviews-with-video-call",
+      },
     ],
     // leftBar: "Just some random text so we have different layouts.",
   },
@@ -60,7 +84,7 @@ export const nav: NavItem[] = [
     // leftBar: "hello",
   }, */
   {
-    id: 2,
+    id: 3,
     title: "Solutions",
     href: "",
     subnavigation2: {
@@ -86,7 +110,7 @@ export const nav: NavItem[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: "Expertise",
     href: "/expertise",
     subnavigation: [
@@ -121,7 +145,7 @@ export const nav: NavItem[] = [
     // },
   },
   {
-    id: 4,
+    id: 5,
     title: "About",
     href: "/about",
     subnavigation: [
@@ -134,7 +158,7 @@ export const nav: NavItem[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Careers & Culture",
     href: "/careers-and-culture",
   },

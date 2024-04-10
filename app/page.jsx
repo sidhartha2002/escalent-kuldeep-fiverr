@@ -1,592 +1,362 @@
 "use client";
-import HoverCarousel from "@/components/HoverCarousel/HoverCarousel";
+
 import Image from "next/image";
 import Link from "next/link";
 
-import styles from "@/app/escalent.css";
+// import styles from "@/app/escalent.css";
+import styles from "@/app/ffind.css";
 
 import Projects from "../components/Projects";
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
     <>
-      <div
-        className="home body-div page-template-default page page-id-2 deluxe deluxe-purple has-openmenuflyout"
-        data-title=""
-        cz-shortcut-listen="true"
-      >
-        {/*  */}
+      <div className="home page-template page-template-page-templates page-template-page-blocks page-template-page-templatespage-blocks-php page page-id-101 wp-embed-responsive group-blog">
+        <div className="site" id="page">
+          <main className="main">
+            <div className="page page--new page--no-image">
+              <div className="page__body">
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                <section
+                  className="CoverHeader  pbM40 h-screen px-6 lg:px-20 "
+                  style={{ color: "#ffffff", backgroundColor: "#530095" }}
+                >
+                  <div className="row container mx-auto items-center justify-center px-0 text-left">
+                    <div className="CoverHeader__contain col-12 col-lg-6  pl-3">
+                      <h1 className="CoverHeader__title  col-lg-11 px-0">
+                        In the ocean of data, <br className="desktop" />
+                        we find the perfect wave
+                      </h1>
 
-        <div className="fma fma-A">
-          <div
-            className="fma-desktop has-fma-video"
-            style={{
-              backgroundImage:
-                "url('https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')",
-            }}
-            /* style="{{background-image:url('https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg')}}" */
-          >
-            <div className="fma-desktop-video">
-              <video
-                id="fmavideo"
-                src="https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.webm"
-                poster="https://escalent.co/wp-content/uploads/2022/03/Escalent_HomepageLoop_1335x760-2022.jpg"
-                playsInline
-                autoPlay
-                loop
-                muted
-              ></video>
-            </div>
-            <span className="fma-carat">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="11"
-                height="7"
-                viewBox="0 0 11 7"
-                aria-hidden="true"
-              >
-                <path
-                  fill="currentColor"
-                  fillRule="evenodd"
-                  d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
-                ></path>
-              </svg>
-            </span>
-          </div>
-          <div className="fma-mobile">
-            <img
-              src="https://escalent.co/wp-content/uploads/2022/02/homepage-fma-768x960-2022.jpg"
-              alt="Homepage"
-            />
+                      <div className="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
+                        <p>
+                          <span style={{ fontWeight: 400 }}>
+                            We specialize in obtaining data for both qualitative
+                            and quantitative market research, assisting clients
+                            globally in conducting local and multi-country
+                            studies through conventional and imaginative
+                            methodologies.
+                          </span>
+                        </p>
+                      </div>
+                      <br />
+                      <div>
+                        <h2 className="OurSolutions__list__item__wrap__title">
+                          If you need...
+                        </h2>
+                        <TypeAnimation
+                          className="lgl:text-3xl text-textDark lgl:mt-4 mt-2 flex flex-col items-center text-center text-sm font-bold tracking-wider md:text-2xl"
+                          sequence={[
+                            // Same substring at the start will only be typed out once, initially
+                            "Telephone research CATI",
+                            1000, // wait 1s before replacing "Mice" with "Hamsters"
+                            "Online research CAWI",
+                            1000,
+                            "Webcam Interview",
+                            1000,
+                            "Social Sampling",
+                            1000,
+                          ]}
+                          wrapper="span"
+                          speed={50}
+                          style={{
+                            display: "inline-block",
+                            color: "#64ffda",
+                          }}
+                          repeat={Infinity}
+                        />
+                      </div>
 
-            <span className="fma-carat">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="11"
-                height="7"
-                viewBox="0 0 11 7"
-                aria-hidden="true"
-              >
-                <path
-                  fill="currentColor"
-                  fillRule="evenodd"
-                  d="M5.507 7.002L.009 1.013.943-.003 5.507 4.97l4.564-4.973.935 1.016-5.499 5.989z"
-                ></path>
-              </svg>
-            </span>
-          </div>
-          <div className="fma-promobox">
-            <div className="fma-promobox-heading smcaps">
-              ESCALENT ACQUIRES C SPACE, HALL &amp; PARTNERS
-            </div>
-            <div className="fma-promobox-title sans">
-              Notable union helps clients find new sources of growth in
-              ever-changing world{" "}
-            </div>
-            <div className="fma-promobox-links linkpair smcaps">
-              <a href="https://escalent-demo.sarthak.app/news/escalent-acquires-c-space-hall-partners/">
-                SHOW ME MORE
-              </a>
-            </div>
-          </div>
-        </div>
+                      {/*  */}
+                      <br />
+                      <br />
+                      <br />
+                      <br />
 
-        {/*  */}
+                      <div className="flex scale-90 gap-7 md:ml-5 md:scale-100">
+                        <a
+                          href="#_"
+                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                        >
+                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                            Contact
+                          </span>
+                        </a>
+                        <a
+                          href="#_"
+                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                        >
+                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                            Ask a quote
+                          </span>
+                        </a>
+                      </div>
+                      {/* <ul className="ListButton WhiteAndOutline no-gutters col-12 flex gap-7 px-0">
+                        <div className="">
+                          <a
+                            href="/case-studies/paint-purchasing-study"
+                            className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                          >
+                            Contact
+                          </a>
+                        </div>
+                        <div className="">
+                          <a
+                            href="/case-studies/paint-purchasing-study"
+                            className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
+                          >
+                            Ask to a quote
+                          </a>
+                        </div>
+                      </ul> */}
+                    </div>
 
-        <main id="maincontent">
-          <div className="intro-content intro-content-index">
-            <h1 className="headingA">Illumination accelerated.</h1>
-            <p>
-              We are catalysts of progress in industries facing disruption,
-              helping brands translate human and market behaviors into ideas
-              that change the world.
-            </p>
-            <p>
-              <a className="smcaps" href="/about/">
-                Learn More
-              </a>
-            </p>
-          </div>
-
-          <section className="home-industries newsection">
-            <h2 className="headingC">Choose Your Industry</h2>
-            <ul className="industry-selector semlist">
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/automotive-and-mobility/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/04/automotive-m.jpg"
-                    className="size-industry-m2x"
-                    alt="Automotive"
-                    decoding="async"
-                    fetchPriority="high"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/04/automotive-d.jpg"
-                    className="size-industry-d2x"
-                    alt="Automotive"
-                    decoding="async"
-                  />
-                  <div className="overlay overlay-teal"></div>
-                  <div className="underlay underlay-teal"></div>
-                  <div className="industry-selector-title">
-                    Automotive &amp; Mobility
+                    <div className="Image__inpage col-lg-6">
+                      <img
+                        width="680"
+                        height="800"
+                        className=""
+                        // src="https://ffind.com/app/uploads/2021/07/home.jpg"
+                        src="/images/home-images-edit.png"
+                      />
+                    </div>
                   </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/consumer-goods-and-retail/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/canr-m.jpg"
-                    className="size-industry-m2x"
-                    alt="Canr"
-                    decoding="async"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/canr-d.jpg"
-                    className="size-industry-d2x"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div className="overlay overlay-purple"></div>
-                  <div className="underlay underlay-purple"></div>
-                  <div className="industry-selector-title">
-                    Consumer Goods &amp; Retail
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/energy/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/04/energy-m.jpg"
-                    className="size-industry-m2x"
-                    alt=""
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/04/energy-d.jpg"
-                    className="size-industry-d2x"
-                    alt="Energy"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div className="overlay overlay-orange"></div>
-                  <div className="underlay underlay-orange"></div>
-                  <div className="industry-selector-title">Energy</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/financial-services/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/financial-services.jpg"
-                    className="size-industry-m2x"
-                    alt="financial services"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/financial-services-1.jpg"
-                    className="size-industry-d2x"
-                    alt="Financial Services"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div className="overlay overlay-blue"></div>
-                  <div className="underlay underlay-blue"></div>
-                  <div className="industry-selector-title">
-                    Financial Services
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/healthcare-life-sciences/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/health.jpg"
-                    className="size-industry-m2x"
-                    alt="Health"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/health-1.jpg"
-                    className="size-industry-d2x"
-                    alt="health"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div className="overlay overlay-teal"></div>
-                  <div className="underlay underlay-teal"></div>
-                  <div className="industry-selector-title">Health</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/technology/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/technology.jpg"
-                    className="size-industry-m2x"
-                    alt="Technology"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2019/05/technology-1.jpg"
-                    className="size-industry-d2x"
-                    alt="Technology"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                  <div className="overlay overlay-purple"></div>
-                  <div className="underlay underlay-purple"></div>
-                  <div className="industry-selector-title">Technology</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/telecommunications/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1.jpg"
-                    className="size-industry-m2x"
-                    alt="Telecom"
-                    decoding="async"
-                    loading="lazy"
-                    srcSet="https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1.jpg 640w, https://escalent.co/wp-content/uploads/2022/04/telecom-640x440-1-170x117.jpg 170w"
-                    sizes="(max-width: 640px) 100vw, 640px"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1.jpg"
-                    className="size-industry-d2x"
-                    alt="Telecom"
-                    decoding="async"
-                    loading="lazy"
-                    srcSet="https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1.jpg 334w, https://escalent.co/wp-content/uploads/2022/04/telecom-334x440-1-129x170.jpg 129w"
-                    sizes="(max-width: 334px) 100vw, 334px"
-                  />
-                  <div className="overlay overlay-orange"></div>
-                  <div className="underlay underlay-orange"></div>
-                  <div className="industry-selector-title">Telecom</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://escalent-demo.sarthak.app/industries/travel-and-tourism/">
-                  <img
-                    width="640"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1.jpg"
-                    className="size-industry-m2x"
-                    alt="Travel"
-                    decoding="async"
-                    loading="lazy"
-                    srcSet="https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1.jpg 640w, https://escalent.co/wp-content/uploads/2022/03/travel-640x440-1-170x117.jpg 170w"
-                    sizes="(max-width: 640px) 100vw, 640px"
-                  />
-                  <img
-                    width="334"
-                    height="440"
-                    src="https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1.jpg"
-                    className="size-industry-d2x"
-                    alt="Travel"
-                    decoding="async"
-                    loading="lazy"
-                    srcSet="https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1.jpg 334w, https://escalent.co/wp-content/uploads/2022/03/travel-334x440-1-129x170.jpg 129w"
-                    sizes="(max-width: 334px) 100vw, 334px"
-                  />
-                  <div className="overlay overlay-blue"></div>
-                  <div className="underlay underlay-blue"></div>
-                  <div className="industry-selector-title">
-                    Travel &amp; Tourism
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
+                </section>
 
-          {/* sarthak animation */}
-          <Projects />
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                <section className="TitleText TitleText--center  ">
+                  <div className="container mx-auto items-center justify-center px-0 text-center">
+                    <div className="TitleText__descr col-12 col-lg-9 col-xl-8 mx-auto items-center justify-center py-16 text-left text-base md:text-center md:text-lg">
+                      <p>
+                        <span>
+                          Conducting over one million interviews annually using
+                          the top methodologies for both research types (CATI,
+                          CAWI, and IDI). A significant portion of our data
+                          gathering is conducted via telephone interviews. Our
+                          team of 750+ native speaking interviewers operate
+                          remotely from more than 35 countries, showcasing our
+                          expertise in remote work. In 2015, we assembled a team
+                          of digital marketing experts to reach out to survey
+                          participants via social media platforms (Social
+                          Sampling) and conduct interviews using traditional
+                          (telephone and online) and cutting-edge (webcam and
+                          voice assistants) approaches.
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </section>
 
-          {/*
-           */}
-          <div className="logo-scroller newsection">
-            <ul className="semlist">
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2021/01/stellantis-170x170.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="Stellantis"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2021/01/stellantis-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2021/01/stellantis-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2021/01/stellantis.jpg 340w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2022/02/uber-170x170.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="Uber"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/02/uber-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/02/uber-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/uber.jpg 340w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2022/03/fiserv-170x170.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="fiserv"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/03/fiserv-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/03/fiserv-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/fiserv.jpg 340w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2022/03/pfizer-170x170.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="Pfizer"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/03/pfizer-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/03/pfizer-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/03/pfizer.jpg 340w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2022/02/qualcomm-170x170.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="Qualcomm"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/02/qualcomm-170x170.jpg 170w, https://escalent.co/wp-content/uploads/2022/02/qualcomm-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/qualcomm.jpg 340w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-              <li>
-                <img
-                  width="170"
-                  height="170"
-                  src="https://escalent.co/wp-content/uploads/2019/09/lowes.jpg"
-                  className="attachment-logo170 size-logo170"
-                  alt="Lowe’s"
-                  decoding="async"
-                  loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2019/09/lowes.jpg 340w, https://escalent.co/wp-content/uploads/2019/09/lowes-150x150.jpg 150w"
-                  sizes="(max-width: 170px) 100vw, 170px"
-                />
-              </li>
-            </ul>
-          </div>
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                {/*  */}
+                <section className="OurSolutions  ">
+                  <div className="row container mx-auto px-0 text-left md:px-7 lg:px-20">
+                    <h2 className="OurSolutions__title scale-105 font-extrabold">
+                      OUR SOLUTIONS
+                    </h2>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <ul className="OurSolutions__list row col-12 mx-0 px-0">
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item   bg-[#230b54] text-white ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="102"
+                              height="91"
+                              src="/images/social.svg"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Social Sampling
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                Quantitative market research requires finding
+                                respondents who are well-profiled, authentic,
+                                and have not taken surveys recently, which can
+                                be challenging for panels. Social networks are
+                                now utilized by over half of the global
+                                population, creating a vast pool of potential
+                                respondents. Just locate the perfect ones and
+                                incorporate them into the survey effectively.
+                              </p>
+                            </div>
+                            <div>
+                              <div className="mt-16">
+                                <a
+                                  href="/methods/social-sampling"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                >
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Social Sampling
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item   bg-[#230b54] text-white ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="129"
+                              height="82"
+                              src="/images/telephone.svg"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Telephone research CATI
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                The CATI methodology is reliable, particularly
+                                when there is a need to gather a large amount of
+                                data consistently. This innovative approach
+                                involves CATI@home, with local interviewers in
+                                more than 25 countries worldwide.
+                              </p>
+                            </div>
+                            <div>
+                              <div className="mt-16">
+                                <a
+                                  href="/methods/telephone-research-CATI"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                >
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Telephone research CATI
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item   bg-[#230b54] text-white ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="128"
+                              height="83"
+                              src="/images/research-online.svg"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Online research CAWI
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                <span style={{ fontWeight: 400 }}>
+                                  The CAWI methodology is highly popular in
+                                  quantitative market analysis due to its
+                                  efficiency and affordability. Smartphones
+                                  enable users to respond to the survey from any
+                                  location and at any time.
+                                </span>
+                              </p>
+                            </div>
+                            <div>
+                              <div className="mt-16">
+                                <a
+                                  href="/methods/online-research-CAWI"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                >
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Online research CAWI
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item   bg-[#230b54] text-white ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="137"
+                              height="87"
+                              src="/images/interview.svg"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Interviews with video call
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                This combines CAWI, CATI, and F2F to offer
+                                clients both quantitative and qualitative data
+                                by capturing respondents' reactions and
+                                expressions in their natural setting.
+                              </p>
+                            </div>
+                            <div>
+                              <div className="mt-16">
+                                <a
+                                  href="/methods/interviews-with-video-call"
+                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                >
+                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                    Interviews with video call
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </main>
 
           {/*  */}
-          <div className="gridbox">
-            <section id="featured" className="gridcol1 newsection">
-              <header className="section-header">
-                <h2 className="headingA">Featured</h2>
-              </header>
-              <ul className="deck deck_full semlist">
-                <li className="card card_paper">
-                  <a
-                    className="card-image fullgridbox fullgridbox-mobile"
-                    href="https://escalent-demo.sarthak.app/papers/a-better-customer-growth-strategy-is-within-reach-download-the-guide-to-our-award-winning-path-to-purchase-research/"
-                    tabIndex="-1"
-                    aria-hidden="true"
-                  >
-                    <img
-                      width="770"
-                      height="406"
-                      src="https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg"
-                      className="attachment-full size-full"
-                      alt="Want to Win More? Your Guide to Boosting Customer Growth Using Our Award-Winning Path-to-Purchase Approach"
-                      decoding="async"
-                      loading="lazy"
-                      srcSet="https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/770x406-Web-Page-image_Want-to-Win-More-170x90.jpg 170w"
-                      sizes="(max-width: 770px) 100vw, 770px"
-                    />
-                  </a>
-                  <div className="card-type smcaps">
-                    <a href="https://escalent-demo.sarthak.app/thought-leadership/papers/">
-                      Paper
-                    </a>
-                  </div>
-                  <div className="card-title headingC sans">
-                    <a href="https://escalent-demo.sarthak.app/papers/a-better-customer-growth-strategy-is-within-reach-download-the-guide-to-our-award-winning-path-to-purchase-research/">
-                      A Better Customer Growth Strategy is Within Reach.
-                      Download the Guide to Our Award-Winning Path-to-Purchase
-                      Research
-                    </a>
-                  </div>
-                  <p className="card-excerpt">
-                    The customer journey is evolving. Download our guide to
-                    boosting customer growth using its award-winning
-                    path-to-purchase research.
-                  </p>
-                </li>
-                <li className="card card_blog">
-                  <a
-                    className="card-image fullgridbox fullgridbox-mobile"
-                    href="https://escalent-demo.sarthak.app/blog/how-macroeconomic-disruption-has-upended-the-customer-journey-in-financial-services/"
-                    tabIndex="-1"
-                    aria-hidden="true"
-                  >
-                    <img
-                      width="770"
-                      height="406"
-                      src="https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg"
-                      className="attachment-full size-full"
-                      alt="How Macroeconomic Disruption Has Upended the Customer Journey in Financial Services"
-                      decoding="async"
-                      loading="lazy"
-                      srcSet="https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/Image-770x406How-Macroeconomic-Disruption-Has-Upended-the-Customer-Journey-in-Financial-Services-170x90.jpg 170w"
-                      sizes="(max-width: 770px) 100vw, 770px"
-                    />
-                  </a>
-                  <div className="card-type smcaps">
-                    <a href="https://escalent-demo.sarthak.app/thought-leadership/blog/">
-                      Blog
-                    </a>
-                  </div>
-                  <div className="card-title headingC sans">
-                    <a href="https://escalent-demo.sarthak.app/blog/how-macroeconomic-disruption-has-upended-the-customer-journey-in-financial-services/">
-                      How Macroeconomic Disruption Has Upended the Customer
-                      Journey in Financial Services
-                    </a>
-                  </div>
-                  <p className="card-excerpt">
-                    Inflation is just one factor changing the customer journey
-                    and path to purchase. Find out how to get more customer
-                    growth by mapping the purchase journey.
-                  </p>
-                </li>
-                <li className="card card_blog">
-                  <a
-                    className="card-image fullgridbox fullgridbox-mobile"
-                    href="https://escalent-demo.sarthak.app/blog/investing-in-path-to-purchase-research-to-maintain-loyal-customers-during-inflationary-times/"
-                    tabIndex="-1"
-                    aria-hidden="true"
-                  >
-                    <img
-                      width="770"
-                      height="406"
-                      src="https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg"
-                      className="attachment-full size-full"
-                      alt="Investing in Path-to-Purchase Research to Maintain Loyal Customers During Inflationary Times"
-                      decoding="async"
-                      loading="lazy"
-                      srcSet="https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times.jpg 770w, https://escalent.co/wp-content/uploads/2022/09/770x406-Investing-in-Path-to-Purchase-Research-to-Maintain-Loyal-Customers-During-Inflationary-Times-170x90.jpg 170w"
-                      sizes="(max-width: 770px) 100vw, 770px"
-                    />
-                  </a>
-                  <div className="card-type smcaps">
-                    <a href="https://escalent-demo.sarthak.app/thought-leadership/blog/">
-                      Blog
-                    </a>
-                  </div>
-                  <div className="card-title headingC sans">
-                    <a href="https://escalent-demo.sarthak.app/blog/investing-in-path-to-purchase-research-to-maintain-loyal-customers-during-inflationary-times/">
-                      Investing in Path-to-Purchase Research to Maintain Loyal
-                      Customers During Inflationary Times
-                    </a>
-                  </div>
-                  <p className="card-excerpt">
-                    How your consumer path-to-purchase can help you understand
-                    your consumers’ decision-making process during economic
-                    turmoil and avoid the lipstick effect.
-                  </p>
-                </li>
-              </ul>
-            </section>
-          </div>
-
           {/*  */}
-          <section className="bigpic-block fullwithbump newsection">
-            <header className="section-header">
-              <h2 className="headingA">Careers &amp; Culture</h2>
-            </header>
-            <picture className="bigpic-block-image">
-              <source
-                media="(max-width: 767px)"
-                srcSet="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-768x720.jpg"
-              />
-              <source
-                media="(min-width: 768px)"
-                srcSet="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
-              />
-              <img
-                src="https://escalent.co/wp-content/uploads/2019/05/culture-careers-homepage-1120x420.jpg"
-                alt=""
-              />
-            </picture>
-            <div className="linkpair smcaps">
-              <a href="/careers-and-culture/">Careers &amp; Culture</a>
-              <a href="/about/">About</a>
-            </div>
-          </section>
-        </main>
-
-        <div className="featured-block fullwithbump newblock featured-block-newsletter">
-          <img
-            width="570"
-            height="300"
-            src="https://escalent.co/wp-content/uploads/2019/05/newsletter-image-570x300.jpg"
-            className="attachment-full size-full"
-            alt="Newsletter"
-            decoding="async"
-            loading="lazy"
-          />
-          <div className="featured-block-content">
-            <div className="newsletter-bar-content">
-              <h2 className="sans">Subscribe to Our Newsletter</h2>
-              <p>
-                Keep me informed. I’d like to receive occasional newsletters,
-                event notifications, and thought leadership materials.
-              </p>
-            </div>
-            <a
-              className="btn btn-teal"
-              href="https://escalent-demo.sarthak.app/contact/newsletter-sign-up/"
-            >
-              Subscribe
-            </a>
-          </div>
+          {/*  */}
         </div>
       </div>
     </>

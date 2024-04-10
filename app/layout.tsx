@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import "./escalent.css";
+import "./ffind.css";
 import { Footer } from "../components/footer";
+import { CommonFooter } from "../components/CommonFooter";
 import { Header } from "../components/header";
 
 const poppins = Poppins({
@@ -33,7 +36,17 @@ export default function RootLayout({
         <div>
           <Header />
           <main>{children}</main>
-          <FooterComponent />
+
+          <CommonFooter />
+          {/* <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br /> */}
+          {/* <FooterComponent /> */}
         </div>
       </body>
     </html>

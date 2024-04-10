@@ -31,7 +31,8 @@
     "app/page.jsx",
     "app/layout.jsx",
     "components/header.jsx",
-    "components/HoverNav/HoverNav.jsx"
+    "components/HoverNav/HoverNav.jsx",
+    "app/audience/audience/b2b/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -36,6 +36,8 @@ export const Header = () => {
       : "bg-[#530095]  text-white";
   const logoVisible =
     scrollPosition > scrollThreshold ? "opacity-100" : "opacity-0";
+  const logoWhiteVisible =
+    scrollPosition > scrollThreshold ? "opacity-0" : "opacity-100";
   const searchColor = scrollPosition > scrollThreshold ? "#530095" : "#fff";
   const navLinkColor =
     scrollPosition > scrollThreshold ? "text-[#530095]" : "text-white";
@@ -120,10 +122,24 @@ export const Header = () => {
           {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
           <img
             className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
-            src="/logo1.svg"
+            src="/images/logo.svg"
             height={20}
             width={20}
             color="#530095"
+            alt=""
+          />
+        </Link>
+        <Link
+          className={`text-md z-50 flex items-center ${logoWhiteVisible}`}
+          href="/"
+        >
+          {/* <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> */}
+          <img
+            className="ml-11 mr-4 h-[1.8rem] w-[1.8rem]"
+            src="/images/logo-white.svg"
+            height={20}
+            width={20}
+            color="#fff"
             alt=""
           />
         </Link>
@@ -187,7 +203,9 @@ export const Header = () => {
                         aria-expanded={activeSub === item.id}
                         aria-controls={`subnav-${item.id}`}
                       >
-                        {item.title}
+                        <a href={item.href} className={`${navLinkColor}`}>
+                          {item.title}
+                        </a>
                       </button>
                       <div
                         id={`subnav-${item.id}`}
@@ -292,7 +310,9 @@ export const Header = () => {
 
         <div className="ml-auto mt-5 flex h-full items-center ">
           <Link className="mr-6 text-sm" href="#">
-            <span className="text-3xl hover:text-[#00b5ac]">escalent</span>
+            <span className={`text-3xl hover:text-[#00b5ac] ${navLinkColor}`}>
+              escalent
+            </span>
           </Link>
 
           <Link href={""}>
