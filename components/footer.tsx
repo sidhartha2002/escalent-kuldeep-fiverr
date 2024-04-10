@@ -10,15 +10,19 @@ const footerLinks = [
   {
     title: "Audience",
     links: [
-      { title: "Features", href: "#" },
-      { title: "Solutions", href: "#" },
-      { title: "Industries", href: "#" },
-      { title: "Expertise", href: "#" },
-      { title: "Thought Leadership", href: "#" },
+      { title: "B2B audiences", href: "/audience/b2b" },
+      { title: "Investors & finance", href: "/audience/investors-finance" },
+      { title: "Leaders & experts", href: "/audience/leaders-experts" },
+      {
+        title: "Healthcare & life sciences",
+        href: "/audience/healthcare-life-sciences",
+      },
+      { title: "Social & consumer", href: "/audience/social-consumer" },
+      { title: "Media & advertising", href: "/audience/media-advertising" },
     ],
   },
   {
-    title: "Solutions",
+    title: "Methods",
     links: [
       { title: "Social Sampling", href: "/methods/social-sampling" },
       {
@@ -35,9 +39,8 @@ const footerLinks = [
   {
     title: "About",
     links: [
-      { title: "Community", href: "#" },
-      { title: "Contact", href: "#" },
-      { title: "DPA", href: "#" },
+      { title: "Contact", href: "/contact" },
+      { title: "About us", href: "/about" },
       { title: "Terms of service", href: "#" },
       { title: "Privacy Policy", href: "#" },
     ],
@@ -94,28 +97,28 @@ export const Footer = () => (
 
     <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
       {/* UK */}
-      <div className="flex flex-col rounded-lg bg-purple-500 bg-opacity-10 p-4 text-white">
+      <div className="flex flex-col rounded-lg bg-white bg-opacity-95 p-4 text-purple-800">
         <h2 className="text-lg font-semibold lg:text-xl">UK</h2>
         <p>FFIND ltd – Britannia House 11 Glenthorne Road, London</p>
         <p>VAT Number GB-348617865</p>
       </div>
 
       {/* Italy */}
-      <div className="flex flex-col rounded-lg bg-purple-500  bg-opacity-10 p-4 text-white">
+      <div className="flex flex-col rounded-lg bg-white  bg-opacity-95 p-4 text-purple-800">
         <h2 className="text-lg font-semibold lg:text-xl">ITALY</h2>
         <p>FFIND srl – Via Ercole Bernabei, 51 90145 – Palermo (Italy)</p>
         <p>P.IVA 02372540811</p>
       </div>
 
       {/* Germany */}
-      <div className="flex flex-col rounded-lg bg-purple-500  bg-opacity-10 p-4 text-white">
+      <div className="flex flex-col rounded-lg bg-white  bg-opacity-95 p-4 text-purple-800">
         <h2 className="text-lg font-semibold lg:text-xl">GERMANY</h2>
         <p>FFIND GmbH – Dreieichstraße 59 60594 Frankfurt am Main</p>
         <p>German VAT Number DE276580654</p>
       </div>
     </div>
 
-    <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
+    {/* <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
       <div className="item-center flex flex-col justify-center rounded-lg bg-purple-500  bg-opacity-10 p-4">
         <img
           src={
@@ -166,6 +169,6 @@ export const Footer = () => (
           alt="logos"
         />
       </div>
-    </div>
+    </div> */}
   </footer>
 );

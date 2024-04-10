@@ -34,20 +34,19 @@ export default function Home() {
                       </h1>
 
                       <div className="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
-                        <p>
-                          <span style={{ fontWeight: 400 }}>
-                            We specialize in obtaining data for both qualitative
-                            and quantitative market research, assisting clients
-                            globally in conducting local and multi-country
-                            studies through conventional and imaginative
-                            methodologies.
-                          </span>
+                        <p className="text-sm xl:text-base">
+                          We specialize in obtaining data for both qualitative
+                          and quantitative market research, assisting clients
+                          globally in conducting local and multi-country studies
+                          through conventional and imaginative methodologies.
                         </p>
                       </div>
                       <br />
                       <div>
                         <h2 className="OurSolutions__list__item__wrap__title">
-                          If you need...
+                          <span className="md:lg text-base">
+                            If you need...
+                          </span>
                         </h2>
                         <TypeAnimation
                           className="lgl:text-3xl text-textDark lgl:mt-4 mt-2 flex flex-col items-center text-center text-sm font-bold tracking-wider md:text-2xl"
@@ -81,23 +80,23 @@ export default function Home() {
                       <div className="flex scale-90 gap-7 md:ml-5 md:scale-100">
                         <a
                           href="#_"
-                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                          className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                         >
-                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
-                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                          <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span className="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span className="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                             Contact
                           </span>
                         </a>
                         <a
                           href="#_"
-                          class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                          className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                         >
-                          <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                          <span class="absolute inset-0 h-full w-full rounded-md bg-white "></span>
-                          <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                          <span class="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                          <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                          <span className="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                          <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                          <span className="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                             Ask a quote
                           </span>
                         </a>
@@ -126,9 +125,12 @@ export default function Home() {
                       <img
                         width="680"
                         height="800"
-                        className=""
+                        // className="mb-24 scale-110 rounded-3xl lg:scale-110"
+                        className="scale-110 rounded-tr-3xl md:scale-100"
                         // src="https://ffind.com/app/uploads/2021/07/home.jpg"
-                        src="/images/home-images-edit.png"
+                        // src="/images/home-images-edit.png"
+                        // src="/images/hero/hero.png"
+                        src="/images/hero/hero-crop1.png"
                       />
                     </div>
                   </div>
@@ -182,7 +184,8 @@ export default function Home() {
                             <img
                               width="102"
                               height="91"
-                              src="/images/social.svg"
+                              src="/images/social.png"
+                              className="scale-105"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -206,12 +209,12 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/social-sampling"
-                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                  className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                                     Social Sampling
                                   </span>
                                 </a>
@@ -227,7 +230,7 @@ export default function Home() {
                             <img
                               width="129"
                               height="82"
-                              src="/images/telephone.svg"
+                              src="/images/telephones.png"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -248,12 +251,12 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/telephone-research-CATI"
-                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                  className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                                     Telephone research CATI
                                   </span>
                                 </a>
@@ -269,7 +272,7 @@ export default function Home() {
                             <img
                               width="128"
                               height="83"
-                              src="/images/research-online.svg"
+                              src="/images/research.png"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -292,12 +295,12 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/online-research-CAWI"
-                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                  className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                                     Online research CAWI
                                   </span>
                                 </a>
@@ -313,7 +316,7 @@ export default function Home() {
                             <img
                               width="137"
                               height="87"
-                              src="/images/interview.svg"
+                              src="/images/inter.png"
                             />
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
@@ -333,12 +336,12 @@ export default function Home() {
                               <div className="mt-16">
                                 <a
                                   href="/methods/interviews-with-video-call"
-                                  class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                                  className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
                                 >
-                                  <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
-                                  <span class="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                                  <span class="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                  <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                  <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
                                     Interviews with video call
                                   </span>
                                 </a>

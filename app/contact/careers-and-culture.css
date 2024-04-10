@@ -12,7 +12,7 @@ html {
   box-sizing: inherit;
 }
 
-.body-div,
+.div-body,
 h1,
 h2 {
   margin: 0;
@@ -499,11 +499,11 @@ table.alignright {
   background-color: #fff;
 }
 
-.body-div:not(.has-openmenu) .main-header-menubtn button {
+.div-body:not(.has-openmenu) .main-header-menubtn button {
   color: #530095 !important;
 }
 
-.body-div.deluxe:not(.has-openmenu) .main-header-menubtn button {
+.div-body.deluxe:not(.has-openmenu) .main-header-menubtn button {
   color: #fff !important;
 }
 
@@ -3699,7 +3699,7 @@ table.alignright {
   }
 
   .js
-    .body-div:not(.page-template-thinking)
+    .div-body:not(.page-template-thinking)
     .toggleheading
     + ul
     li:first-child {
@@ -4461,7 +4461,7 @@ table.alignright {
     background-color: #530095;
   }
 
-  .body-div:not(.home) .fma-desktop {
+  .div-body:not(.home) .fma-desktop {
     background-position: calc(50% + 82px) center;
     background-repeat: no-repeat;
   }
@@ -4695,7 +4695,7 @@ table.alignright {
     margin-bottom: 100px;
   }
 
-  .body-div:not(.home) .fma-desktop {
+  .div-body:not(.home) .fma-desktop {
     background-position: center;
   }
 
@@ -5020,6 +5020,7 @@ h2.job_h {
 .related-tags.related-tags-success-stories p {
   margin: 8px 0;
 }
+
 .tingle-modal * {
   box-sizing: border-box;
 }

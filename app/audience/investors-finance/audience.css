@@ -642,7 +642,7 @@ body.deluxe:not(.has-openmenu) .main-header-menubtn button {
   border-radius: 0;
   font-size: 1.125rem;
   color: #3f3f3f;
-  /* background-image: url("images/searchbg.svg"); */
+  /* background-image: url("/images/searchbg.svg"); */
   background-position: left 12px center;
   background-repeat: no-repeat;
   background-size: 20px 21px;
