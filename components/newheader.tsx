@@ -153,7 +153,7 @@ export const Header = () => {
   return (
     <header
       // className={`border-transparent-white pl-20 pr-20 ${colorClass}  fixed left-0 top-0 z-40 w-full bg-opacity-80  backdrop-blur-[12px] `}
-      className={`border-transparent-white hidden pl-20  pr-20 xl:block ${colorClass}  fixed left-0 top-0 z-40 w-full bg-opacity-80  backdrop-blur-[12px] `}
+      className={`border-transparent-white pl-20  pr-20 ${colorClass}  fixed left-0 top-0 z-40 w-full bg-opacity-80  backdrop-blur-[12px] `}
     >
       <Container className="h-navigation-height flex items-center justify-center ">
         <Link

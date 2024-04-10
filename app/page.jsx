@@ -13,28 +13,28 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <>
-      <div className="home page-template page-template-page-templates page-template-page-blocks page-template-page-templatespage-blocks-php page page-id-101 wp-embed-responsive group-blog">
-        <div className="site" id="page">
+      <div className="home">
+        <div className="" id="page">
           <main className="main">
-            <div className="page page--new page--no-image">
-              <div className="page__body">
+            <div className="">
+              <div className="">
                 {/*  */}
                 {/*  */}
                 {/*  */}
                 {/*  */}
                 <section
-                  className="CoverHeader  pbM40 h-screen px-6 lg:px-20 "
+                  className="h-screen"
                   style={{ color: "#ffffff", backgroundColor: "#530095" }}
                 >
-                  <div className="row container mx-auto items-center justify-center px-0 text-left">
-                    <div className="CoverHeader__contain col-12 col-lg-6  pl-3">
-                      <h1 className="CoverHeader__title  col-lg-11 px-0">
+                  <div className="">
+                    <div className="absolute z-10 mb-8 ml-6 pt-[10vh] md:ml-24 md:pt-[20vh]">
+                      <h1 className="text-center text-3xl font-bold  md:text-left md:text-5xl">
                         In the ocean of data, <br className="desktop" />
                         we find the perfect wave
                       </h1>
 
-                      <div className="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
-                        <p className="text-sm xl:text-base">
+                      <div className="mt-8 w-96 md:w-[40vw]">
+                        <p className="text-sm text-[#90cbff] xl:text-base">
                           We specialize in obtaining data for both qualitative
                           and quantitative market research, assisting clients
                           globally in conducting local and multi-country studies
@@ -71,13 +71,12 @@ export default function Home() {
                         />
                       </div>
 
-                      {/*  */}
                       <br />
                       <br />
                       <br />
                       <br />
 
-                      <div className="flex scale-90 gap-7 md:ml-5 md:scale-100">
+                      <div className="mt-[20vh] flex scale-90 gap-7 md:ml-5 md:mt-0 md:scale-100 ">
                         <a
                           href="#_"
                           className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
@@ -101,32 +100,14 @@ export default function Home() {
                           </span>
                         </a>
                       </div>
-                      {/* <ul className="ListButton WhiteAndOutline no-gutters col-12 flex gap-7 px-0">
-                        <div className="">
-                          <a
-                            href="/case-studies/paint-purchasing-study"
-                            className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
-                          >
-                            Contact
-                          </a>
-                        </div>
-                        <div className="">
-                          <a
-                            href="/case-studies/paint-purchasing-study"
-                            className=" border-2 bg-white  px-5 py-4 font-bold text-[#530095] hover:bg-black"
-                          >
-                            Ask to a quote
-                          </a>
-                        </div>
-                      </ul> */}
                     </div>
 
-                    <div className="Image__inpage col-lg-6">
+                    <div className="">
                       <img
-                        width="680"
-                        height="800"
+                        width="720"
+                        height="820"
                         // className="mb-24 scale-110 rounded-3xl lg:scale-110"
-                        className="scale-110 rounded-tr-3xl md:scale-100"
+                        className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
                         // src="https://ffind.com/app/uploads/2021/07/home.jpg"
                         // src="/images/home-images-edit.png"
                         // src="/images/hero/hero.png"

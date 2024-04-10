@@ -36,9 +36,13 @@ export default function RootLayout({
       <body className={poppins.className}>
         <div>
           {/* {window.innerWidth >= 1145 ? <HeaderMobile /> : <Header />} */}
+          <div className="hidden xl:block">
+            <Header />
+          </div>
+          <div className="xl:hidden ">
+            <HeaderMobile />
+          </div>
           {/* <HeaderMobile /> */}
-          <Header />
-          <HeaderMobile />
           <main>{children}</main>
 
           <CommonFooter />
