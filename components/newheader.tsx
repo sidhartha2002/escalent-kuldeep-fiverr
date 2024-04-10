@@ -371,9 +371,6 @@ function NavigationMenuDemo() {
               >
                 {/* How to install dependencies and structure your app. */}
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                {/* Styles for headings, paragraphs, lists...etc */}
-              </ListItem>
               <ListItem
                 title="Leaders & experts"
                 href="/audience/leaders-experts"

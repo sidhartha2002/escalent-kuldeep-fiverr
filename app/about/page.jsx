@@ -53,7 +53,7 @@ export default function Home() {
                   <img
                     width="680"
                     height="800"
-                    className=""
+                    className="rounded-full lg:rounded-none "
                     // src="https://ffind.com/app/uploads/2021/08/azienda.webp"
                     src="images/hero/about-hero.jpeg"
                     alt=""

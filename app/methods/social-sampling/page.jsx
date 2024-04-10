@@ -59,7 +59,7 @@ export default function Home() {
             <img
               width="680"
               height="800"
-              className=""
+              className="rounded-full lg:rounded-none "
               // src="https://ffind.com/app/uploads/2021/07/social-sampling.jpg"
               src="/images/hero/social0.jpeg"
             />
