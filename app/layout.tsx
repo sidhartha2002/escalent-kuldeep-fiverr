@@ -40,6 +40,11 @@ export default function RootLayout({
             <Header />
           </div>
           <div className="xl:hidden ">
+            <img
+              src="images/logo.svg"
+              alt="Your Logo"
+              className="absolute left-8 top-8 z-50 scale-150"
+            />
             <HeaderMobile />
           </div>
           {/* <HeaderMobile /> */}
