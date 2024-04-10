@@ -44,12 +44,12 @@ export function CommonFooter() {
 
           <a
             href="#_"
-            class="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+            className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
           >
-            <span class="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-white transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-            <span class="absolute inset-0 h-full w-full rounded-md bg-black "></span>
-            <span class="absolute inset-0 h-full w-full rounded-md bg-white opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-            <span class="relative text-white transition-colors delay-100 duration-200 ease-in-out group-hover:text-black">
+            <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-white transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+            <span className="absolute inset-0 h-full w-full rounded-md bg-black "></span>
+            <span className="absolute inset-0 h-full w-full rounded-md bg-white opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+            <span className="relative text-white transition-colors delay-100 duration-200 ease-in-out group-hover:text-black">
               Contact
             </span>
           </a>

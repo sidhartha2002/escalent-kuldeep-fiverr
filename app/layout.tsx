@@ -5,7 +5,8 @@ import "./escalent.css";
 import "./ffind.css";
 import { Footer } from "../components/footer";
 import { CommonFooter } from "../components/CommonFooter";
-import { Header } from "../components/header";
+import { Header } from "../components/newheader";
+import HeaderMobile from "../components/newheadermobile";
 
 const poppins = Poppins({
   weight: "400",
@@ -34,7 +35,10 @@ export default function RootLayout({
     <html lang="en" style={htmlStyle}>
       <body className={poppins.className}>
         <div>
+          {/* {window.innerWidth >= 1145 ? <HeaderMobile /> : <Header />} */}
+          {/* <HeaderMobile /> */}
           <Header />
+          <HeaderMobile />
           <main>{children}</main>
 
           <CommonFooter />
