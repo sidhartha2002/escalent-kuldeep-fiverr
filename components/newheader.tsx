@@ -348,8 +348,12 @@ function NavigationMenuDemo() {
               <li className="row-span-7">
                 <NavigationMenuLink asChild>
                   <a
-                    className="from-muted/50 to-muted flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b p-6 no-underline outline-none focus:shadow-md"
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gray-300 bg-gradient-to-b p-6 text-[#530095] no-underline outline-none focus:shadow-md"
                     href="/audience"
+                    style={{
+                      color: "#530095",
+                      backgroundColor: "rgb(209, 213, 219)",
+                    }}
                   >
                     {/* <Icons.logo className="h-6 w-6" /> */}
                     <img src="/images/logo1.svg" alt="" />
