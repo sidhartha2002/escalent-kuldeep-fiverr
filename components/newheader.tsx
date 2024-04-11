@@ -353,6 +353,10 @@ function NavigationMenuDemo() {
                     style={{
                       color: "#530095",
                       backgroundColor: "rgb(209, 213, 219)",
+                      // @ts-ignore
+                      "&:hover": {
+                        color: "#64ffda",
+                      },
                     }}
                   >
                     {/* <Icons.logo className="h-6 w-6" /> */}
