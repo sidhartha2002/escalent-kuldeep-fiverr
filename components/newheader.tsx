@@ -49,6 +49,17 @@ const components: { title: string; href: string; description: string }[] = [
     description: "",
   },
 ];
+const audienceNavLinks: { title: string; href: string }[] = [
+  { title: "B2B audiences", href: "/audience/b2b" },
+  { title: "Investors & finance", href: "/audience/investors-finance" },
+  { title: "Leaders & experts", href: "/audience/leaders-experts" },
+  {
+    title: "Healthcare & life sciences",
+    href: "/audience/healthcare-life-sciences",
+  },
+  { title: "Social & consumer", href: "/audience/social-consumer" },
+  { title: "Media & advertising", href: "/audience/media-advertising" },
+];
 
 /*  */
 
@@ -339,7 +350,7 @@ function NavigationMenuDemo() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger className={`${navLinkColor} text-base`}>
             Audience
           </NavigationMenuTrigger>
@@ -359,8 +370,8 @@ function NavigationMenuDemo() {
                       },
                     }}
                   >
-                    {/* <Icons.logo className="h-6 w-6" /> */}
-                    <img src="/images/logo1.svg" alt="" />
+                     <Icons.logo className="h-6 w-6" />
+                     <img src="/images/logo1.svg" alt="" />
                     <div className="mb-2 mt-4 text-lg font-medium">
                       Audiences
                     </div>
@@ -370,39 +381,48 @@ function NavigationMenuDemo() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem title="B2B audiences" href="/audience/b2b">
-                {/* Re-usable components built using Radix UI and Tailwind CSS. */}
-              </ListItem>
+              <ListItem title="B2B audiences" href="/audience/b2b"></ListItem>
               <ListItem
                 title="Investors & finance"
                 href="/audience/investors-finance"
-              >
-                {/* How to install dependencies and structure your app. */}
-              </ListItem>
+              ></ListItem>
               <ListItem
                 title="Leaders & experts"
                 href="/audience/leaders-experts"
-              >
-                {/* Styles for headings, paragraphs, lists...etc */}
-              </ListItem>
+              ></ListItem>
               <ListItem
                 title="Healthcare & life sciences"
                 href="/audience/healthcare-life-sciences"
-              >
-                {/* Styles for headings, paragraphs, lists...etc */}
-              </ListItem>
+              ></ListItem>
               <ListItem
                 title="Social & consumer"
                 href="/audience/social-consumer"
-              >
-                {/* Styles for headings, paragraphs, lists...etc */}
-              </ListItem>
+              ></ListItem>
               <ListItem
                 title="Media & advertising"
                 href="/audience/media-advertising"
-              >
-                {/* Styles for headings, paragraphs, lists...etc */}
-              </ListItem>
+              ></ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem> */}
+        <NavigationMenuItem>
+          <NavigationMenuTrigger className={`${navLinkColor} text-base`}>
+            Audience
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            {" "}
+            {/* className={`${navLinkColor} text-base`} */}
+            <ul
+              className={`grid w-[400px] gap-3 bg-white p-4 md:w-[300px] md:grid-cols-1 lg:w-[400px] ${navLinkColor}`}
+            >
+              {audienceNavLinks.map((audienceNavLink) => (
+                <ListItem
+                  key={audienceNavLink.title}
+                  title={audienceNavLink.title}
+                  href={audienceNavLink.href}
+                  className="font-bold text-[#530095]"
+                ></ListItem>
+              ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -414,14 +434,14 @@ function NavigationMenuDemo() {
             {" "}
             {/* className={`${navLinkColor} text-base`} */}
             <ul
-              className={`grid w-[400px] gap-3 bg-[#530095] p-4 md:w-[300px] md:grid-cols-1 lg:w-[400px] ${navLinkColor}`}
+              className={`grid w-[400px] gap-3 bg-white p-4 md:w-[300px] md:grid-cols-1 lg:w-[400px] ${navLinkColor}`}
             >
               {components.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
                   href={component.href}
-                  className="text-white"
+                  className="font-bold text-[#530095]"
                 >
                   {component.description}
                 </ListItem>
