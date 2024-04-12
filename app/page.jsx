@@ -109,6 +109,7 @@ export default function Home() {
                         height={1820}
                         alt="Hero Image"
                         className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
+                        priority={true}
                       />
                       {/* <img
                         width="1110"
