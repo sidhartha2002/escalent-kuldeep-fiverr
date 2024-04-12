@@ -29,32 +29,16 @@ export default function Home() {
                   <div className="">
                     <div className="absolute z-10 mb-8 ml-6 pt-[10vh] md:ml-24 md:pt-[21vh]">
                       <div className="whyte text-center text-3xl  font-black md:text-left md:text-5xl">
-                        <span
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(to bottom right, #fff, #ddc7f0,  #c2aad5)", // Replace these colors with your desired colors
-                            WebkitBackgroundClip: "text",
-                            backgroundClip: "text",
-                            color: "transparent", // Hide original text color
-                          }}
-                        >
+                        <span className="bg-gradient-to-br from-white via-[#ddc7f0] to-[#b897d3] bg-clip-text text-transparent">
                           In the ocean of data,
                         </span>
                         <br className="desktop" />
-                        <span
-                          style={{
-                            backgroundImage:
-                              "linear-gradient(to bottom right, #fff, #ddc7f0,  #c2aad5)", // Replace these colors with your desired colors
-                            WebkitBackgroundClip: "text",
-                            backgroundClip: "text",
-                            color: "transparent", // Hide original text color
-                          }}
-                        >
+                        <span className="bg-gradient-to-br from-white via-[#d4a5fe] to-[#c8b7ff] bg-clip-text text-transparent">
                           we find the perfect wave
                         </span>
                       </div>
 
-                      <div className="mt-8 w-96 md:w-[40vw]">
+                      <div className="mt-8 w-96 max-w-[90vw] md:w-[40vw]">
                         <p className="text-sm text-[#90cbff] xl:text-base">
                           We specialize in obtaining data for both qualitative
                           and quantitative market research, assisting clients
