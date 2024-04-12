@@ -95,26 +95,32 @@ export const Footer = () => (
       </div>
     </Container>
 
-    <div className="mt-8 flex flex-col justify-center gap-4 lg:flex-row">
+    <div className="mt-8 flex flex-col justify-end gap-4  pl-8 pr-16 lg:flex-row">
       {/* UK */}
-      <div className="flex flex-col rounded-lg bg-white bg-opacity-95 p-4 text-purple-800">
+      <div className="rounded-lgbg-opacity-95 flex max-w-[18rem] flex-col p-4 text-purple-400">
         <h2 className="text-lg font-semibold lg:text-xl">UK</h2>
-        <p>FFIND ltd – Britannia House 11 Glenthorne Road, London</p>
-        <p>VAT Number GB-348617865</p>
+        <p className="text-purple-200">
+          FFIND ltd – Britannia House 11 Glenthorne Road, London
+        </p>
+        <p className="text-purple-200">VAT Number GB-348617865</p>
       </div>
 
       {/* Italy */}
-      <div className="flex flex-col rounded-lg bg-white  bg-opacity-95 p-4 text-purple-800">
+      <div className="flex  max-w-[18rem] flex-col rounded-lg bg-opacity-95 p-4 text-purple-400">
         <h2 className="text-lg font-semibold lg:text-xl">ITALY</h2>
-        <p>FFIND srl – Via Ercole Bernabei, 51 90145 – Palermo (Italy)</p>
-        <p>P.IVA 02372540811</p>
+        <p className="text-purple-200">
+          FFIND srl – Via Ercole Bernabei, 51 90145 – Palermo (Italy)
+        </p>
+        <p className="text-purple-200">P.IVA 02372540811</p>
       </div>
 
       {/* Germany */}
-      <div className="flex flex-col rounded-lg bg-white  bg-opacity-95 p-4 text-purple-800">
+      <div className="flex  max-w-[18rem] flex-col rounded-lg bg-opacity-95 p-4 text-purple-400">
         <h2 className="text-lg font-semibold lg:text-xl">GERMANY</h2>
-        <p>FFIND GmbH – Dreieichstraße 59 60594 Frankfurt am Main</p>
-        <p>German VAT Number DE276580654</p>
+        <p className="text-purple-200">
+          FFIND GmbH – Dreieichstraße 59 60594 Frankfurt am Main
+        </p>
+        <p className="text-purple-200">German VAT Number DE276580654</p>
       </div>
     </div>
 
