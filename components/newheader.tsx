@@ -406,7 +406,7 @@ function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem> */}
         <NavigationMenuItem>
-          <NavigationMenuTrigger className={`${navLinkColor} text-base`}>
+          <NavigationMenuTrigger className={`${navLinkColor} text-xl`}>
             Audience
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -427,7 +427,7 @@ function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className={`${navLinkColor} text-base`}>
+          <NavigationMenuTrigger className={`${navLinkColor} text-xl`}>
             Methods
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -451,7 +451,7 @@ function NavigationMenuDemo() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navLinkColor} mx-5`}>
+            <NavigationMenuLink className={`${navLinkColor} mx-5 text-xl`}>
               Solutions
             </NavigationMenuLink>
           </Link>

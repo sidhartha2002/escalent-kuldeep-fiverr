@@ -166,7 +166,9 @@ export default function Home() {
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-10 px-0">
                             <h2 className="OurSolutions__list__item__wrap__title">
-                              Social Sampling
+                              <span className="font-extrabold">
+                                Social Sampling
+                              </span>
                             </h2>
 
                             <div className="OurSolutions__list__item__wrap__descr">
@@ -211,11 +213,13 @@ export default function Home() {
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
                             <h2 className="OurSolutions__list__item__wrap__title">
-                              Telephone research CATI
+                              <span className="font-extrabold">
+                                Telephone research CATI
+                              </span>
                             </h2>
 
                             <div className="OurSolutions__list__item__wrap__descr">
-                              <p>
+                              <p className="text-sm">
                                 The CATI methodology is reliable, particularly
                                 when there is a need to gather a large amount of
                                 data consistently. This innovative approach
@@ -252,7 +256,9 @@ export default function Home() {
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
                             <h2 className="OurSolutions__list__item__wrap__title">
-                              Online research CAWI
+                              <span className="font-extrabold">
+                                Online research CAWI
+                              </span>
                             </h2>
 
                             <div className="OurSolutions__list__item__wrap__descr">
@@ -296,7 +302,9 @@ export default function Home() {
                           </div>
                           <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
                             <h2 className="OurSolutions__list__item__wrap__title">
-                              Interviews with video call
+                              <span className="font-extrabold">
+                                Interviews with video call
+                              </span>
                             </h2>
 
                             <div className="OurSolutions__list__item__wrap__descr">

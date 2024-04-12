@@ -45,7 +45,8 @@
 
 @media (min-width: 992px) {
   .OurSolutions__list__item {
-    min-height: 340px;
+    /* min-height: 340px; */
+    min-height: 450px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     /* -webkit-flex-direction: row; */
