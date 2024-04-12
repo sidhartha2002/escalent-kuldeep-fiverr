@@ -29,11 +29,11 @@ export default function Home() {
                   <div className="">
                     <div className="absolute z-10 mb-8 ml-6 pt-[10vh] md:ml-24 md:pt-[21vh]">
                       <div className="whyte text-center text-3xl  font-black md:text-left md:text-5xl">
-                        <span className="bg-gradient-to-br from-white via-[#ddc7f0] to-[#b897d3] bg-clip-text text-transparent">
+                        <span className="from-white via-[#ddc7f0] to-[#b897d3] bg-clip-text sm:bg-gradient-to-br sm:text-transparent">
                           In the ocean of data,
                         </span>
                         <br className="desktop" />
-                        <span className="bg-gradient-to-br from-white via-[#d4a5fe] to-[#c8b7ff] bg-clip-text text-transparent">
+                        <span className="from-white via-[#ddc7f0] to-[#b897d3] bg-clip-text sm:bg-gradient-to-br sm:text-transparent">
                           we find the perfect wave
                         </span>
                       </div>
@@ -113,7 +113,7 @@ export default function Home() {
                         width={1110}
                         height={1820}
                         alt="Hero Image"
-                        className="absolute bottom-0 right-0"
+                        className="absolute bottom-0 right-0 mb-16 scale-150 sm:mb-0 sm:scale-100"
                         priority={true}
                       />
                       {/* <img
@@ -134,8 +134,8 @@ export default function Home() {
                 {/*  */}
                 {/*  */}
                 {/*  */}
-                <section className="TitleText TitleText--center  ">
-                  <div className="container mx-auto items-center justify-center px-0 text-center">
+                <section className="TitleText TitleText--center relative ">
+                  <div className="container z-50 mx-auto items-center justify-center bg-white px-0 text-center ">
                     <div className="TitleText__descr col-12 col-lg-9 col-xl-8 mx-auto items-center justify-center py-16 text-left text-base md:text-center md:text-lg">
                       <p>
                         <span>
