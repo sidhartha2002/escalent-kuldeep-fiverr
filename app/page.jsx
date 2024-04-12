@@ -147,9 +147,190 @@ export default function Home() {
                 {/*  */}
                 {/*  */}
                 {/*  */}
+                <section className="OurSolutions  my-8 lg:mx-10">
+                  <div className="row container mx-auto px-0 text-left">
+                    <h2 className="OurSolutions__title font-extrabold">
+                      OUR SOLUTIONS
+                    </h2>
+
+                    <ul className="OurSolutions__list row col-12 mx-0 px-0">
+                      <li className=" col-12 no-gutters my-2 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-2 px-0">
+                            <img
+                              width="102"
+                              height="91"
+                              src="/images/social.png"
+                              className="scale-105"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-10 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Social Sampling
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                Quantitative market research requires finding
+                                respondents who are well-profiled, authentic,
+                                and have not taken surveys recently, which can
+                                be challenging for panels. Social networks are
+                                now utilized by over half of the global
+                                population, creating a vast pool of potential
+                                respondents. Just locate the perfect ones and
+                                incorporate them into the survey effectively.
+                              </p>
+                            </div>
+                            <div className="mt-6">
+                              <a
+                                href="/methods/social-sampling"
+                                className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                              >
+                                <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  Social Sampling
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="102"
+                              height="91"
+                              src="/images/telephones.png"
+                              alt="CATI Icon"
+                              className="scale-105"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Telephone research CATI
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                The CATI methodology is reliable, particularly
+                                when there is a need to gather a large amount of
+                                data consistently. This innovative approach
+                                involves CATI@home, with local interviewers in
+                                more than 25 countries worldwide.
+                              </p>
+                            </div>
+                            <div className="mt-6">
+                              <a
+                                href="/methods/telephone-research-CATI"
+                                className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                              >
+                                <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  Online research CAWI
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="102"
+                              height="91"
+                              src="/images/research.png"
+                              alt="CATI Icon"
+                              className="scale-105"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Online research CAWI
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                <span style={{ fontWeight: 400 }}>
+                                  The CAWI methodology is highly popular in
+                                  quantitative market analysis due to its
+                                  efficiency and affordability. Smartphones
+                                  enable users to respond to the survey from any
+                                  location and at any time.
+                                </span>
+                              </p>
+                            </div>
+                            <div className="mt-6">
+                              <a
+                                href="/methods/telephone-research-CATI"
+                                className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                              >
+                                <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  Online research CAWI
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="col-12 col-lg-6 no-gutters ml-0 p-2 transition-transform duration-300 ease-in-out hover:scale-95">
+                        <div className="OurSolutions__list__item ">
+                          <div className="OurSolutions__list__item__icon col-12 col-lg-4 px-0">
+                            <img
+                              width="128"
+                              height="83"
+                              src="/images/inter.png"
+                              alt="Interviews Icon"
+                              className="scale-105"
+                            />
+                          </div>
+                          <div className="OurSolutions__list__item__wrap col-12 col-lg-8 px-lg-2 px-0">
+                            <h2 className="OurSolutions__list__item__wrap__title">
+                              Interviews with video call
+                            </h2>
+
+                            <div className="OurSolutions__list__item__wrap__descr">
+                              <p>
+                                This combines CAWI, CATI, and F2F to offer
+                                clients both quantitative and qualitative data
+                                by capturing respondents' reactions and
+                                expressions in their natural setting.
+                              </p>
+                            </div>
+                            <div className="mt-6">
+                              <a
+                                href="/methods/interviews-with-video-call"
+                                className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                              >
+                                <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-[#64ffda] "></span>
+                                <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                                <span className="relative font-bold tracking-wide text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                                  Interviews with video call
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+
                 {/*  */}
                 {/*  */}
-                <section className="OurSolutions  ">
+                {/*  */}
+                {/* <section className="OurSolutions  ">
                   <div className="row container mx-auto px-0 text-left md:px-7 lg:px-20">
                     <h2 className="OurSolutions__title scale-105 font-extrabold">
                       OUR SOLUTIONS
@@ -333,7 +514,7 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                </section>
+                </section> */}
               </div>
             </div>
           </main>
