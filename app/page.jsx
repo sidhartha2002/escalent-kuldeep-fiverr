@@ -103,8 +103,15 @@ export default function Home() {
                     </div>
 
                     <div className="">
-                      <img
-                        width="1050"
+                      <Image
+                        src="/images/hero/hero-girl.png"
+                        width={1110}
+                        height={1820}
+                        alt="Hero Image"
+                        className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
+                      />
+                      {/* <img
+                        width="1110"
                         height="1820"
                         // className="mb-24 scale-110 rounded-3xl lg:scale-110"
                         className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
@@ -112,7 +119,7 @@ export default function Home() {
                         // src="/images/home-images-edit.png"
                         // src="/images/hero/hero.png"
                         src="/images/hero/hero-girl.png"
-                      />
+                      /> */}
                     </div>
                   </div>
                 </section>
