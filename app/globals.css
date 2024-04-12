@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  /* overflow-x: hidden; */
-}
-
 @layer base {
+  @font-face {
+    font-family: "Whyte Inktrap";
+    /* src: url("font/WhyteInktrap-Bold.eot"); */
+    src: url("/font/WhyteInktrap-Bold.woff2") format("woff2"),
+      url("/font/WhyteInktrap-Bold.woff") format("woff");
+    /* url("font/WhyteInktrap-Bold.ttf") format("truetype"); */
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .whyte {
+    font-family: Whyte Inktrap;
+    /* font-style: normal; */
+  }
   :root {
     --navigation-height: 4.8rem;
   }

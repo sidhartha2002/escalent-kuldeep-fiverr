@@ -27,11 +27,32 @@ export default function Home() {
                   style={{ color: "#ffffff", backgroundColor: "#530095" }}
                 >
                   <div className="">
-                    <div className="absolute z-10 mb-8 ml-6 pt-[10vh] md:ml-24 md:pt-[20vh]">
-                      <h1 className="text-center text-3xl font-bold  md:text-left md:text-5xl">
-                        In the ocean of data, <br className="desktop" />
-                        we find the perfect wave
-                      </h1>
+                    <div className="absolute z-10 mb-8 ml-6 pt-[10vh] md:ml-24 md:pt-[21vh]">
+                      <div className="whyte text-center text-3xl  font-black md:text-left md:text-5xl">
+                        <span
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(to bottom right, #fff, #ddc7f0,  #c2aad5)", // Replace these colors with your desired colors
+                            WebkitBackgroundClip: "text",
+                            backgroundClip: "text",
+                            color: "transparent", // Hide original text color
+                          }}
+                        >
+                          In the ocean of data,
+                        </span>
+                        <br className="desktop" />
+                        <span
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(to bottom right, #fff, #ddc7f0,  #c2aad5)", // Replace these colors with your desired colors
+                            WebkitBackgroundClip: "text",
+                            backgroundClip: "text",
+                            color: "transparent", // Hide original text color
+                          }}
+                        >
+                          we find the perfect wave
+                        </span>
+                      </div>
 
                       <div className="mt-8 w-96 md:w-[40vw]">
                         <p className="text-sm text-[#90cbff] xl:text-base">
@@ -43,13 +64,13 @@ export default function Home() {
                       </div>
                       <br />
                       <div>
-                        <h2 className="OurSolutions__list__item__wrap__title">
-                          <span className="md:lg text-base">
+                        <h2 className="">
+                          <span className="md:lg text-base text-[#88aaf9]">
                             If you need...
                           </span>
                         </h2>
                         <TypeAnimation
-                          className="lgl:text-3xl text-textDark lgl:mt-4 mt-2 flex flex-col items-center text-center text-sm font-bold tracking-wider md:text-2xl"
+                          className="lgl:text-3xl text-textDark lgl:mt-4 whyte mt-2 flex flex-col items-center text-center text-sm font-bold tracking-wider md:text-2xl"
                           sequence={[
                             // Same substring at the start will only be typed out once, initially
                             "Telephone research CATI",
@@ -65,7 +86,7 @@ export default function Home() {
                           speed={50}
                           style={{
                             display: "inline-block",
-                            color: "#64ffda",
+                            color: "#96b4f9",
                           }}
                           repeat={Infinity}
                         />
@@ -108,7 +129,7 @@ export default function Home() {
                         width={1110}
                         height={1820}
                         alt="Hero Image"
-                        className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
+                        className="absolute bottom-0 right-0"
                         priority={true}
                       />
                       {/* <img
@@ -157,7 +178,7 @@ export default function Home() {
                 {/*  */}
                 <section className="OurSolutions  my-8 lg:mx-10">
                   <div className="row container mx-auto px-0 text-left">
-                    <h2 className="OurSolutions__title font-extrabold">
+                    <h2 className="OurSolutions__title whyte font-black">
                       OUR SOLUTIONS
                     </h2>
 

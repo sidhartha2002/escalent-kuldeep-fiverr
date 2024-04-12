@@ -6,7 +6,6 @@ import styles from "@/app/ffind.css";
 export default function Home() {
   return (
     <>
-      <br />
       <section
         className="CoverHeader  "
         style={{ color: "#ffffff", backgroundColor: "#530095" }}
@@ -75,7 +74,7 @@ export default function Home() {
               height="590"
               className="rounded-3xl lg:ml-10"
               // src="https://ffind.com/app/uploads/2021/07/social-sampling-1.jpg"
-              src="/images/hero/social1.jpeg"
+              src="/images/hero/social1-1.jpg"
             />
           </div>
           <div className="col-12 col-lg-6 offset-lg-1  px-0">

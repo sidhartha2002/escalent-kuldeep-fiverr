@@ -42,7 +42,7 @@ export default function RootLayout({
           <div className="xl:hidden ">
             <a href="/">
               <img
-                src="images/logo.svg"
+                src="/images/logo.svg"
                 alt="Your Logo"
                 className="fixed left-8 top-8 z-50 scale-150"
               />

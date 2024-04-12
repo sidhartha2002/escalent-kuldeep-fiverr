@@ -6,7 +6,6 @@ import styles from "@/app/ffind.css";
 export default function Home() {
   return (
     <>
-      <br />
       <section
         className="CoverHeader  "
         style={{ color: "#ffffff", backgroundColor: "#530095" }}
@@ -73,7 +72,7 @@ export default function Home() {
               height="590"
               className="rounded-3xl lg:ml-10"
               // src="https://ffind.com/app/uploads/2021/07/webcam-interview-1.jpg"
-              src="/images/hero/webcam1.jpeg"
+              src="/images/hero/webcam1-1.jpg"
             />
           </div>
           <div className="col-12 col-lg-6 offset-lg-1  px-0">
@@ -108,7 +107,7 @@ export default function Home() {
               height="590"
               className="rounded-3xl"
               // src="https://ffind.com/app/uploads/2021/07/webcam-interview-2.jpg"
-              src="/images/hero/webcam2.jpeg"
+              src="/images/hero/webcam2-1.jpg"
             />
           </div>
           <div className="col-12 col-lg-6   px-0">

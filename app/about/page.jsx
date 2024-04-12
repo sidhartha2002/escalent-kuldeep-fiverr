@@ -204,7 +204,7 @@ export default function Home() {
                         alt=""
                       />
                     </div>
-                    <div className=" col-12 w-10 ">
+                    <div className=" col-12">
                       <h2 className="OurFounder__list__item__title">
                         Tom Abele
                       </h2>
@@ -227,7 +227,7 @@ export default function Home() {
                         alt=""
                       />
                     </div>
-                    <div className=" col-12 w-10 ">
+                    <div className=" col-12">
                       <h2 className="OurFounder__list__item__title">
                         Founder 2
                       </h2>
@@ -245,7 +245,7 @@ export default function Home() {
                         alt=""
                       />
                     </div>
-                    <div className=" col-12 w-10 ">
+                    <div className=" col-12">
                       <h2 className="OurFounder__list__item__title">
                         Founder 3
                       </h2>
