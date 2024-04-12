@@ -104,14 +104,14 @@ export default function Home() {
 
                     <div className="">
                       <img
-                        width="720"
-                        height="820"
+                        width="1050"
+                        height="1820"
                         // className="mb-24 scale-110 rounded-3xl lg:scale-110"
                         className="absolute bottom-0 right-0 rounded-full lg:rounded-none "
                         // src="https://ffind.com/app/uploads/2021/07/home.jpg"
                         // src="/images/home-images-edit.png"
                         // src="/images/hero/hero.png"
-                        src="/images/hero/hero-crop1.png"
+                        src="/images/hero/hero-girl.png"
                       />
                     </div>
                   </div>
