@@ -6,47 +6,57 @@ import styles from "@/app/ffind.css";
 export default function Home() {
   return (
     <div className="site" id="page">
-      <main className="main pt-8">
-        <article className="page page--new page--no-image">
-          <div className="page__body">
+      <main className=" ">
+        <article className="">
+          <div className="">
             <section
               className="CoverHeader  "
               style={{ color: "#ffffff", backgroundColor: "#530095" }}
             >
               <div className="row container mx-auto px-0 text-left">
-                <div className="CoverHeader__contain col-12 col-lg-6  pl-10">
-                  <h1 className="CoverHeader__title  col-lg-11 ml-10">
+                <div className="CoverHeader__contain col-12 col-lg-6  pl-3">
+                  <h1 className="CoverHeader__title  col-lg-11 px-0">
                     Precision in Respondent Selection
                   </h1>
 
-                  <div className="CoverHeader__descr col-lg-10 ml-10  px-0 py-3 pb-4">
-                    <div>
-                      <span className="" style={{ fontWeight: 400 }}>
-                        We're more than data; we're about access. Swift and
-                        accurate access to the right respondents, because
-                        meaningful insights start with the right voices.
-                      </span>
-                      <br />
-                      <br />
-                      <span>
-                        We're not about data overload; we're about precision.
-                        Because the right respondent holds the key to unlocking
-                        invaluable insights.
-                      </span>
-                    </div>
+                  <div className="CoverHeader__descr col-lg-10 px-0  py-3 pb-4">
+                    <p>
+                      We're more than data; we're about access. Swift and
+                      accurate access to the right respondents, because
+                      meaningful insights start with the right voices.
+                    </p>
+                    <br />
+                    <p>
+                      We're not about data overload; we're about precision.
+                      Because the right respondent holds the key to unlocking
+                      invaluable insights.
+                    </p>
                   </div>
 
-                  <a
-                    href="#_"
-                    className=" group relative ml-14 inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
-                  >
-                    <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
-                    <span className="absolute inset-0 h-full w-full rounded-md bg-white "></span>
-                    <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
-                    <span className="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
-                      Work with us
-                    </span>
-                  </a>
+                  <div className="flex scale-90 gap-7 md:ml-5 md:scale-100">
+                    <a
+                      href="#_"
+                      className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                    >
+                      <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                      <span className="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                      <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                      <span className="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                        Contact
+                      </span>
+                    </a>
+                    <a
+                      href="#_"
+                      className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 px-6 py-3 text-lg font-medium tracking-tighter text-white"
+                    >
+                      <span className="absolute inset-0 ml-1 mt-1 h-full w-full rounded-md bg-purple-600 transition-all duration-300 ease-in-out group-hover:ml-0 group-hover:mt-0"></span>
+                      <span className="absolute inset-0 h-full w-full rounded-md bg-white "></span>
+                      <span className="absolute inset-0 h-full w-full rounded-md bg-purple-600 opacity-0 transition-all delay-100 duration-200 ease-in-out group-hover:opacity-100 "></span>
+                      <span className="relative text-purple-600 transition-colors delay-100 duration-200 ease-in-out group-hover:text-white">
+                        Ask a quote
+                      </span>
+                    </a>
+                  </div>
                 </div>
 
                 <div className="Image__inpage col-lg-6">
@@ -54,9 +64,8 @@ export default function Home() {
                     width="680"
                     height="800"
                     className="rounded-full lg:rounded-none "
-                    // src="https://ffind.com/app/uploads/2021/08/azienda.webp"
+                    // src="https://ffind.com/app/uploads/2021/07/cati.jpg"
                     src="images/hero/about-hero.jpeg"
-                    alt=""
                   />
                 </div>
               </div>
@@ -194,8 +203,8 @@ export default function Home() {
 
                 <br />
 
-                <div className="m-11 flex justify-center gap-5">
-                  <div className=" w-[30vw] ">
+                <div className="m-11 flex flex-col justify-center gap-5 lg:flex-row">
+                  <div className=" lg:w-[30vw] ">
                     <div className="OurFounder__list__item__icon col-12">
                       <img
                         width="250"
