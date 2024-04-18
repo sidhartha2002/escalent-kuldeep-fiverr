@@ -118,7 +118,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="copypluscircles block">
+          <div className="copypluscircles block flex-row">
             <div className="copypluscircles-content">
               <h2>Our Work Smart Philosophy</h2>
               <p>
@@ -128,46 +128,40 @@ export default function Home() {
                 global choice approach, including:
               </p>
             </div>
-            <div className="copypluscircles-circles">
-              <div className="copypluscircles-circle">
+            <div className="flex items-center justify-between gap-5">
+              <div className="">
                 <img
-                  width="360"
-                  height="360"
+                  width="300"
+                  height="300"
+                  className="rounded-full"
                   src="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg"
-                  className="attachment-full size-full"
                   alt="Flexibly virtual"
                   decoding="async"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/kobu-agency-7okkFhxrxNw-unsplash-170x170.jpg 170w"
-                  sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div className="copypluscircles-subhead">Flexibly virtual</div>
                 <div>You choose when to work in the office.</div>
               </div>
-              <div className="copypluscircles-circle">
+              <div className="">
                 <img
-                  width="360"
-                  height="360"
+                  width="300"
+                  height="300"
+                  className="rounded-full"
                   src="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg"
-                  className="attachment-full size-full"
                   alt="Fully Remote"
                   decoding="async"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/chris-montgomery-smgTvepind4-unsplash-170x170.jpg 170w"
-                  sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div className="copypluscircles-subhead">Fully remote</div>
                 <div>100% working from home or wherever you are.</div>
               </div>
-              <div className="copypluscircles-circle">
+              <div className="">
                 <img
-                  width="360"
-                  height="360"
+                  width="300"
+                  height="300"
+                  className="rounded-full"
                   src="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg"
-                  className="attachment-full size-full"
                   alt="Office-based"
                   decoding="async"
                   loading="lazy"
-                  srcSet="https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash.jpg 360w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-150x150.jpg 150w, https://escalent.co/wp-content/uploads/2022/02/israel-andrade-YI_9SivVt_s-unsplash-170x170.jpg 170w"
-                  sizes="(max-width: 360px) 100vw, 360px"
                 />
                 <div className="copypluscircles-subhead">Office-based</div>
                 <div>
